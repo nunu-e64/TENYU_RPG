@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C1EFDE1-8B75-45AC-931E-9181DFE73EF0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>tenyu</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\Battle\Actor.cpp" />
+    <ClCompile Include="cpp\Battle\Battle.cpp" />
+    <ClCompile Include="cpp\Battle\BattleCalculator.cpp" />
+    <ClCompile Include="cpp\Battle\BImgBank.cpp" />
+    <ClCompile Include="cpp\Battle\Enemy.cpp" />
+    <ClCompile Include="cpp\Battle\EnemyPlanManager.cpp" />
+    <ClCompile Include="cpp\Battle\Species.cpp" />
+    <ClCompile Include="cpp\Battle\SpeciesManager.cpp" />
+    <ClCompile Include="cpp\Battle\Player.cpp" />
+    <ClCompile Include="cpp\Battle\TrickManager.cpp" />
+    <ClCompile Include="cpp\Field\EveManager.cpp" />
+    <ClCompile Include="cpp\Field\EveObj.cpp" />
+    <ClCompile Include="cpp\Field\Field.cpp" />
+    <ClCompile Include="cpp\Field\Load.cpp" />
+    <ClCompile Include="cpp\Field\Map.cpp" />
+    <ClCompile Include="cpp\Main\CmdList.cpp" />
+    <ClCompile Include="cpp\Main\CmdManager.cpp" />
+    <ClCompile Include="cpp\Main\Main.cpp" />
+    <ClCompile Include="cpp\Main\ScreenChanger.cpp" />
+    <ClCompile Include="cpp\Main\TalkName.cpp" />
+    <ClCompile Include="cpp\Main\TextBox.cpp" />
+    <ClCompile Include="cpp\Main\TextWrap.cpp" />
+    <ClCompile Include="cpp\Main\WorldManager.cpp" />
+    <ClCompile Include="cpp\Menu.cpp" />
+    <ClCompile Include="cpp\Mrt.cpp" />
+    <ClCompile Include="cpp\mrtLib.cpp" />
+    <ClCompile Include="cpp\nunuLib.cpp" />
+    <ClCompile Include="cpp\System.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpp\Battle\Actor.h" />
+    <ClInclude Include="cpp\Battle\Battle.h" />
+    <ClInclude Include="cpp\battle\BattleCalculator.h" />
+    <ClInclude Include="cpp\Battle\BImgBank.h" />
+    <ClInclude Include="cpp\Battle\Enemy.h" />
+    <ClInclude Include="cpp\Battle\EnemyPlanManager.h" />
+    <ClInclude Include="cpp\Battle\Species.h" />
+    <ClInclude Include="cpp\Battle\SpeciesManager.h" />
+    <ClInclude Include="cpp\Battle\Player.h" />
+    <ClInclude Include="cpp\Battle\TrickManager.h" />
+    <ClInclude Include="cpp\Define.h" />
+    <ClInclude Include="cpp\Field\EveManager.h" />
+    <ClInclude Include="cpp\Field\EveObj.h" />
+    <ClInclude Include="cpp\Field\Field.h" />
+    <ClInclude Include="cpp\Field\Load.h" />
+    <ClInclude Include="cpp\Field\Map.h" />
+    <ClInclude Include="cpp\Main\CmdList.h" />
+    <ClInclude Include="cpp\Main\CmdManager.h" />
+    <ClInclude Include="cpp\Main\Main.h" />
+    <ClInclude Include="cpp\Main\ScreenChanger.h" />
+    <ClInclude Include="cpp\Main\TalkName.h" />
+    <ClInclude Include="cpp\Main\TextBox.h" />
+    <ClInclude Include="cpp\Main\TextWrap.h" />
+    <ClInclude Include="cpp\Main\WorldManager.h" />
+    <ClInclude Include="cpp\Menu.h" />
+    <ClInclude Include="cpp\Mrt.h" />
+    <ClInclude Include="cpp\mrtLib.h" />
+    <ClInclude Include="cpp\nunuLib.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

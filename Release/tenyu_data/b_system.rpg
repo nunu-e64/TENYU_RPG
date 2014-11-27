@@ -1,0 +1,87 @@
+\----------------------------------------
+\\-----コメントは行頭に"\"をつける--------
+\----------------------------------------
+
+\------【バトルシステムコマンド】（随時更新）--
+\----------------------------------------
+\--@Load_Pic(相対パス, PicKey)： 戦闘用各種画像読み込み,
+\		・画像データを任意の文字列を[PicKey]として読み込む。PicKeyは@Enemy_Createや@Player_Createで使用する
+\
+\  @Player_Set(name, MaxHp, Atk, Def, Spd, PicKey)
+\		・戦闘に出る味方キャラを生成
+\		・PicKey…@Load_Picで登録しておいたキーを指定。
+\		・Nameの重複は禁止
+\  @Enemy_Set(name, MaxHp, Atk, Def, Spd, PicKey)
+\		・戦闘に出る敵キャラを生成
+\		・PicKey…@Load_Picで登録しておいたキーを指定。
+\		・Nameの重複は禁止
+\  @NormalTrick_Create(name, power, cost)
+\		・通常技の生成。特殊効果無し。
+\  @PlayerTrick_Set(PlayerName, TrickName)
+\		・@Trick_Create系で作った技を味方キャラに割り当てる。
+\  @EnemyTrick_Set(PlayerName, TrickName)
+\		・@Trick_Create系で作った技を敵キャラに割り当てる。
+\
+\----------------------------------------
+
+\--Load-----------------------------------------------------------
+
+\  @SpecialBattle01_Set(Gold, Exp, Member, etc...)	\unaPの要望に合わせてイベントごとに対応していく
+\  @SpecialBattle02_Set(Hp, Mp, Member, etc...)	\unaPの要望に合わせてイベントごとに対応していく
+\  @Battle(背景, EnemyNum, ...)
+
+
+@Load_Pic(tenyu_data/pic/sys/battle/cursor.png, MENU_CURSOR)
+@Load_Pic(tenyu_data/pic/sys/battle/timebar1.png, TIME_BAR1)
+@Load_Pic(tenyu_data/pic/sys/battle/timebar2.png, TIME_BAR2)
+@Load_Pic(tenyu_data/pic/sys/battle/hpbar.png, HP_BAR)
+
+@Load_Pic(tenyu_data/pic/sys/battle/bomb.bmp, EFFECT_BOMB)
+
+@Load_Pic(tenyu_data/pic/battle/background04.bmp, bg_01)
+@Load_Pic(tenyu_data/pic/battle/background02.bmp, bg_02)
+
+@Load_Pic(tenyu_data/pic/battle/enemy01.bmp, pic_enemy01)
+@Load_Pic(tenyu_data/pic/battle/enemy02.bmp, pic_enemy02)
+@Load_Pic(tenyu_data/pic/battle/enemy03.bmp, pic_enemy03)
+@Load_Pic(tenyu_data/pic/battle/player.bmp, pic_player01)
+
+
+@NormalTrick_Create(アタックA, 110, 3)
+@NormalTrick_Create(アタックB, 8, 2)
+
+@Player_Create(プレイヤーA, 100, 5, 5, 1, pic_player01)
+@Player_Create(プレイヤーB, 100, 5, 5, 1, pic_enemy02)
+@Player_Create(プレイヤーC, 100, 5, 5, 1, pic_enemy03)
+@Player_Create(プレイヤーD, 100, 5, 5, 1, pic_enemy01)
+
+@PlayerTrick_Set(プレイヤーA, アタックA, アタックB)
+@PlayerTrick_Set(プレイヤーB, アタックA, アタックB)
+@PlayerTrick_Set(プレイヤーC, アタックA, アタックB)
+@PlayerTrick_Set(プレイヤーD, アタックA, アタックB)
+
+@Enemy_Create(エネミーA, 100, 5, 5, 1 ,pic_enemy01)
+@Enemy_Create(エネミーD, 100, 5, 5, 1 ,pic_enemy01)
+@Enemy_Create(エネミーC, 100, 5, 5, 1 ,pic_enemy03)
+@Enemy_Create(エネミーB, 100, 5, 5, 1 ,pic_enemy02)
+@EnemyTrick_Set(エネミーA, アタックA, アタックB)
+@EnemyTrick_Set(エネミーB, アタックA, アタックB)
+@EnemyTrick_Set(エネミーC, アタックA, アタックB)
+@EnemyTrick_Set(エネミーD, アタックA, アタックB)
+
+
+@Encount_Set(1, 125, 2.1%)
+@Encount_Set(1, 14, 20%)
+@Party_Set(1, 125, 10, エネミーA)
+@Party_Set(1, 125, 10, エネミーA, エネミーB)
+@Party_Set(1, 125, 10, エネミーA, エネミーB, エネミーC)
+
+@Party_Set(1, 14, 100, エネミーC, エネミーB, エネミーA)
+
+@BackGround_Set(1, bg_02)
+@BackGround_Set(1, 14, bg_01)
+
+\\@EnamyParty_Create(keyA, B, A, C, A)
+\\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)
+
+

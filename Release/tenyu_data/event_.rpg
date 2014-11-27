@@ -1,0 +1,570 @@
+\----------------------------------------------------------------------------------
+\------------@EVENT_BEGIN~_END：自作イベント登録（ヤバい！革新的！(AA)第九）-----
+\----------------------------------------------------------------------------------
+\--自作イベントを登録しておくことができます（超便利）----
+\--		・作ったイベントはシナリオ内で@Eventで呼び出す
+\--		・オブジェクトの名前を書くべきところに"joker"と書くことで、イベント呼出時に対象としているオブジェクトの名前が自動代入される
+\--		・任意の箇所を[arg1] [arg2] [arg3]…　としておける。@Eventで呼び出す際に引数を指定することで自動代入してくれる。
+\--			→例：@Event(hello, 1, [おはよう, 3000, 1000])
+\--		使用例：
+\--			・同じイベントを様々なスイッチで呼び出すことができる（例：集会所のNPCの誰かひとりに話しかければイベント開始）
+\--			・滑る床やセーブなど繰り返し現れる処理を何度もシナリオにコピペする煩わしさから解放。
+\--			・暗転にかかる時間[@Anten(miliseconds)]など、後でまとめて変更する恐れのある数字を含むコマンドを一括管理。
+\--------------------------------------------------------
+@EVENT_BEGIN(story_01)
+
+			某日。カノンシティ中心部。
+
+	@TName_Add(left, 冬仁)
+こちら冬仁。全員、準備は良いか。
+@NextPage
+	@TName_Add(right, ーー)
+……こちらマーカス。配置についた。
+@NextPage
+ニック、同じくー。
+@NextPage
+こ、こちら柊。大丈夫だよ！
+@NextPage
+	@TName_Now(left)
+待機部隊も、問題ないな。
+@NextPage
+	@TName_Clear(All)
+彼の目的はただ一つ。王の首を取り、父の敵を討つこと。
+@NextPage
+	@TName_Add(left, 冬仁)
+よし、始めるぞ。
+@NextPage
+	@TName_Clear(All)
+風上冬仁、20歳。若き獅子、復讐の鬼。
+@NextPage
+
+
+
+	@TName_Add(left, 柊)
+ねぇ、兄さん！
+@NextPage
+	@TName_Add(right,冬仁)
+柊、作戦行動中「兄さん」はやめろと言ったはずだが。
+@NextPage
+	@TName_Now(left)
+ほかになんて呼べばいいのよ。もう一度言うけど、私は今回の作戦には反対。危険すぎる。
+@NextPage
+	@TName_Now(right)
+いまさら何を言っている。怖いならお前だけ帰ればいい。
+@NextPage
+	@TName_Clear(All)
+ドォン！
+@NextPage
+	@TName_Add(left,冬仁)
+始まったな。行くぞ。
+@NextPage
+	@TName_Add(right,柊)
+私は、兄さんが危ないって言っているの！兄さんが放っておけないから、私はついてきているの。
+@NextPage
+			\冬仁、柊に近づく。
+	@TName_Now(left)
+僕に指図するな。
+@NextPage
+	@TName_Now(right)
+	……。
+@NextPage
+	@TName_Now(left)
+ついてくるなら勝手にしろ。行くぞ。
+@NextPage
+
+			\ビルの出口に向かう二人。
+
+	@TName_Now(left)
+一つ言い忘れていた。……柊、あんまり前に出るなよ。後方から回復魔法に徹していろ。
+@NextPage
+	@TName_Now(right)
+兄さん……。うん！了解だよ。
+@NextPage
+			〈シーン終了〉
+
+@EVENT_END
+
+@EVENT_BEGIN(story_02_)
+
+
+
+(モノ)		――カノンシティはソラリシア帝国の技術力の粋を集めた都市だ。
+@NextPage
+		高層ビルが林立し、幾何学的に整理された街にはビジネスマンがせせこましく歩いている。
+@NextPage
+		冬仁にとっては「人間性を欠いた」「気味の悪い街」といったところである。
+@NextPage
+		なぜここまでこの街は機械的なのか。その理由は、この国の技術革新の歴史にある。
+@NextPage
+		14年前、「ルインズの聖戦」と呼ばれる大規模な内戦が起こった際、旧都市ルインズは壊滅。
+@NextPage
+		人々は、新都を建設するために技術革新を求めた。技術向上と同時進行で都市建設を行ったため、新都《未定》は計画性のない歪な都市となった。
+@NextPage
+		その反省から、3年前から行われているこのカノンシティの建設は完璧な計画の下で進められているのだ。
+@NextPage
+		今回、冬仁たちが襲撃をかけるのはこの街に併設された帝軍の基地である。しかしここで生じる疑問は、なぜビジネス街のそばに軍用地があるのかということだ。
+@NextPage
+		その答えはこの国の技術の最先端すべてがここに集められていることにある。さらに言うと、この街は地下に軍部の研究所を擁しているのだ。
+@NextPage
+		地上にあるビル群も、いくつかは研究所の一部ではないか、との話もある。
+@NextPage
+	@TName_Add(left,冬仁)
+で、ターゲットをその研究所からおびき出さないといけないんだが……。エド、どうなっている。
+@NextPage
+	@TName_Add(right,――)
+ああニックの情報などを総合すると、やはりポイントBあが怪しい。今からBを爆破する。移動頼む。
+@NextPage
+	@TName_Now(left)
+了解。
+@NextPage
+			\少し移動する冬仁、柊。その途中、爆発音。
+		\ドォン！
+	@TName_Clear(All)
+こちらエド。ポイントBを爆破した。
+@NextPage
+	@TName_Add(left,冬仁)
+さあ、どうだ。
+@NextPage
+	@TName_Add(right,柊)
+柊		あっ、兄さん、あれ！
+@NextPage
+	@TName_Clear(All)
+幹線道路の一つに亀裂が走り、跳ね橋のようにせりあがる。あたりだ。間違いない。あれが研究所に続く通路だ。そして――
+@NextPage
+	@TName_Add(left,冬仁)
+当然、出て来るよな。
+@NextPage
+	@TName_Clear(All)
+ゴオオオオオオ……！
+@NextPage
+まるで猛獣のような駆動音。地下から鋼鉄の塊が姿を現す。帝軍の試作機、メタルガーゴイルだ。
+@NextPage
+	@TName_Add(left,冬仁)
+ターゲット確認。物騒なもん大量に積んでやがる。エド、兵装は。
+@NextPage
+	@TName_Add(right,――)
+みたところ、ニックの報告よりも多い。
+@NextPage
+えー！俺が間違ってたってことっスか？
+@NextPage
+	@TName_Now(left)
+いや、ニックが間違いをするとは考えにくい。今日に限って搭載限界まで積んできているということだろう。
+@NextPage
+	@TName_Now(right)
+両サイドにガトリング、背に短射程ミサイル4門。しかもニックが言うには自爆機能まである……と。
+@NextPage
+	@TName_Add(left,柊)
+どうやって調べたのよそんなこと……。
+@NextPage
+	@TName_Now(right)
+へへー。そこはちょっと頑張ったんスよ。実はね――
+@NextPage
+	@TName_Now(left,冬仁)
+今そんな話はいい。問題はあいつをどう叩くかだ。
+@NextPage
+	@TName_Clear(All)
+設計からして明らかに敵陣地戦では無敵。しかしそれは裏を返せば、味方陣地ではうまく動けないということ。
+@NextPage
+研究所内で暴れたくないからこそ、街への被害を考慮せずに地下から出てきたのだ。
+@NextPage
+	@TName_Add(left,柊)
+そんな化け物を、私たちの集落に入れるわけにはいかない。
+@NextPage
+	@TName_Now(left,冬仁)
+ああ。必ずここで倒す。そういう作戦だ。
+@NextPage
+	@TName_Add(right,――)
+こちらニック。ターゲット真北へ移動開始。
+@NextPage
+	@TName_Now(left,冬仁)
+了解。さあ柊、追うぞ。
+@NextPage
+	@TName_Add(left,柊)
+うん……！
+@NextPage
+			〈シーン終了〉
+
+
+
+@EVENT_END
+
+@EVENT_BEGIN(story_03)
+
+
+			\ガーゴイルの行く手を冬仁が遮る。
+
+	@TName_Add(left,冬仁)
+さて、もう逃げられないぞ。
+@NextPage
+	@TName_Add(right,柊)
+目の前で見ると、お、おっきい……。
+@NextPage
+	@TName_Now(left)
+こちら冬仁、ターゲットに接触。これより戦闘を開始する。マーカス、援護射撃を頼む。
+@NextPage
+	@TName_Add(right,――)
+……了解。
+@NextPage
+	@TName_Now(left)
+くれぐれも無理はするなよ、柊。
+@NextPage
+	@TName_Now(right,柊)
+こっちのセリフ！ケガしないでよ、兄さん！
+
+@EVENT_END
+
+
+			〈戦闘〉
+
+@EVENT_BEGIN(story_04)
+
+
+			\メタルガーゴイル大破。冬仁、後ろを向き歩き出す。
+
+	@TName_Add(left,冬仁)
+こちら冬仁。ターゲットの破壊に成功した。任務達成だ、全員離脱しろ。
+@NextPage
+	@TName_Add(right,柊)
+ふう、何とかなったね。
+@NextPage
+	@TName_Now(left)
+エド、聞こえるか。
+@NextPage
+	@TName_Add(right,エド)
+なんだ。
+@NextPage
+	@TName_Now(left)
+予備の爆薬を一斉に起爆しろ。
+@NextPage
+	@TName_Now(right,柊)
+え！？
+@NextPage
+	@TName_Now(right,エド)
+了解。
+@NextPage
+	@TName_Now(right,柊)
+なんで？もう目標は達成したはずでしょう。これ以上誰かを巻き込む必要がどこに――
+@NextPage
+	@TName_Now(left)
+巻き込む？誰を巻き込むんだ。この街に僕たち以外"仲間"はいない。
+@NextPage
+	@TName_Now(right,柊)
+……帝都側の人間は、一般人だろうと人間じゃないってこと。
+@NextPage
+	@TName_Now(left)
+そうだ。分かってきたじゃないか。
+@NextPage
+	@TName_Now(right,柊)
+……。
+@NextPage
+	@TName_Now(left)
+さあ、離脱だ。
+@NextPage
+			〈シーン終了〉
+
+
+@EVENT_END
+
+
+\--------------------------------------------------------
+
+
+\--------------------------------------------------------
+@EVENT_BEGIN(wrap_sample)
+	"[WRAP@ラップ]モード"のテストです
+	このテキスト表示モードでは通常の"BOXモード"とほぼ同じことができます。
+	@Stop
+	途中で一旦テキスト表示をとめることもできるし、
+	@NextPage
+	@AutoPlay_Set(true)
+	もちろん改ページも任意の場所でできます
+	オートプレイもできます（テキスト表示モードが切り替わると自動解除）
+	@NextPage
+	@BackGround_Change(pic_background02, 1000)
+	途中で[背景@はいけい]を変えるのもOKです
+	"＠Eventコマンド"を使った時と同様に、上から調べたのか下から調べたのかでイベント中のセリフを変えることもできます
+	@Stop
+	変化の度合いによって、同名イベントで引数だけ変えるのか、イベント内で分岐させるのか、イベント自体を別にするのかうまく使い分けたいところですね
+	@NextPage
+	「いざ、[arg1]！」
+	@NextPage
+@EVENT_END
+\--------------------------------------------------------
+@EVENT_BEGIN(push_tree)
+	@Slide(PUSHBLOCK-0-[arg1], ORIGINAL, 1, low)
+
+\	@DIR_IF_BEGIN
+\	@DIR_CASE(right)
+
+\		@Position_Set(joker, +1, 0, true)
+
+
+
+\	@DIR_CASE(left)
+\		@Position_Set(joker, -1, 0, true) 
+\	@DIR_CASE(up)
+\		@Position_Set(joker, 0, -1, true) 
+\	@DIR_CASE(down)
+\		@Position_Set(joker, 0, +1, true)
+\	@DIR_IF_END
+@EVENT_END
+
+\--------------------------------------------------------
+@EVENT_BEGIN(map_move)
+	@Anten(800)
+	@Position_Set(me, [arg1], [arg2], [arg3])
+	@Dir_Set(me, [arg4])
+	@Meiten(800)
+@EVENT_END
+
+
+\--------------------------------------------------------
+@EVENT_BEGIN(dir_move)
+	@DIR_IF_BEGIN
+	@DIR_CASE(right)
+		@Position_Set(joker, +[arg1], 0, true)
+	@DIR_CASE(left)
+		@Position_Set(joker, -[arg1], 0, true) 
+	@DIR_CASE(up)
+		@Position_Set(joker, 0, -[arg1], true) 
+	@DIR_CASE(down)
+		@Position_Set(joker, 0, +[arg1], true)
+	@DIR_IF_END
+@EVENT_END
+
+\--------------------------------------------------------
+@EVENT_BEGIN(spin)
+	@Dir_Set(joker,ORIGINAL-2)
+	@Wait(100)
+	@Dir_Set(joker,ORIGINAL-1)
+	@Wait(100)
+	@Dir_Set(joker,ORIGINAL)
+	@Wait(100)
+	@Dir_Set(joker,ORIGINAL+1)
+	@Wait(100)
+@EVENT_END
+\--------------------------------------------------------
+@EVENT_BEGIN(anten_long)
+	@Anten(3000)
+@EVENT_END
+\--------------------------------------------------------
+
+@EVENT_BEGIN(ice)
+	@DIR_IF_BEGIN
+		@DIR_CASE(right)
+		@Slide(me, right, 1, [arg1]) 
+		@DIR_CASE(left)
+		@Slide(me, left, 1, [arg1]) 
+		@DIR_CASE(up)
+		@Slide(me, up, 1, [arg1]) 
+		@DIR_CASE(down)
+		@Slide(me, down, 1, [arg1]) 
+	@DIR_IF_END
+@EVENT_END
+
+\--------------------------------------------------------
+@EVENT_BEGIN(story_dropkick3)
+	@TName_Add(left, 冬仁)
+	@Visible_Set(textbox, false)
+	@Anten(1000)
+	@Meiten(1000)
+	@Visible_Set(textbox, true)
+ただいまー。
+@NextPage
+	@TName_Add(right, 千秋)
+ただいまじゃないわボケー！
+@Stop
+	@TName_Now(left)
+ぐほっ！？
+@NextPage
+	@Slide(me, down, 5, high)
+	@Window_Shake(10, 3)
+がはぁっ！ゴホ...
+@NextPage
+	@TName_Now(right)
+	@Visible_Set(Mom, true)
+	@FadeWalk(Mom, down, 1, high)
+	@Walk(Mom, down, 3, high)
+	@Wait(100)
+	@Jump(Mom)
+聞いたよ！進駐軍に殴りこんだんだって？
+なんでそんな危険なことするの！
+@NextPage
+	@Walk(me, up, 1, low)
+	@TName_Now(left)
+ゴホッ……
+わ、悪かったよ母さん！
+けどいきなりドロップキックかますことはないだろ！？
+ゲホッ、肺が破裂するかと……
+@NextPage
+	@TName_Now(right, 柊)
+	@Visible_Set(Sis, true)
+	@FadeWalk(Sis, down, 1, high)
+	@Wait(100)
+	@Jump(Sis)
+	@Walk(Mom, Left, 1, middle)
+	@Dir_Set(Mom,Down)
+兄さーん！
+@Stop
+	@Jump(me)
+	@TName_Now(left)
+わー！
+待て柊！、話せばわかる……
+@NextPage
+	@TName_Now(right)
+わかるかボケー！
+@Stop
+	@Walk(Sis, down, 3, high)
+	@Slide(me, down, 1, high)
+	@Window_Shake(20, 3)
+	@TName_Now(left)
+ぐっはぁ！
+し、死……
+@NextPage
+	@Walk(Sis, down, 1)
+	@Walk(Mom, down, 2)
+	@Dir_Set(Mom, Right)
+	@TName_Now(right)
+	@Jump(Sis)
+私たちがどれだけ心配したかわかる？
+相手は銃を持ってたんだよ！？
+@NextPage
+	@TName_Now(left)
+待て待て！
+今絶対骨とか折れたよ！？
+ゴホッ！あんたらのドロップキック威力おかしいから！
+@NextPage
+	@TName_Now(right, 千秋)
+	@Jump(Mom)
+だって心配だったんだよー！
+@Stop
+	@TName_Now(right, 柊)
+	@Jump(Sis)
+心配だったんだもん！わーん！
+@NextPage
+	@TName_Now(left)
+ああ、すまなかったよ。
+柊も泣くなよ。
+@NextPage
+	@TName_Now(right, 千秋)
+冬仁、本当に大丈夫？なんともない？
+@NextPage
+	@TName_Now(left)
+	@Dir_Set(me,Left)
+うん、戦闘でそんな大ケガはしてない。
+とりあえずこのまま本部に行って、ヘルマンさんに報告してくるよ。
+@NextPage
+	@TName_Now(right, 千秋)
+わかった。
+@NextPage
+	@Anten(1000)
+	@Meiten(1000)
+@EVENT_END
+
+\--------------------------------------------------------
+
+@EVENT_BEGIN(story_dropkick2)
+	@Visible_Set(textbox, false)
+	@Anten(1000)
+	@Meiten(1000)
+	@Visible_Set(textbox, true)
+冬仁「ただいまー。
+@NextPage
+千秋「ただいまじゃないわボケー！
+冬仁「ぐほっ！？
+@NextPage
+	@Slide(me, down, 5, high)
+	@Window_Shake(10, 3)
+冬仁「がはぁっ！ゴホ...
+@NextPage
+	@Visible_Set(Mom, true)
+	@FadeWalk(Mom, down, 1, high)
+	@Walk(Mom, down, 3, high)
+	@Wait(100)
+	@Jump(Mom)
+千秋「聞いたよ！進駐軍に殴りこんだんだって？
+なんでそんな危険なことするの！
+@NextPage
+	@Walk(me, up, 1, low)
+冬仁「ゴホッ……
+わ、悪かったよ母さん！
+けどいきなりドロップキックかますことはないだろ！？
+ゲホッ、肺が破裂するかと……
+@NextPage
+	@Visible_Set(Sis, true)
+	@FadeWalk(Sis, down, 1, high)
+	@Wait(100)
+	@Jump(Sis)
+	@Walk(Mom, Left, 1, middle)
+	@Dir_Set(Mom,Down)
+柊「兄さーん！
+@Stop
+	@Jump(me)
+冬仁「わー！
+待て柊！、話せばわかる……
+@NextPage
+柊「わかるかボケー！
+@Stop
+	@Walk(Sis, down, 3, high)
+	@Slide(me, down, 1, high)
+	@Window_Shake(20, 3)
+冬仁「ぐっはぁ！
+し、死……
+@NextPage
+	@Walk(Sis, down, 1)
+	@Walk(Mom, down, 2)
+	@Dir_Set(Mom, Right)
+	@Jump(Sis)
+柊「私たちがどれだけ心配したかわかる？
+相手は銃を持ってたんだよ！？
+@NextPage
+冬仁「待て待て！
+今絶対骨とか折れたよ！？
+ゴホッ！あんたらのドロップキック威力おかしいから！
+@NextPage
+	@Jump(Mom)
+千秋「だって心配だったんだよー！
+@Stop
+	@Jump(Sis)
+柊「心配だったんだもん！わーん！
+@NextPage
+冬仁「ああ、すまなかったよ。
+柊も泣くなよ。
+@NextPage
+千秋「冬仁、本当に大丈夫？なんともない？
+@NextPage
+	@Dir_Set(me,Left)
+冬仁「うん、戦闘でそんな大ケガはしてない。
+とりあえずこのまま本部に行って、ヘルマンさんに報告してくるよ。
+@NextPage
+千秋「わかった。
+@NextPage
+	@Anten(1000)
+	@Meiten(1000)
+@EVENT_END
+
+\--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
