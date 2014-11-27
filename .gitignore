@@ -1,2 +1,5 @@
 !tenyu.exe
+*.lastbuildstate
+*.manifest
+*.tlog
 
