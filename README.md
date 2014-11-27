@@ -41,15 +41,15 @@ scenario.rpg（一部・例）
   @TName_Now(left, 妹)  \発言者ラベルの作成
   @Jump(sister)  \NPCがジャンプ
   お兄ちゃん、おかえり！
-  @NextPage  /ページ送り
+  @NextPage  \ページ送り
   @TName_Now(right, 僕)
   ああ、ただいま
-  @NextPage  /ページ送り
+  @NextPage  \ページ送り
   @TName_Now(left, 妹)
   お母さんも待ってるよ、先に家に入ってるから早く来てね！
-  @NextPage  /ページ送り
+  @NextPage  \ページ送り
   @Anten(500)
-  @Visible_Set(sister, false)  /NPCの退場=画面が暗転している間に姿を消す
+  @Visible_Set(sister, false)  \NPCの退場=画面が暗転している間に姿を消す
   @Meiten(500)  
 @NPC_END
 ````````
