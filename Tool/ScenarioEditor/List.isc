@@ -1,0 +1,39 @@
+@Load_Map(相対パス, マップ番号)\n
+@Load_Chip(相対パス, マップ番号, 層)\n
+@Load_Pic(相対パス, PicKey, kind)\n
+@Set_EventObj(マップ番号, データ値, Kind, PicKey, 名前)\n
+@Set_StartPosition(マップ番号,X,Y,PicKey)\n
+
+@NextPage\n
+@Stop\n
+@Quit\n
+@PANEL_BEGIN(name)\n@PANEL_END\n
+@BLOCK_BEGIN(name)\n@BLOCK_END\n
+@NPC_BEGIN(name)\n@NPC_END\n
+@PUSHBLOCK_BEGIN(name)\n@PUSHBLOCK_END\n
+@EVENT_BEGIN(name)\n@EVENT_END\n
+
+@COUNT_IF_BEGIN\n@COUNT_CASE(1)\n@COUNT_IF_END\n
+@FLAG_IF_BEGIN(1)\n@FLAG_CASE(2)\n@FLAG_IF_END(1)\n
+@DIR_IF_BEGIN\n@DIR_CASE(1)\n@DIR_IF_END\n
+
+@Event(name, times, [arg1, arg2, ...])\n
+@Dir_Set(2)\n
+@Visible_Set(2)\n
+@Pic_Set(2)\n
+@Flag_Set(2)\n
+@Count_Set(2)\n
+@Position_Set(playername,マップ番号, X, Y, [PicKey])\n
+@Wait(1)\n
+@JokerName_Set(1)\n
+@Anten(1)\n
+@Meiten(1)\n
+@Jump(1)\n
+
+@Walk(name,dir,cell,speed)\n
+@Slide(name,dir,cell,speed)\n
+@FadeWalk(name,dir,1or-1,speed)\n
+
+@Window_Shake(times,strength)\n
+@Window_MoveTurn(dir,cell,waittime,speed)\n
+@Window_Move(dir,cell,speed)\n

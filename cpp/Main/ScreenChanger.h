@@ -2,6 +2,11 @@
 #ifndef SCREENCHANGER_H					////
 #define SCREENCHANGER_H					////
 ////////////////////////////////////////////////
+/*
+##### Main/ScreenChanger.h
+ゲーム内各所で使う、様々な画面の切り替え効果を使いやすくするためのクラスです。  
+現在は戦闘開始時に使われています。
+*/
 
 class CScreenChanger{
 public:

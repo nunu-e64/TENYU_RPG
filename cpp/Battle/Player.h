@@ -2,6 +2,11 @@
 #ifndef PLAYER_H							////
 #define PLAYER_H							////
 ////////////////////////////////////////////////
+/*
+##### Battle/Player.h
+戦闘に参加するプレイヤーキャラのクラスです。
+CActorとCPlayerSpeceisを継承します。
+*/
 
 #include "Actor.h"
 #include "../Menu.h"

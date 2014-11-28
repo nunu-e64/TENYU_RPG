@@ -2,6 +2,11 @@
 #ifndef ENEMYPLANMANAGER_H					////
 #define ENEMYPLANMANAGER_H					////
 ////////////////////////////////////////////////
+/*
+##### Battle/EnemyPlanManager.h
+エネミーのAIを管理します。
+*/
+
 
 #include "Actor.h"
 #include <map>

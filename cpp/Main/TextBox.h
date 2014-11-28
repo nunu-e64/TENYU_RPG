@@ -2,6 +2,12 @@
 #ifndef TEXTBOX_H							////
 #define TEXTBOX_H							////
 ////////////////////////////////////////////////
+/*
+##### Main/TextBox.h
+テキストボックスを表示して文字列を描画します。  
+イベントごとに文字列を受け取り、キー操作に合わせて順に表示していきます。
+*/
+
 
 //#include "CmdList.h"
 #include "TalkName.h"

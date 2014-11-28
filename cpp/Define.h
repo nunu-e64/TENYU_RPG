@@ -2,6 +2,13 @@
 #ifndef DEFINE_H							////
 #define DEFINE_H							////
 ////////////////////////////////////////////////
+/*
+##### Define.h
+すべてのcppで読み込まれます。  
+グローバルな定数・型・関数を置いています。  
+defineマクロでビルドモード（製品版/プログラマデバッグ版など）を管理しています。
+*/
+
 
 //#define PRODUCT_MODE  //製品版
 	#ifdef PRODUCT_MODE

@@ -2,6 +2,12 @@
 #ifndef WORLDMANAGER_H						////
 #define WORLDMANAGER_H						////
 ////////////////////////////////////////////////
+/*
+##### Main/WorldManager.h
+後述のField.hのCFieldクラスとBattle.hのCBattleクラスに継承させて使われています。  
+共通の処理を、多態性を使って扱うために作りました。
+*/
+
 
 #include "../Define.h"	//インクルードしなくてもいい（赤線は出るがコンパイル時に解決するためエラーは出ない）
 

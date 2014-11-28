@@ -429,12 +429,12 @@ bool CCmdManager::FieldCmdSolve(const char* _command, char* _argument, CField* _
 		_field->SetGameMode(MODE_GAMEOVER);
 		
 //@GameClear
-	}else if (mystrcmp(_command, "@GameOver",'p')){
+	}else if (mystrcmp(_command, "@GameClear",'p')){
 		argnum = 1;		arg = new char*[argnum];	ArgCut(_command, _argument, arg, argnum, false);	//•K{
 		_field->SetGameMode(MODE_GAMECLEAR);
 
 //@BackToTitle
-	}else if (mystrcmp(_command, "@GameOver",'p')){
+	}else if (mystrcmp(_command, "@BackToTitle",'p')){
 		argnum = 1;		arg = new char*[argnum];	ArgCut(_command, _argument, arg, argnum, false);	//•K{
 		_field->SetGameMode(MODE_BACKTOTITLE);
 

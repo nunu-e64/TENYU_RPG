@@ -2,6 +2,12 @@
 #ifndef ACTOR_H								////
 #define ACTOR_H								////
 ////////////////////////////////////////////////
+/*
+##### Battle/Actor.h
+戦闘に参加するキャラクターを敵味方共通管理するためのクラス。  
+戦闘で使われる各種ステータス値や処理関数を持ちます。  
+CPlayerとCEnemyが継承します。
+*/
 
 #include <vector>
 #include <map>

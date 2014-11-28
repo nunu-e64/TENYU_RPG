@@ -1,7 +1,14 @@
 ////多重インクルード防止（インクルードガード）//
-#ifndef SPECIESMANAGER_H				////
-#define SPECIESMANAGER_H				////
+#ifndef SPECIESMANAGER_H					////
+#define SPECIESMANAGER_H					////
 ////////////////////////////////////////////////
+/*
+##### Battle/SpeciesManager.h
+CPlayerSpeciesManagerとCEnemySpeciesManagerが定義されています。
+プレイヤーキャラ情報（CPlayerSpecies）とエネミー情報（CEnemySpecies）をそれぞれ管理します。  
+CPlayerSpeciesやCEnemySpeciesの各インスタンスへはこのマネージャーを介してアクセスします。
+*/
+
 
 #include <map>
 #include <string>

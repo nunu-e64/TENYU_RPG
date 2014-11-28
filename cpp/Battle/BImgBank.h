@@ -2,6 +2,11 @@
 #ifndef BIMGBANK_H						////
 #define BIMGBANK_H						////
 ////////////////////////////////////////////////
+/*
+##### Battle/BImgBank.h
+戦闘に使用する各種画像を管理します。
+*/
+
 
 #include <map>
 #include <string>

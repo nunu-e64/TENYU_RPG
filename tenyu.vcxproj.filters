@@ -161,9 +161,6 @@
     <ClInclude Include="cpp\Battle\TrickManager.h">
       <Filter>ヘッダー ファイル\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="cpp\Main\Main.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="cpp\Field\Field.h">
       <Filter>ヘッダー ファイル\Field</Filter>
     </ClInclude>
@@ -201,6 +198,9 @@
       <Filter>ヘッダー ファイル\Battle</Filter>
     </ClInclude>
     <ClInclude Include="cpp\Main\ScreenChanger.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\Main\Main.h">
       <Filter>ヘッダー ファイル\Main</Filter>
     </ClInclude>
   </ItemGroup>

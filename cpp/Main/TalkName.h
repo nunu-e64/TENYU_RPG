@@ -2,6 +2,11 @@
 #ifndef TALKNAME_H							////
 #define TALKNAME_H							////
 ////////////////////////////////////////////////
+/*
+##### Main/TalkName.h
+テキストボックスの上に表示される発言者のラベルです。
+CTextBoxが包含して使っています。
+*/
 
 
 class CTalkName{

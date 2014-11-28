@@ -2,6 +2,12 @@
 #ifndef TEXTWRAP_H							////
 #define TEXTWRAP_H							////
 ////////////////////////////////////////////////
+/*
+##### Main/TextWrap.h
+テキストボックスの亜種です。  
+画面全体を使って文字を表示します。
+*/
+
 
 #include "TextBox.h"
 

@@ -2,6 +2,11 @@
 #ifndef TRICKMANAGER_H						////
 #define TRICKMANAGER_H						////
 ////////////////////////////////////////////////
+/*
+##### Battle/TrickManager.h
+í“¬‚Åg—p‚³‚ê‚é‹Z‚Ìî•ñ‚ğŠÇ—‚µ‚Ü‚·B
+*/
+
 
 #include <map>
 
