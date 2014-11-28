@@ -2,7 +2,12 @@
 #ifndef SPECIES_H							////
 #define SPECIES_H							////
 ////////////////////////////////////////////////
-
+/*
+##### Battle/Species.h
+CSpeciesと、その子クラスCPlayerSpeciesとCEnemySpeciesを定義しています。  
+プレイヤーキャラやエネミーの種類ごとにインスタンス化され、戦闘に関するステータスを持ちます。  
+戦闘開始時にPlayerやEnemyに、ステータスを渡します。
+*/
 
 class CSpecies{
 public:

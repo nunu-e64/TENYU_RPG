@@ -2,6 +2,11 @@
 #ifndef LOAD_H								////
 #define LOAD_H								////
 ////////////////////////////////////////////////
+/*
+##### Field/Load.h
+.rpgファイルの読込みなどを管理します。  
+読み込んだ内容はCMapやCEveManagerに渡されます。
+*/
 
 //#include "CmdList.h"
 //#include "Map.h"

@@ -2,6 +2,12 @@
 #ifndef BATTLE_H							////
 #define BATTLE_H							////
 ////////////////////////////////////////////////
+/*
+##### Battle/Battle.h
+戦闘全般を掌握します。  
+様々なクラスの実体を所持（包含）しています。
+*/
+
 
 #include "BImgBank.h"
 #include "TrickManager.h"

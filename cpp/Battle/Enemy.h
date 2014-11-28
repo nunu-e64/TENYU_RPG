@@ -2,6 +2,12 @@
 #ifndef ENEMY_H								////
 #define ENEMY_H								////
 ////////////////////////////////////////////////
+/*
+##### Battle/Enemy.h
+戦闘に参加するエネミーのクラスです。
+CActorとCEnemySpeceisを継承します。
+*/
+
 
 #include "Actor.h"
 

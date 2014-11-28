@@ -2,6 +2,13 @@
 #ifndef NUNULIB_H							////
 #define NUNULIB_H							////
 ////////////////////////////////////////////////
+/*
+##### nunuLib.h
+自作ライブラリです。  
+char型を扱う練習のため最近までstd::stringを封印していたため、charやchar*に関する関数が多くあります。  
+エラー/デバッグログ出力用関数は自分の使い勝手の為にこだわりました。
+*/
+
 
 #include "DxLib.h"
 #include "math.h"

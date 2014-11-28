@@ -1,32 +1,7 @@
-\----------------------------------------
-\\-----コメントは行頭に"\"をつける--------
-\----------------------------------------
 
-\----------------------------------------
-\------【仕様メモ】（随時更新）--
-\----------------------------------------
-\  １．空白行はコメントと同じ扱い。読み込まない。@BEGIN@END間でも一切無効。（と思いきや空白行があると意図しない動作が発生している可能性が(2014/04/29)）
-\  			・行空けをしたければ半角/全角スペースを。
-\  ２．引数を持つコマンドでは')'の後にコメントが書ける
-\  ３．引数を持つコマンドではカンマの前後に半角スペースやタブを利用可能。ただしそれ以外の場所に半角スペースを入れるとバグる（半角スペースも引数区切り記号とみなしている）
-\  ４．タブ文字と半角スペース→半角スペース、全角スペース→全角スペース
-\  ５．自動改行について
-\  			・"@"のコマンド以外での使用は原則禁止
-\  				・テキストボックスの横幅文字数上限でコマンド以外のテキストは行を区切って読み込まれるため、行中の"@"が次の行の行頭になってコマンド扱いになる事がある。（"\"は認識しない）
-\  ６．各種コマンドの引数[name]にはjoker使用可能
-\  			・今調べているオブジェクトの名前が代入される
-\  ７．各種コマンドの引数[name]にはPlayerNameが使用可能なものが多い
-\  			・PlayerName：プレイヤーを表す…"me", "ME", "Me", "PLAYER", "player", "Player"のいずれか
-\  ８．方向定数
-\  			・以下のいずれか…["RIGHT","right","→","0","右"]、["LEFT","left","←","1","左"]、["DOWN","down","↓","2","下"]、["UP","up","↑","3","上"]　(14/02/16現在)
-\  			・["ORIGINAL","original","-1"]はオブジェクトを調べたときの【プレイヤーキャラの】向き
-\  ９．Visibleについて
-\			・プレイヤーキャラやオブジェクトのVisibleがFalseの時、○歩行,コマンドによる移動等　×描画　×接触判定
-\ --------------------------------------
-
-\----------------------------------------
-\------【システムコマンド】（随時更新）--
-\----------------------------------------
+\--------------------------------------------------------------------------------
+\------【システムコマンド】（随時更新）------------------------------------------
+\--------------------------------------------------------------------------------
 \--@Load_Map(相対パス, マップ番号)：マップデータ（バイナリ）を読み込む
 \--			※拡張子はつけない
 \--			・同名別拡張子のイベントマップを同時に自動読み込み
@@ -44,17 +19,13 @@
 \		・Nameの重複は禁止
 \		・Visibleまで指定する場合、Nameの省略は不可。VisibleはTrueまたはFalseで指定。省略時はTrue。
 \--@Set_StartPosition(マップ番号, X座標, Y座標, 向き, PicKey)：プレイヤーの初期位置と画像を指定。複数回使った場合上書きされます。
-\----------------------------------------
+\--------------------------------------------------------------------------------
 
 \--Load-----------------------------------------------------------
 @Load_Map(tenyu_data/map/oldtown01, 0)
-@Load_Map(tenyu_data/map/01-0, 1)
 @Load_Chip(tenyu_data/pic/obrpg1_fieldchip.bmp, 0, 0)
 @Load_Chip(tenyu_data/pic/obrpg1_objchip.bmp, 0, 1)
-@Load_Chip(tenyu_data/map/chipset_matsuda_140621.bmp, 1, 0)
-@Load_Chip(tenyu_data/pic/obrpg1_objchip.bmp, 1, 1)
-\ぶっちゃけNPCかどうかしか意味がない。（NPCだけ絵のサイズが違う）一応Kindが違えばWarningは出るようにしてあるが違っていたとしても実害ないはず。多分。	←エラー出してないっぽい(14/05/12)
-\↑背景用一枚絵BGの導入。BGの時は全く別のところに画像が保存されてる(14/05/11)（←ウソだろこれ(14/06/24)）
+
 @Load_Pic(tenyu_data/pic/ex_tree.bmp, 		pic_tree, 	PUSHBLOCK)
 @Load_Pic(tenyu_data/pic/ex_treasurebox.bmp, 	pic_treasurebox, BLOCK)
 @Load_Pic(tenyu_data/pic/ex_gate_l.bmp, 	pic_gate_l, 	BLOCK)
@@ -66,8 +37,6 @@
 @Load_Pic(tenyu_data/pic/ex_bridge.bmp, 	pic_bridge, 	COVER)
 @Load_Pic(tenyu_data/pic/ex_door.bmp, 		pic_door,	PANEL)
 @Load_Pic(tenyu_data/pic/ex_slidepanel.bmp, 	pic_slide, 	PANEL)
-@Load_Pic(tenyu_data/pic/npc00.png, 		huyu, 	NPC)
-@Load_Pic(tenyu_data/pic/npc01.png, 		hi, 	NPC)
 
 @Load_Pic(tenyu_data/pic/bg/sample.bmp, 	pic_background01, BG)
 @Load_Pic(tenyu_data/pic/bg/sample2.bmp, 	pic_background02, BG)
@@ -75,9 +44,7 @@
 
 \--Set------------------------------------------------------------
 @Set_StartPosition(0, 20, 10, Right, pic_player1)
-@Set_StartPosition(0, 7, 7, Right, pic_player1)
-\@Set_StartPosition(0,4,2, left, pic_player1)	←後に書いた方で上書きされる)
-@Set_StartPosition(1, 11, 69, Right, huyu)
+@Set_StartPosition(0, 9, 7, Down, pic_player1)	\←後に書いた方で上書きされる
 
 \町部分
 	@Set_EventObj(0, 1, PANEL, NULL)	\最終引数nameを省略した場合は「KIND-MapNum-DataNum」で名前が生成される（ex:PANEL-0-1）
@@ -99,21 +66,19 @@
 	@Set_EventObj(0, 68, BLOCK, pic_sign, sign03)
 	@Set_EventObj(0, 69, BLOCK, pic_sign, sign04)
 
-	@Set_EventObj(1, 1, NPC, hi, hi_01)
-	@Set_EventObj(1, 255, PANEL,pic_slide , switch)
-
 
 \フィールド部分
 	@Set_EventObj(0, 7, PANEL, NULL)
 	@Set_EventObj(0, 8, PANEL, NULL)
 	@Set_EventObj(0, 9, BLOCK, pic_treasurebox, treasurebox)
 	@Set_EventObj(0, 62, BLOCK, pic_treasurebox, treasurebox2)			\NULLは空白画像
+	@Set_EventObj(0, 100, BLOCK, pic_treasurebox, dammy_treasurebox)
 	@Set_EventObj(0, 10, PANEL, NULL)
 	@Set_EventObj(0, 56, BLOCK, NULL)
 	@Set_EventObj(0, 64, BLOCK, NULL)
 	
 	\↓こういうのはExcelのフィル機能を使うと一瞬で生成できて超便利。一個一個手入力は絶対に避けるべき。方法わからなければ聞いてください。
-		@Set_EventObj(0, 11, PUSHBLOCK, pic_tree)
+	@Set_EventObj(0, 11, PUSHBLOCK, pic_tree)
 	@Set_EventObj(0, 12, PUSHBLOCK, pic_tree)
 	@Set_EventObj(0, 13, PUSHBLOCK, pic_tree)
 	@Set_EventObj(0, 14, PUSHBLOCK, pic_tree)
@@ -158,9 +123,6 @@
 	@Set_EventObj(0, 53, PUSHBLOCK, pic_tree)
 	@Set_EventObj(0, 54, PUSHBLOCK, pic_tree)
 	@Set_EventObj(0, 55, PUSHBLOCK, pic_tree)
-
-
-	
 
 \-----------------------------------------------------------------
 【SystemCommand Load Completed!】

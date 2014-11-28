@@ -1,26 +1,32 @@
-\----------------------------------------
-\\-----コメントは行頭に"\"をつける--------
-\----------------------------------------
-
+\
+\
 \------【バトルシステムコマンド】（随時更新）--
 \----------------------------------------
 \--@Load_Pic(相対パス, PicKey)： 戦闘用各種画像読み込み,
 \		・画像データを任意の文字列を[PicKey]として読み込む。PicKeyは@Enemy_Createや@Player_Createで使用する
 \
-\  @Player_Set(name, MaxHp, Atk, Def, Spd, PicKey)
+\  @Player_Create(name, MaxHp, Atk, Def, Spd, PicKey)
 \		・戦闘に出る味方キャラを生成
 \		・PicKey…@Load_Picで登録しておいたキーを指定。
 \		・Nameの重複は禁止
-\  @Enemy_Set(name, MaxHp, Atk, Def, Spd, PicKey)
+\  @Enemy_Create(name, MaxHp, Atk, Def, Spd, PicKey)
 \		・戦闘に出る敵キャラを生成
 \		・PicKey…@Load_Picで登録しておいたキーを指定。
 \		・Nameの重複は禁止
 \  @NormalTrick_Create(name, power, cost)
 \		・通常技の生成。特殊効果無し。
-\  @PlayerTrick_Set(PlayerName, TrickName)
+\  @PlayerTrick_Set(PlayerName, TrickName1, TrickName2, TrickName3, ...)
 \		・@Trick_Create系で作った技を味方キャラに割り当てる。
-\  @EnemyTrick_Set(PlayerName, TrickName)
+\  @EnemyTrick_Set(EnemyName, TrickName1, TrickName2, TrickName3, ...)
 \		・@Trick_Create系で作った技を敵キャラに割り当てる。
+\  @Encount_Set(マップ番号, チップ番号, エンカウント率)
+\		・マップに対してチップごとにエンカウント率を設定する
+\  @Party_Set(マップ番号, チップ番号, 出現比率, エネミー1, エネミー2, ...)
+\		・エンカウント確定した際に出現する敵のパーティを設定する
+\		・どのパーティが出現するかは出現比率によって決まる
+\  @BackGround_Set(マップ番号, [チップ番号], PicKey)
+\		・戦闘背景を指定する
+\		・チップ番号は省略可能。省略した場合、そのマップすべての戦闘背景画像を一括指定できる
 \
 \----------------------------------------
 
@@ -38,50 +44,55 @@
 
 @Load_Pic(tenyu_data/pic/sys/battle/bomb.bmp, EFFECT_BOMB)
 
-@Load_Pic(tenyu_data/pic/battle/background04.bmp, bg_01)
+@Load_Pic(tenyu_data/pic/battle/background01.bmp, bg_01)
 @Load_Pic(tenyu_data/pic/battle/background02.bmp, bg_02)
+@Load_Pic(tenyu_data/pic/battle/background03.bmp, bg_03)
+@Load_Pic(tenyu_data/pic/battle/background04.bmp, bg_04)
+@Load_Pic(tenyu_data/pic/battle/background05.bmp, bg_05)
+@Load_Pic(tenyu_data/pic/battle/background06.bmp, bg_06)
 
 @Load_Pic(tenyu_data/pic/battle/enemy01.bmp, pic_enemy01)
 @Load_Pic(tenyu_data/pic/battle/enemy02.bmp, pic_enemy02)
 @Load_Pic(tenyu_data/pic/battle/enemy03.bmp, pic_enemy03)
-@Load_Pic(tenyu_data/pic/battle/player.bmp, pic_player01)
 
+@Load_Pic(tenyu_data/pic/battle/friend(2).bmp, pic_player01)
+@Load_Pic(tenyu_data/pic/battle/friend(3).bmp, pic_player02)
+@Load_Pic(tenyu_data/pic/battle/friend(4).bmp, pic_player03)
+@Load_Pic(tenyu_data/pic/battle/friend(5).bmp, pic_player04)
 
-@NormalTrick_Create(アタックA, 110, 3)
-@NormalTrick_Create(アタックB, 8, 2)
+@NormalTrick_Create(ファイナルスパーク, 110, 3)
+@NormalTrick_Create(マスタースパーク, 8, 2)
 
 @Player_Create(プレイヤーA, 100, 5, 5, 1, pic_player01)
-@Player_Create(プレイヤーB, 100, 5, 5, 1, pic_enemy02)
-@Player_Create(プレイヤーC, 100, 5, 5, 1, pic_enemy03)
-@Player_Create(プレイヤーD, 100, 5, 5, 1, pic_enemy01)
+@Player_Create(プレイヤーB, 100, 5, 5, 1, pic_player02)
+@Player_Create(プレイヤーC, 100, 5, 5, 1, pic_player03)
+@Player_Create(プレイヤーD, 100, 5, 5, 1, pic_player04)
 
-@PlayerTrick_Set(プレイヤーA, アタックA, アタックB)
-@PlayerTrick_Set(プレイヤーB, アタックA, アタックB)
-@PlayerTrick_Set(プレイヤーC, アタックA, アタックB)
-@PlayerTrick_Set(プレイヤーD, アタックA, アタックB)
+@PlayerTrick_Set(プレイヤーA, ファイナルスパーク, マスタースパーク)
+@PlayerTrick_Set(プレイヤーB, ファイナルスパーク, マスタースパーク)
+@PlayerTrick_Set(プレイヤーC, ファイナルスパーク, マスタースパーク)
+@PlayerTrick_Set(プレイヤーD, ファイナルスパーク, マスタースパーク)
 
 @Enemy_Create(エネミーA, 100, 5, 5, 1 ,pic_enemy01)
-@Enemy_Create(エネミーD, 100, 5, 5, 1 ,pic_enemy01)
-@Enemy_Create(エネミーC, 100, 5, 5, 1 ,pic_enemy03)
 @Enemy_Create(エネミーB, 100, 5, 5, 1 ,pic_enemy02)
-@EnemyTrick_Set(エネミーA, アタックA, アタックB)
-@EnemyTrick_Set(エネミーB, アタックA, アタックB)
-@EnemyTrick_Set(エネミーC, アタックA, アタックB)
-@EnemyTrick_Set(エネミーD, アタックA, アタックB)
+@Enemy_Create(エネミーC, 100, 5, 5, 1 ,pic_enemy03)
+
+@EnemyTrick_Set(エネミーA, ファイナルスパーク, マスタースパーク)
+@EnemyTrick_Set(エネミーB, ファイナルスパーク, マスタースパーク)
+@EnemyTrick_Set(エネミーC, ファイナルスパーク, マスタースパーク)
+@EnemyTrick_Set(エネミーD, ファイナルスパーク, マスタースパーク)
 
 
-@Encount_Set(1, 125, 2.1%)
-@Encount_Set(1, 14, 20%)
-@Party_Set(1, 125, 10, エネミーA)
-@Party_Set(1, 125, 10, エネミーA, エネミーB)
-@Party_Set(1, 125, 10, エネミーA, エネミーB, エネミーC)
+@Encount_Set(0, 25, 2.1%)
+@Party_Set(0, 25, 50, エネミーA)
+@Party_Set(0, 25, 25, エネミーB, エネミーA)
+@Party_Set(0, 25, 25, エネミーC, エネミーA, エネミーB)
 
-@Party_Set(1, 14, 100, エネミーC, エネミーB, エネミーA)
+@Encount_Set(0, 0, 50%)
+@Party_Set(0, 0, 100, エネミーC, エネミーB, エネミーC)
 
-@BackGround_Set(1, bg_02)
-@BackGround_Set(1, 14, bg_01)
+@BackGround_Set(0, bg_04)
+@BackGround_Set(0, 0, bg_02)
 
-\\@EnamyParty_Create(keyA, B, A, C, A)
-\\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)
 
 

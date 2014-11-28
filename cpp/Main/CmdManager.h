@@ -2,6 +2,12 @@
 #ifndef CMDMANAGER_H						////
 #define CMDMANAGER_H						////
 ////////////////////////////////////////////////
+/*
+#####  Main/CmdManager.h
+このプログラムの肝です。  
+CmdListから@コマンドを読み取り順に処理します。  
+使用される状況に合わせて、戦闘用CmdManager、初期設定用CmdManagerなどがあります。
+*/
 
 class CWorldManager;
 class CField;

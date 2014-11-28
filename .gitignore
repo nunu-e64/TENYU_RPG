@@ -2,4 +2,7 @@
 *.lastbuildstate
 *.manifest
 *.tlog
+*.opensdf
+ipch/*
+*.sdf
 

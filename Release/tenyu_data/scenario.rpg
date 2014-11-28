@@ -1,42 +1,3 @@
-\----------------------------------------
-\\-----コメントは行頭に"\"をつける--------
-\----------------------------------------
-
-\----------------------------------------
-\------【仕様メモ】（随時更新）--
-\----------------------------------------
-\  １．空白行はコメントと同じ扱い。読み込まない。@BEGIN@END間でも一切無効。（と思いきや空白行があると意図しない動作が発生している可能性が(2014/04/29)）
-\  			・意図的な行空けをしたければ半角/全角スペースを。
-\  ２．引数を持つコマンドでは')'の後にコメントが書ける
-\  ３．引数を持つコマンドではカンマの前後に半角スペースを利用可能。ただしそれ以外の場所に半角スペースを入れるとバグる（半角スペースも引数区切り記号とみなしている）
-\  ４．タブ文字と半角スペース→半角スペースが表示される、全角スペース→全角スペースが表示される
-\  ５．自動改行に伴う注意点
-\  			・"@"という文字のコマンド以外での使用は原則禁止
-\  				・テキストボックスの横幅文字数上限でコマンド以外のテキストは行を区切って読み込まれるため、行中の"@"が次の行の行頭になってコマンド扱いになる事がある。（"\"は認識しない）
-\　5.5.フリガナ機能に使うため、[@]の3種の文字は原則使用禁止
-\			・["ルビ対象文字列"@"ルビ"]でルビをつけることができる。
-\			・テキスト表示時にルビ対象文字列に対し改行が入ってしまう場合には、適切に機能しない（14/09/20現在）
-\  ６．各種コマンドの引数[name]にはjoker使用可能
-\  			・今調べているオブジェクトの名前が代入される
-\  ７．各種コマンドの引数[name]にはPlayerNameが使用可能なものが多い
-\  			・PlayerName：プレイヤーを表す…"me", "ME", "Me", "PLAYER", "player", "Player"のいずれか
-\  ８．方向定数
-\  			・以下のいずれか…["RIGHT","right","→","0","右"]、["LEFT","left","←","1","左"]、["DOWN","down","↓","2","下"]、["UP","up","↑","3","上"]　(14/02/16現在)
-\  			・["ORIGINAL","original","-1"]はオブジェクトを調べたときの【プレイヤーキャラの】向き
-\  ９．Visibleについて
-\			・プレイヤーキャラやオブジェクトのVisibleがFalseの時、○歩行,コマンドによる移動等　×描画　×接触判定
-\
-\　10.【重要】@Eventの連続使用について
-\			・@Eventや@EventWrapを連続使用する際は、scenario.rpg側でコマンド間に必ず@Stopまたは@NextPageを挿入すること。。
-\			・さもなくばひとつ前のEventを読み込んだ瞬間に次のイベントの冒頭のコマンドが同時に読み込まれて実行されるバグが発生する。
-\
-\  11.テキストの前後に、@Stopや@NextPage（トークコマンド）以外のコマンド（アクションコマンド）が挿入されている場合、テキストはそれらのコマンド処理が完了するまで表示されない。
-\
-\  12.トークコマンドについて
-\			・トークコマンドはアクションコマンドよりも先に処理がされる。
-\			・具体的には、@Flag_Setと@FLAG_BEGIN, @Count_Set@とCOUNT_BEGIN, @DIr_Setと@DIR_BEGINの連続使用時にはそれぞれ前者が先に処理されるため注意が必要。
-\
-\
 \
 \--------------------------------------
 \----------------------------------------
@@ -98,7 +59,7 @@
 \  @AutoPlay_Set(TrueOrFalse, [speed])
 \			・テキストのオートプレイのオン/オフを切り替える（※途中WrapモードとBoxモードを切り替えた際AutoPlayに関する情報は引き継がれない=オートプレイ途中にモードを切り替えると手動に戻る）
 \			・オンにした時は第二引数にテキストスピードを指定できる（※仕様変更　○テキスト表示が完了してから何ミリ秒で次ページ　×[1バイトあたり何ミリ秒待つか、1~1000]）。省略時及び非負整数以外を指定した場合はデフォルトのスピードが設定される。
-\			・なおイベントが終わるたび（=会話終了のたび）AutoPlayは勝手にFalseになる	
+\			・なおイベントが終わるたび（=会話終了のたび）AutoPlayは勝手にFalseになる
 \	
 \  @Dir_Set(name,方向)：NPCやプレイヤーの向きを変える
 \  			・第一引数に、"me"等（仕様参照）を指定した場合プレイヤーキャラの向きを変える。それ以外の名前では該当するNPCを探す。
@@ -191,68 +152,36 @@
 \				・@Position_Setや@Visible_Setと@Window_Moveの順番によっては[Back]オプションを使う必要がある事があります。
 \				・逆に言うとコマンド順に気を付ければ出番のないオプションかもしれません。
 \
+\  @Battle(戦闘背景画像のpic_key, エネミー1, エネミー2, ...)
+\			・イベント戦闘自作用
+\  @BattleResult_Set(勝利時の実行コマンド, 敗北時の実行コマンド)
+\			・次の戦闘で勝ったとき/負けたときの処理を指定する。イベント戦闘自作用。
+\			・ちなみにデフォルトでは[敗北時の実行コマンド]」には@GameOverがセットされている。
+\
+\  @GameOver
+\  @GameClear
+\  @BackToTitle
+\			・見たまんま
 \----------------------------------------
 \
 
 
 
-@PANEL_BEGIN(switch)
-\@Event(test)
-\@NextPage
-\@Quit
-@BattleResult_Set(@Walk(me,left,4), @Walk(me,up,4))
-@Battle(bg_01, エネミーC, エネミーA)		\戦闘開始
-戦闘終了１
-@Stop
-戦闘終了２（@Stopテスト）
+@BLOCK_BEGIN(dammy_treasurebox)	\イベント戦闘例
+	@Flag_Create(result)
+	うわ！箱の中からモンスターが飛び出してきた！
+	@Stop
+	@BattleResult_Set(@Flag_Set(result, 1), @Flag_Set(result, 2))
+	@Battle(bg_04, エネミーA, エネミーA, エネミーA)		\戦闘開始
+	@NextPage
+	@FLAG_IF_BEGIN(result)
+	@FLAG_CASE(result,1)
+		@Event(win_battle)
+	@FLAG_CASE(result,2)
+		@Event(lose_battle)
+	@FLAG_IF_END(result)
 
-@NextPage
-@Quit
-
-@EventWrap(mono_01_01)
-@NextPage
-@Event(story_02_)
-@NextPage
-@EventWrap(story_03)
-@NextPage
-@Event(story_04)
-
-
-
-\@EventWrap(mono_01_01)
-\@NextPage
-\@Event(story_01_01)
-\@EventWrap(mono_01_01.5)
-\@Event(story_01_01.5)
-\@EventWrap(mono_01_02)
-\@Event(story_01_02)
-
-@PANEL_END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@BLOCK_END
 
 
 
@@ -266,17 +195,15 @@
 @PANEL_END
 @PANEL_BEGIN(door01)
 	@Anten(800)
-	\@Position_Set(me, 0, 11, 15, pic_npc01)
 	@Position_Set(me, door02)
-	@Position_Set(me, -1, 0, +1, pic_npc01)
+	@Position_Set(me, -1, 0, +1)
 	@Dir_Set(me, down)
 	@Meiten(800)
 @PANEL_END
 @PANEL_BEGIN(door02)
 	@Anten(800)
-	\@Position_Set(me, 0, 7, 15, pic_npc02)
 	@Position_Set(me, door01)
-	@Position_Set(me, -1, 0, +1, pic_npc02)
+	@Position_Set(me, -1, 0, +1)
 	@Dir_Set(me, down)
 	@Meiten(800)
 @PANEL_END
@@ -288,78 +215,15 @@
 @PANEL_END
 \----------------------------------------------------------
 
-\--町のゲート----------------------------------------------
-@BLOCK_BEGIN(gate_l)
-	隣のスイッチを使えばゲートを開閉できそうだ
-	@NextPage
-	@BackGround_Change(pic_background01, 1000)
-	あああ
-	@NextPage
-		@DIR_IF_BEGIN
-		@DIR_CASE(up)
-			@EventWrap(wrap_sample, [町の外へ])
-		@DIR_CASE(down)
-			@EventWrap(wrap_sample, [町の中へ])
-		@DIR_IF_END
-	Wrapモード終了！
-	@NextPage
-	@BackGround_Change(NULL, 1000)
-	一枚絵終了！
-	@NextPage
-@Quit
-	隣のスイッチを使えばゲートを開閉できそうだ
-	@Position_Set(door01, 0, +1, true)
-	@Slide(door01, left, -10)
 
-	@COUNT_IF_BEGIN
-	@COUNT_CASE(1)
-		@Effect_Set(Sis, BLINK, 30, 70, 2000)
-		@Effect_Set(Mom, RND_DIR, 500)
-		@Effect_Set(joker, BLINK, 1, 99, 1000)
-		1
-	@COUNT_CASE(2)
-		@Effect_Set(joker, BLINK, 0, 100, 1)
-		2
-	@COUNT_CASE(3)
-		@Effect_Set(joker, BLINK, 60, 100, 4000)
-		3
-	@COUNT_CASE(else)
-		@Effect_Set(joker, NONE)
-		4~	
-	@COUNT_IF_END
-@BLOCK_END
-
-@BLOCK_BEGIN(gate_r)
-	@FLAG_IF_BEGIN(gate_open)
-	@FLAG_CASE(gate_open, 1)
-		ピー
-		[門@ゲート]を閉じます
-		@NextPage
-		@Anten(400)
-		@Flag_Set(gate_open, -1)
-		@Visible_Set(gate_l, true)
-		@Meiten(400)
-
-	@FLAG_CASE(gate_open, else)
-		ピー
-		[門@ゲート]を開きます
-		@NextPage
-		@Anten(400)
-		@Flag_Set(gate_open, 1)
-		@Visible_Set(gate_l, false)
-		@Meiten(400)
-
-	@FLAG_IF_END(gate_open)
-@BLOCK_END
-\----------------------------------------------------------
-
-\--NPC, 看板----------------------------------------------
+\--NPC, 看板-----------------------------------------------
 @BLOCK_BEGIN(door03)
 	@COUNT_IF_BEGIN
 	@COUNT_CASE(1)
+		今作のシナリオの一部をテストします！
+		@NextPage
 		@Event(story_dropkick3)
 	@COUNT_CASE(else)
-		@Event(story_dropkick3)
 		…
 		@Stop
 		……
@@ -381,6 +245,16 @@
 @NPC_END
 
 @NPC_BEGIN(Man)
+	@Flag_Create(goldenball)
+	やあ！いい天気だね
+	@NextPage
+	
+	@FLAG_IF_BEGIN(goldenball)
+	@FLAG_CASE(goldenball, 0)
+		そこにある看板を調べてごらん
+		@NextPage
+	@FLAG_CASE(goldenball, 1)
+
 	@Dir_Set(joker, down)
 	あ！UFO！
 	@NextPage
@@ -403,78 +277,67 @@
 	@NextPage
 	きんのたま を手に入れた！
 	きんのたま をバッグにしまった
-	@Flag_Set(goldenball, 1)
+	@Flag_Set(goldenball, 2)
+		@NextPage
+	@FLAG_CASE(goldenball, else)
+		右下の家のドアを調べると、本編のイベントの動きを少しだけ見ることができるそうだよ
+		@NextPage
+	@FLAG_IF_END(goldenball)
+
 @NPC_END
 
 @BLOCK_BEGIN(sign01)
-@COUNT_IF_BEGIN
+
+	@COUNT_IF_BEGIN
 	@COUNT_CASE(1)
-	Event(story_01)
-	@COUNT_CASE(2)
-	@Event(story_02_)	
-	@COUNT_CASE(3)
-	Event(story_03)
-	@COUNT_CASE(4)
-	Event(story_04)
-@COUNT_IF_END
-@NextPage
-@Quit
-\	@TName_Add(LEFT, 冬仁)
-\	冬仁です
-\		@NextPage
-\	@TName_Add(RIGHT, 千秋, 柊)
-\
-\	千秋です
-\		@NextPage
-\	@TName_Add(LEFT, ヘルマン)
-\	冬仁
-\		@NextPage
-\	@TName_Now(LEFT, ヘルマン)
-\	ヘルマン
-\		@NextPage
-\	@TName_Dec(LEFT, 冬仁)
-\	冬仁退場
-\		@NextPage
-\	@TName_Clear(all)
-@Quit
-	@Position_Set(me,-1, +0, +0, pic_player1)
-	@FLAG_IF_BEGIN(goldenball)
-	@FLAG_CASE(goldenball, 0)
-		サンプルマップへようこそ！
+		サンプルマップの世界へようこそ！
 		テキストはZキーまたはエンターキーで読み進めることができます
 		@NextPage
-		はい、できてますねね
+		はい、できてますね
 		マップ上のいろいろなものを調べたり、町の人の話しかけたりするのにもＺキーまたはエンターキーを使います
 		@NextPage
 		練習してみましょう
 		上にいる町の人に話しかけてみてください
 		会話が終わったら、もう一度この看板を調べてください
-	@FLAG_CASE(goldenball, 1)
-		無事、アイテムをもらえたようですね
-		残念ながら、Shopは工事中ですので換金はできません
-		大事に持っていてくださいね
-		@NextPage
-		さて、このサンプルマップのクリア条件は、左に見えている宝箱まで到達することです
-		@Stop
-		簡単だとは思いますが頑張ってくださいね
-		クリアしても特に何もないですが
-		@NextPage
-		ちなみにこの町の中で、本編のイベントを少しだけ見ることもできます
-		新しく追加されたモーションや効果に注目ください
-
-	@FLAG_IF_END(goldenball)
+		@Flag_Create(goldenball)
+		@Flag_Set(goldenball, 1)
+	@COUNT_CASE(Else)
+		@FLAG_IF_BEGIN(goldenball)
+		@FLAG_CASE(goldenball, 1)
+			サンプルマップの世界へようこそ！
+			テキストはZキーまたはエンターキーで読み進めることができます
+			@NextPage
+			はい、できてますね
+			マップ上のいろいろなものを調べたり、町の人の話しかけたりするのにもＺキーまたはエンターキーを使います
+			@NextPage
+			練習してみましょう
+			上にいる町の人に話しかけてみてください
+			会話が終わったら、もう一度この看板を調べてください
+		@FLAG_CASE(goldenball, 2)
+			無事、アイテムをもらえたようですね
+			残念ながら、Shopは工事中ですので換金はできません
+			大事に持っていてくださいね
+			@NextPage
+			さて、このサンプルマップのクリア条件は、左に見えている宝箱まで到達することです
+			@Stop
+			頑張ってくださいね
+			クリアしても特に何もないですが
+			@NextPage
+			ちなみにこの町の中で、本編のイベントサンプルを少しだけ見ることもできます
+			新しく追加されたモーションや効果に注目ください
+			グラフィックが旧版なので、今一つパッとしないのはご容赦ください
+		@FLAG_IF_END(goldenball)
+	@COUNT_IF_END
 
 @BLOCK_END
 
 @BLOCK_BEGIN(sign02)
-
 	おとくなけいじばん！
 	@NextPage
 	Shift+↑↓←→…駆け足
 	Ctrl+↑↓←→…高速移動（デバッグ用）
-	Ctrl+0~3…セーブ[するお@するよ]
-	P…次の会話をば[オートプレイ@自動進行]にするよ
-	キー1~3…押して[みれば@やれば]わかります
+	P…次の会話を[自動進行@オートプレイ]にするよ
+	キー1~3…押せばわかります
 @BLOCK_END
 
 @BLOCK_BEGIN(sign03)
@@ -483,11 +346,46 @@
 @BLOCK_END
 
 @BLOCK_BEGIN(sign04)
-	このあたりの木は根が弱いので簡単に動かすことができます
-	身動きが取れなくなったらEscキーでタイトルに戻って リトライしてください
+	このあたりの木は実は簡単に動かすことができます
+	うまく道を作ってくださいね
+	身動きが取れなくなったらEscキーでタイトルに戻ってリトライしてください
 @BLOCK_END
 
 \----------------------------------------------------------
+
+
+\--町のゲート----------------------------------------------
+@BLOCK_BEGIN(gate_l)
+	隣のスイッチを使えばゲートを開閉できそうだ
+@BLOCK_END
+
+@BLOCK_BEGIN(gate_r)
+	@Flag_Create(gate_open)
+	ゲートのスイッチを押してみた。
+	@NextPage
+	
+	@FLAG_IF_BEGIN(gate_open)
+	@FLAG_CASE(gate_open, 1)
+		ピー
+		[門@ゲート]を閉じます
+		@NextPage
+		@Anten(400)
+		@Flag_Set(gate_open, -)
+		@Visible_Set(gate_l, true)
+		@Meiten(400)
+
+	@FLAG_CASE(gate_open, else)
+		ピー
+		[門@ゲート]を開きます
+		@NextPage
+		@Anten(400)
+		@Flag_Set(gate_open, +)
+		@Visible_Set(gate_l, false)
+		@Meiten(400)
+	@FLAG_IF_END(gate_open)
+@BLOCK_END
+\----------------------------------------------------------
+
 
 @BLOCK_BEGIN(BLOCK-0-56)
 	ウソ●キー「…」
@@ -503,13 +401,12 @@
 	@Meiten(800)
 @BLOCK_END
 @BLOCK_BEGIN(treasurebox2)
-	”ひとつながりの秘宝”を見つけた！
+	サンプルマップクリアの証 を見つけた！
 	@Stop
-	”ひとつながりの秘宝”をバッグの中にしまった
+	サンプルマップクリアの証 をバッグの中にしまった
 	@NextPage
-	@Anten(800)
-	@Visible_Set(joker, false)
-	@Meiten(800)
+	@EventWrap(clear_samplemap)
+	@NextPage
 @BLOCK_END
 @PANEL_BEGIN(PANEL-0-10)
 	@Event(ice, [high])
@@ -656,6 +553,9 @@
 		@Event(push_tree, [55])
 	@PUSHBLOCK_END
 \-------------------------------------------------------------------------
+
+
+
 
 
 

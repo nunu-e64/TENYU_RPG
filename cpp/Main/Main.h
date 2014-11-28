@@ -2,6 +2,11 @@
 #ifndef MAIN_H								////
 #define MAIN_H								////
 ////////////////////////////////////////////////
+/*
+##### Main/Main.h
+ゲーム開始時の基点として、タイトル画面からの遷移を管理します。
+*/
+
 
 #include "../Define.h"
 #include "../Field/EveObj.h"
