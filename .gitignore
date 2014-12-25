@@ -1,8 +1,10 @@
-!tenyu.exe
+*.exe
 *.lastbuildstate
 *.manifest
 *.tlog
 *.opensdf
 ipch/*
 *.sdf
-
+Log.txt
+Release/*.txt
+Debug/*.txt
