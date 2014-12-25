@@ -57,6 +57,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+      <StackReserveSize>4194304</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -77,67 +78,76 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+      <StackReserveSize>4194304</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cpp\Battle\Actor.cpp" />
-    <ClCompile Include="cpp\Battle\Battle.cpp" />
-    <ClCompile Include="cpp\Battle\BattleCalculator.cpp" />
-    <ClCompile Include="cpp\Battle\BImgBank.cpp" />
-    <ClCompile Include="cpp\Battle\Enemy.cpp" />
-    <ClCompile Include="cpp\Battle\EnemyPlanManager.cpp" />
-    <ClCompile Include="cpp\Battle\Species.cpp" />
-    <ClCompile Include="cpp\Battle\SpeciesManager.cpp" />
-    <ClCompile Include="cpp\Battle\Player.cpp" />
-    <ClCompile Include="cpp\Battle\TrickManager.cpp" />
-    <ClCompile Include="cpp\Field\EveManager.cpp" />
-    <ClCompile Include="cpp\Field\EveObj.cpp" />
-    <ClCompile Include="cpp\Field\Field.cpp" />
-    <ClCompile Include="cpp\Field\Load.cpp" />
-    <ClCompile Include="cpp\Field\Map.cpp" />
-    <ClCompile Include="cpp\Main\CmdList.cpp" />
-    <ClCompile Include="cpp\Main\CmdManager.cpp" />
-    <ClCompile Include="cpp\Main\Main.cpp" />
-    <ClCompile Include="cpp\Main\ScreenChanger.cpp" />
-    <ClCompile Include="cpp\Main\TalkName.cpp" />
-    <ClCompile Include="cpp\Main\TextBox.cpp" />
-    <ClCompile Include="cpp\Main\TextWrap.cpp" />
-    <ClCompile Include="cpp\Main\WorldManager.cpp" />
-    <ClCompile Include="cpp\Menu.cpp" />
-    <ClCompile Include="cpp\Mrt.cpp" />
-    <ClCompile Include="cpp\mrtLib.cpp" />
-    <ClCompile Include="cpp\nunuLib.cpp" />
-    <ClCompile Include="cpp\System.cpp" />
+    <ClInclude Include="code\Battle\Actor.h" />
+    <ClInclude Include="code\Battle\Battle.h" />
+    <ClInclude Include="code\Battle\BattleCalculator.h" />
+    <ClInclude Include="code\Battle\BImgBank.h" />
+    <ClInclude Include="code\Battle\Enemy.h" />
+    <ClInclude Include="code\Battle\EnemyAI.h" />
+    <ClInclude Include="code\Battle\EnemyPlanner.h" />
+    <ClInclude Include="code\Battle\EnemySpeciesManager.h" />
+    <ClInclude Include="code\Battle\EnemyTargetter.h" />
+    <ClInclude Include="code\Battle\Player.h" />
+    <ClInclude Include="code\Battle\PlayerSpeciesManager.h" />
+    <ClInclude Include="code\Battle\Species.h" />
+    <ClInclude Include="code\Battle\TrickDamageEffect.h" />
+    <ClInclude Include="code\Battle\TrickManager.h" />
+    <ClInclude Include="code\Define.h" />
+    <ClInclude Include="code\Field\EveManager.h" />
+    <ClInclude Include="code\Field\EveObj.h" />
+    <ClInclude Include="code\Field\Field.h" />
+    <ClInclude Include="code\Field\Load.h" />
+    <ClInclude Include="code\Field\Map.h" />
+    <ClInclude Include="code\Main\CmdList.h" />
+    <ClInclude Include="code\Main\CmdManager.h" />
+    <ClInclude Include="code\Main\Main.h" />
+    <ClInclude Include="code\Main\ScreenChanger.h" />
+    <ClInclude Include="code\Main\TalkName.h" />
+    <ClInclude Include="code\Main\TextBox.h" />
+    <ClInclude Include="code\Main\TextWrap.h" />
+    <ClInclude Include="code\Main\WorldManager.h" />
+    <ClInclude Include="code\Menu.h" />
+    <ClInclude Include="code\Mrt.h" />
+    <ClInclude Include="code\mrtLib.h" />
+    <ClInclude Include="code\nunuLib.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cpp\Battle\Actor.h" />
-    <ClInclude Include="cpp\Battle\Battle.h" />
-    <ClInclude Include="cpp\battle\BattleCalculator.h" />
-    <ClInclude Include="cpp\Battle\BImgBank.h" />
-    <ClInclude Include="cpp\Battle\Enemy.h" />
-    <ClInclude Include="cpp\Battle\EnemyPlanManager.h" />
-    <ClInclude Include="cpp\Battle\Species.h" />
-    <ClInclude Include="cpp\Battle\SpeciesManager.h" />
-    <ClInclude Include="cpp\Battle\Player.h" />
-    <ClInclude Include="cpp\Battle\TrickManager.h" />
-    <ClInclude Include="cpp\Define.h" />
-    <ClInclude Include="cpp\Field\EveManager.h" />
-    <ClInclude Include="cpp\Field\EveObj.h" />
-    <ClInclude Include="cpp\Field\Field.h" />
-    <ClInclude Include="cpp\Field\Load.h" />
-    <ClInclude Include="cpp\Field\Map.h" />
-    <ClInclude Include="cpp\Main\CmdList.h" />
-    <ClInclude Include="cpp\Main\CmdManager.h" />
-    <ClInclude Include="cpp\Main\Main.h" />
-    <ClInclude Include="cpp\Main\ScreenChanger.h" />
-    <ClInclude Include="cpp\Main\TalkName.h" />
-    <ClInclude Include="cpp\Main\TextBox.h" />
-    <ClInclude Include="cpp\Main\TextWrap.h" />
-    <ClInclude Include="cpp\Main\WorldManager.h" />
-    <ClInclude Include="cpp\Menu.h" />
-    <ClInclude Include="cpp\Mrt.h" />
-    <ClInclude Include="cpp\mrtLib.h" />
-    <ClInclude Include="cpp\nunuLib.h" />
+    <ClCompile Include="code\Battle\Actor.cpp" />
+    <ClCompile Include="code\Battle\Battle.cpp" />
+    <ClCompile Include="code\Battle\BattleCalculator.cpp" />
+    <ClCompile Include="code\Battle\BImgBank.cpp" />
+    <ClCompile Include="code\Battle\Enemy.cpp" />
+    <ClCompile Include="code\Battle\EnemyAI.cpp" />
+    <ClCompile Include="code\Battle\EnemyPlanner.cpp" />
+    <ClCompile Include="code\Battle\EnemySpeciesManager.cpp" />
+    <ClCompile Include="code\Battle\EnemyTargetter.cpp" />
+    <ClCompile Include="code\Battle\Player.cpp" />
+    <ClCompile Include="code\Battle\PlayerSpeciesManager.cpp" />
+    <ClCompile Include="code\Battle\Species.cpp" />
+    <ClCompile Include="code\Battle\TrickDamageEffect.cpp" />
+    <ClCompile Include="code\Battle\TrickManager.cpp" />
+    <ClCompile Include="code\Field\EveManager.cpp" />
+    <ClCompile Include="code\Field\EveObj.cpp" />
+    <ClCompile Include="code\Field\Field.cpp" />
+    <ClCompile Include="code\Field\Load.cpp" />
+    <ClCompile Include="code\Field\Map.cpp" />
+    <ClCompile Include="code\Main\CmdList.cpp" />
+    <ClCompile Include="code\Main\CmdManager.cpp" />
+    <ClCompile Include="code\Main\Main.cpp" />
+    <ClCompile Include="code\Main\ScreenChanger.cpp" />
+    <ClCompile Include="code\Main\TalkName.cpp" />
+    <ClCompile Include="code\Main\TextBox.cpp" />
+    <ClCompile Include="code\Main\TextWrap.cpp" />
+    <ClCompile Include="code\Main\WorldManager.cpp" />
+    <ClCompile Include="code\Menu.cpp" />
+    <ClCompile Include="code\Mrt.cpp" />
+    <ClCompile Include="code\mrtLib.cpp" />
+    <ClCompile Include="code\nunuLib.cpp" />
+    <ClCompile Include="code\System.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
