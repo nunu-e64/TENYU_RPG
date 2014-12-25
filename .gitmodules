@@ -1,0 +1,3 @@
+[submodule "code"]
+	path = code
+	url = git@github.com:nunu-e64/TENYU_RPG_CodeOnly.git
