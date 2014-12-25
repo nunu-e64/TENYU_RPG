@@ -1,33 +1,78 @@
-\
-\
+\----------------------------------------
+\\-----コメントは行頭に"\"をつける--------
+\----------------------------------------
+
 \------【バトルシステムコマンド】（随時更新）--
 \----------------------------------------
 \--@Load_Pic(相対パス, PicKey)： 戦闘用各種画像読み込み,
 \		・画像データを任意の文字列を[PicKey]として読み込む。PicKeyは@Enemy_Createや@Player_Createで使用する
 \
-\  @Player_Create(name, MaxHp, Atk, Def, Spd, PicKey)
+\  @Player_Set(name, MaxHp, Atk, Def, Spd, PicKey)
 \		・戦闘に出る味方キャラを生成
 \		・PicKey…@Load_Picで登録しておいたキーを指定。
 \		・Nameの重複は禁止
-\  @Enemy_Create(name, MaxHp, Atk, Def, Spd, PicKey)
+\  @Enemy_Set(name, MaxHp, Atk, Def, Spd, PicKey)
 \		・戦闘に出る敵キャラを生成
 \		・PicKey…@Load_Picで登録しておいたキーを指定。
 \		・Nameの重複は禁止
-\  @NormalTrick_Create(name, power, cost)
+\  @TrickEffect_Create(EffectName, TYPE_NAME, arg0, arg1, arg2, ...)
+\		・技の発動エフェクトを作成
+\		・TYPE_NAME…基本タイプ。以下から選びタイプに応じて引数を指定する（14/12/10現在）
+\			・PROTO…螺旋状に8つの光球が自分のもとに集まり一つの光球となって相手に向かって飛んでいく
+\				・arg0=Size1・・・収束する光球ひとつひとつの半径
+\				・arg1=Size2・・・相手に向かって飛んでいく光球の半径
+\				・arg2=Radius・・・光球が収束するときの初期配置における中心からの距離
+\  @NormalTrick_Create(name, power, cost, effectname)
 \		・通常技の生成。特殊効果無し。
-\  @PlayerTrick_Set(PlayerName, TrickName1, TrickName2, TrickName3, ...)
+\		・effectnameには"PROTO_BIG"のように技の発動エフェクト名を指定
+\		・effectnameを"NULL"にした場合、その技は発動エフェクトなし。（14/12/15現在の仕様→デフォルトのダメージ演出を作るべきか）
+\  @PlayerTrick_Set(PlayerName, TrickName*n)
 \		・@Trick_Create系で作った技を味方キャラに割り当てる。
-\  @EnemyTrick_Set(EnemyName, TrickName1, TrickName2, TrickName3, ...)
+\		・n<=20（14/12/07現在）
+\  @EnemyTrick_Set(PlayerName, TrickName*n)
 \		・@Trick_Create系で作った技を敵キャラに割り当てる。
-\  @Encount_Set(マップ番号, チップ番号, エンカウント率)
-\		・マップに対してチップごとにエンカウント率を設定する
-\  @Party_Set(マップ番号, チップ番号, 出現比率, エネミー1, エネミー2, ...)
-\		・エンカウント確定した際に出現する敵のパーティを設定する
-\		・どのパーティが出現するかは出現比率によって決まる
-\  @BackGround_Set(マップ番号, [チップ番号], PicKey)
-\		・戦闘背景を指定する
-\		・チップ番号は省略可能。省略した場合、そのマップすべての戦闘背景画像を一括指定できる
+\		・n<=20（14/12/07現在）
+\  @RandomPlan_Set(PlanIndex, EnemyName, (TrickIndex, Percent)*n, ...)
+\		・PlanIndex…@AI_Setで使うためのランダムプランの通し番号
+\		・TrickIndex…@EnemyTrick_Setで割り当てた技
+\		・Percent…その技を使う比率
+\		・n<=20（14/12/07現在）
+\  @AI_Set(EnemyName, TYPE_NAME, arg0, arg1, arg2, ...)
 \
+\		・RandomPlanの組み合わせによって敵のAIを設定する
+\		・TYPE_NAME…基本タイプ。以下から選びタイプに応じて引数を指定する（14/12/10現在）
+\			・MYHP…Enemy自身の残りHPに応じてRandomPlanを切り替える。段階は10段階まで設定可能。最後の[0%]は省略可能。
+\				・詳細は下の例を参考に。数字は@RandomPlan_SetのPlanIndexと対応する
+\				・例：@AI_Set(エネミーA, MYHP, 0, 80%, 1, 30%, 2, 0%)	\HPが80%より大きいときRandomPlan[0]に、80%以下30%より大きいときRandomPlan[1]に、30%以下のときRandomPlan[2]に基づいて行動を選択する
+\			・PLAYERNUM…プレイヤーの生存人数に応じてRandomPlanを切り替える
+\				・詳細は下の例を参考に。数字は@RandomPlan_SetのPlanIndexと対応する（※順番に注意）
+\				・例：@AI_Set(エネミーA, PLAYERNUM, 0, 1, 2)	\プレイヤーが3人のときRandomPlan[2]に、2人のときRandomPlan[1]に、1人のときRandomPlan[0]に基づいて行動を選択する
+\
+\
+\  @Encount_Set(MapNum, UnderChipNum, Percent)
+\		・マップ上のエンカウント率設定。
+\		・MapNum…エンカウント設定するマップ番号。@LoadMapと対応。
+\		・UnderChipNum…マップ内のどのチップ種にエンカウント設定するか指定する。チップ番号は下層なので注意。
+\		・Percent…エンカウント率。％表記で、小数点一桁まで指定可能。
+\		・例：@Encount_Set(1, 125, 2.1%)
+\  @Party_Set(MapNum, UnderChipNum, Percent, EnemyName*n)
+\		・敵パーティの構成と出現設定
+\		・MapNum, UnderChipNum…@Encount_Setと同じ
+\		・Percent…このパーティの出現比率
+\			・出現率ではない。つまり厳密にはPercentではない。
+\			・処理の流れ
+\				・@Encount_Setで設定したエンカウント率に基づいて戦闘開始判定
+\				・戦闘開始が決まったら、今いるマップ、チップが@Party_Setで指定した番号に一致する複数あるいは単一のパーティの中から、Percentの比率でパーティが選ばれる
+\			・例：@Party_Set(0, 0, 1, スライム, スライム)
+\			      @Party_Set(0, 0, 2, ドラゴン, ドラゴン)
+\				・マップ0のチップ0で戦闘開始が確定した場合、1:2の比でスライム2匹あるいはドラゴン2匹が出現する
+\		・上の例の通り、EnemyNameには同じ名前も指定可能（例：スライムが3体出現）
+\  @BackGround_Set(MapNum, [UnderChipNum], PicKey)
+\
+\		・戦闘背景画像を指定する
+\		・PicKey…@LoadPicで登録しておいたキーを指定
+\		・UnderChipNum…省略可能。省略した場合、そのマップ全体にその背景が指定される。
+\			・コマンド順序によらず、UnderChipNumを指定した@BackGround_SetはUnderChipNumを省略した@BackGround_Setより優先される。
 \----------------------------------------
 
 \--Load-----------------------------------------------------------
@@ -36,63 +81,89 @@
 \  @SpecialBattle02_Set(Hp, Mp, Member, etc...)	\unaPの要望に合わせてイベントごとに対応していく
 \  @Battle(背景, EnemyNum, ...)
 
-
-@Load_Pic(tenyu_data/pic/sys/battle/cursor.png, MENU_CURSOR)
+\\システム用画像読み込み\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+@Load_Pic(tenyu_data/pic/sys/battle/target.png, TARGET_CURSOR)
+\@Load_Pic(tenyu_data/pic/sys/battle/cursor.png, MENU_CURSOR) \未使用
 @Load_Pic(tenyu_data/pic/sys/battle/timebar1.png, TIME_BAR1)
 @Load_Pic(tenyu_data/pic/sys/battle/timebar2.png, TIME_BAR2)
 @Load_Pic(tenyu_data/pic/sys/battle/hpbar.png, HP_BAR)
 
-@Load_Pic(tenyu_data/pic/sys/battle/bomb.bmp, EFFECT_BOMB)
+@Load_Pic(tenyu_data/pic/sys/battle/attention_marker.png, ATTENTION_MARKER)
 
-@Load_Pic(tenyu_data/pic/battle/background01.bmp, bg_01)
+\@Load_Pic(tenyu_data/pic/sys/battle/attention_cursor_r.png, ATTENTION_CURSOR_0)
+\@Load_Pic(tenyu_data/pic/sys/battle/attention_cursor_g.png, ATTENTION_CURSOR_1)
+\@Load_Pic(tenyu_data/pic/sys/battle/attention_cursor_b.png, ATTENTION_CURSOR_2)
+
+@Load_Pic(tenyu_data/pic/sys/battle/bomb.bmp, EFFECT_BOMB)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+@Load_Pic(tenyu_data/pic/battle/background04.bmp, bg_01)
 @Load_Pic(tenyu_data/pic/battle/background02.bmp, bg_02)
-@Load_Pic(tenyu_data/pic/battle/background03.bmp, bg_03)
-@Load_Pic(tenyu_data/pic/battle/background04.bmp, bg_04)
-@Load_Pic(tenyu_data/pic/battle/background05.bmp, bg_05)
-@Load_Pic(tenyu_data/pic/battle/background06.bmp, bg_06)
 
 @Load_Pic(tenyu_data/pic/battle/enemy01.bmp, pic_enemy01)
 @Load_Pic(tenyu_data/pic/battle/enemy02.bmp, pic_enemy02)
 @Load_Pic(tenyu_data/pic/battle/enemy03.bmp, pic_enemy03)
-
-@Load_Pic(tenyu_data/pic/battle/friend(2).bmp, pic_player01)
-@Load_Pic(tenyu_data/pic/battle/friend(3).bmp, pic_player02)
-@Load_Pic(tenyu_data/pic/battle/friend(4).bmp, pic_player03)
-@Load_Pic(tenyu_data/pic/battle/friend(5).bmp, pic_player04)
-
-@NormalTrick_Create(ファイナルスパーク, 110, 3)
-@NormalTrick_Create(マスタースパーク, 8, 2)
-
-@Player_Create(プレイヤーA, 100, 5, 5, 1, pic_player01)
-@Player_Create(プレイヤーB, 100, 5, 5, 1, pic_player02)
-@Player_Create(プレイヤーC, 100, 5, 5, 1, pic_player03)
-@Player_Create(プレイヤーD, 100, 5, 5, 1, pic_player04)
-
-@PlayerTrick_Set(プレイヤーA, ファイナルスパーク, マスタースパーク)
-@PlayerTrick_Set(プレイヤーB, ファイナルスパーク, マスタースパーク)
-@PlayerTrick_Set(プレイヤーC, ファイナルスパーク, マスタースパーク)
-@PlayerTrick_Set(プレイヤーD, ファイナルスパーク, マスタースパーク)
-
-@Enemy_Create(エネミーA, 100, 5, 5, 1 ,pic_enemy01)
-@Enemy_Create(エネミーB, 100, 5, 5, 1 ,pic_enemy02)
-@Enemy_Create(エネミーC, 100, 5, 5, 1 ,pic_enemy03)
-
-@EnemyTrick_Set(エネミーA, ファイナルスパーク, マスタースパーク)
-@EnemyTrick_Set(エネミーB, ファイナルスパーク, マスタースパーク)
-@EnemyTrick_Set(エネミーC, ファイナルスパーク, マスタースパーク)
-@EnemyTrick_Set(エネミーD, ファイナルスパーク, マスタースパーク)
+@Load_Pic(tenyu_data/pic/battle/player.bmp, pic_player01)
 
 
-@Encount_Set(0, 25, 2.1%)
-@Party_Set(0, 25, 50, エネミーA)
-@Party_Set(0, 25, 25, エネミーB, エネミーA)
-@Party_Set(0, 25, 25, エネミーC, エネミーA, エネミーB)
+@TrickEffect_Create(PROTO_SMALL, PROTO, 10, 15, 60)
+@TrickEffect_Create(PROTO_BIG, PROTO, 20, 25, 90)
+@TrickEffect_Create(BOMB_REDBIG, BOMB, 255,0,0, 10, 60)
 
-@Encount_Set(0, 0, 50%)
-@Party_Set(0, 0, 100, エネミーC, エネミーB, エネミーC)
+@NormalTrick_Create(攻撃大, 100, 3, NULL) \PROTO_BIG
+@NormalTrick_Create(攻撃小, 10, 2, NULL) \PROTO_SMALL
 
-@BackGround_Set(0, bg_04)
-@BackGround_Set(0, 0, bg_02)
+@Player_Create(プレイヤーA, 100, 5, 5, 2, pic_player01)
+@Player_Create(プレイヤーB, 100, 5, 5, 2, pic_enemy02)
+@Player_Create(プレイヤーC, 100, 5, 5, 2, pic_enemy03)
+@Player_Create(プレイヤーD, 100, 5, 5, 2, pic_enemy01)
+
+@PlayerTrick_Set(プレイヤーA, 攻撃大, 攻撃小)
+@PlayerTrick_Set(プレイヤーB, 攻撃大, 攻撃小)
+@PlayerTrick_Set(プレイヤーC, 攻撃大, 攻撃小)
+@PlayerTrick_Set(プレイヤーD, 攻撃大, 攻撃小)
+
+@Enemy_Create(エネミーA, 100, 5, 5, 2, pic_enemy01)
+@Enemy_Create(エネミーB, 100, 5, 5, 2, pic_enemy02)
+@Enemy_Create(エネミーC, 100, 5, 5, 2, pic_enemy03)
+@EnemyTrick_Set(エネミーA, 攻撃大, 攻撃小)
+@EnemyTrick_Set(エネミーB, 攻撃大, 攻撃小)
+@EnemyTrick_Set(エネミーC, 攻撃大, 攻撃小, 攻撃大)
+
+\@RandomPlan_Set(0, エネミーA, 0, 0%, 1, 100%)
+@RandomPlan_Set(1, エネミーA, 0, 100%, 1, 0%)
+@RandomPlan_Set(0, エネミーB, 0, 0%, 1, 100%)
+@RandomPlan_Set(1, エネミーB, 0, 100%, 1, 0%)
+@RandomPlan_Set(0, エネミーC, 0, 0%, 1, 100%)
+@RandomPlan_Set(1, エネミーC, 0, 100%, 1, 0%)
+
+\@AI_Set(エネミーA, MYHP, 0, 80%, 1, 0%)
+@AI_Set(エネミーB, MYHP, 0, 80%, 1, 0%)
+@AI_Set(エネミーC, MYHP, 0, 80%, 1, 0%)
+
+@Encount_Set(1, 125, 2.1%)
+@Encount_Set(1, 14, 20%)
+@Party_Set(1, 125, 10, エネミーA)
+@Party_Set(1, 125, 10, エネミーA, エネミーB)
+@Party_Set(1, 125, 10, エネミーA, エネミーB, エネミーC)
+@Party_Set(1, 14, 100, エネミーC, エネミーB, エネミーA)
+
+@BackGround_Set(1, 14, bg_01)
+@BackGround_Set(1, bg_02)
+
+\\@EnamyParty_Create(keyA, B, A, C, A)	\ボツ案　エンカウント設定。同じパーティを使いまわすことはあるかもしれないが見にくくなるので面倒でも一つずつ書いていく仕様に変更
+\\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)	\ボツ案　エンカウント設定
+
+【b_system.rpg Load OK!】
+
+
+
+
+
+
+
+
 
 
 
