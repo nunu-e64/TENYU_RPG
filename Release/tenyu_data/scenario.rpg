@@ -165,6 +165,15 @@
 \----------------------------------------
 \
 
+@PANEL_BEGIN(switch)
+	@BattleResult_Set(@Walk(me,left,4), @Walk(me,up,4))
+	@Battle(bg_01, エネミーC, エネミーA)		\戦闘開始
+	戦闘終了１
+	@Stop
+	戦闘終了２（@Stopテスト）
+
+	@NextPage
+@Quit
 
 
 @BLOCK_BEGIN(dammy_treasurebox)	\イベント戦闘例
@@ -553,6 +562,7 @@
 		@Event(push_tree, [55])
 	@PUSHBLOCK_END
 \-------------------------------------------------------------------------
+
 
 
 

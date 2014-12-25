@@ -8,3 +8,4 @@ ipch/*
 Log.txt
 Release/*.txt
 Debug/*.txt
+*.unsuccessfulbuild

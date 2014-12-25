@@ -23,9 +23,14 @@
 
 \--Load-----------------------------------------------------------
 @Load_Map(tenyu_data/map/oldtown01, 0)
+@Load_Map(tenyu_data/map/01-0, 1)
 @Load_Chip(tenyu_data/pic/obrpg1_fieldchip.bmp, 0, 0)
 @Load_Chip(tenyu_data/pic/obrpg1_objchip.bmp, 0, 1)
+@Load_Chip(tenyu_data/map/chipset_matsuda_140621.bmp, 1, 0)
+@Load_Chip(tenyu_data/pic/obrpg1_objchip.bmp, 1, 1)
 
+\ぶっちゃけNPCかどうかしか意味がない。（NPCだけ絵のサイズが違う）一応Kindが違えばWarningは出るようにしてあるが違っていたとしても実害ないはず。多分。	←エラー出してないっぽい(14/05/12)
+\	↑背景用一枚絵BGの導入。BGの時は全く別のところに画像が保存されてる(14/05/11)（←ウソだろこれ(14/06/24)）
 @Load_Pic(tenyu_data/pic/ex_tree.bmp, 		pic_tree, 	PUSHBLOCK)
 @Load_Pic(tenyu_data/pic/ex_treasurebox.bmp, 	pic_treasurebox, BLOCK)
 @Load_Pic(tenyu_data/pic/ex_gate_l.bmp, 	pic_gate_l, 	BLOCK)
@@ -38,13 +43,23 @@
 @Load_Pic(tenyu_data/pic/ex_door.bmp, 		pic_door,	PANEL)
 @Load_Pic(tenyu_data/pic/ex_slidepanel.bmp, 	pic_slide, 	PANEL)
 
+@Load_Pic(tenyu_data/pic/npc00.png, 		huyu, 	NPC)
+@Load_Pic(tenyu_data/pic/npc01.png, 		hi, 	NPC)
+
 @Load_Pic(tenyu_data/pic/bg/sample.bmp, 	pic_background01, BG)
 @Load_Pic(tenyu_data/pic/bg/sample2.bmp, 	pic_background02, BG)
 \-----------------------------------------------------------------
 
 \--Set------------------------------------------------------------
-@Set_StartPosition(0, 20, 10, Right, pic_player1)
+
+\\スタート位置設定\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\サンプルマップ
 @Set_StartPosition(0, 9, 7, Down, pic_player1)	\←後に書いた方で上書きされる
+
+\序章
+@Set_StartPosition(1, 11, 69, Right, huyu)
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 \町部分
 	@Set_EventObj(0, 1, PANEL, NULL)	\最終引数nameを省略した場合は「KIND-MapNum-DataNum」で名前が生成される（ex:PANEL-0-1）
@@ -66,6 +81,8 @@
 	@Set_EventObj(0, 68, BLOCK, pic_sign, sign03)
 	@Set_EventObj(0, 69, BLOCK, pic_sign, sign04)
 
+	@Set_EventObj(1, 1, NPC, hi, hi_01)
+	@Set_EventObj(1, 255, PANEL,pic_slide , switch)
 
 \フィールド部分
 	@Set_EventObj(0, 7, PANEL, NULL)
@@ -127,6 +144,8 @@
 \-----------------------------------------------------------------
 【SystemCommand Load Completed!】
 \↑ロード完了メッセージ（完成版では削除）
+
+
 
 
 
