@@ -78,9 +78,6 @@
     <ClInclude Include="code\Field\Map.h">
       <Filter>ヘッダー ファイル\Field</Filter>
     </ClInclude>
-    <ClInclude Include="code\Main\CmdList.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
     <ClInclude Include="code\Main\CmdManager.h">
       <Filter>ヘッダー ファイル\Main</Filter>
     </ClInclude>
@@ -129,6 +126,12 @@
     <ClInclude Include="code\Battle\EnemyTargetter.h">
       <Filter>ヘッダー ファイル\Battle</Filter>
     </ClInclude>
+    <ClInclude Include="code\Main\CmdList.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\ImgBank.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\Menu.cpp">
@@ -138,6 +141,12 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="code\mrtLib.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="code\nunuLib.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="code\System.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="code\Battle\Actor.cpp">
@@ -221,11 +230,8 @@
     <ClCompile Include="code\Battle\EnemyTargetter.cpp">
       <Filter>ソース ファイル\Battle</Filter>
     </ClCompile>
-    <ClCompile Include="code\nunuLib.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="code\System.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="code\Main\ImgBank.cpp">
+      <Filter>ソース ファイル\Main</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

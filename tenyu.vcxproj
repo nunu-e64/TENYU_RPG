@@ -104,6 +104,7 @@
     <ClInclude Include="code\Field\Map.h" />
     <ClInclude Include="code\Main\CmdList.h" />
     <ClInclude Include="code\Main\CmdManager.h" />
+    <ClInclude Include="code\Main\ImgBank.h" />
     <ClInclude Include="code\Main\Main.h" />
     <ClInclude Include="code\Main\ScreenChanger.h" />
     <ClInclude Include="code\Main\TalkName.h" />
@@ -137,6 +138,7 @@
     <ClCompile Include="code\Field\Map.cpp" />
     <ClCompile Include="code\Main\CmdList.cpp" />
     <ClCompile Include="code\Main\CmdManager.cpp" />
+    <ClCompile Include="code\Main\ImgBank.cpp" />
     <ClCompile Include="code\Main\Main.cpp" />
     <ClCompile Include="code\Main\ScreenChanger.cpp" />
     <ClCompile Include="code\Main\TalkName.cpp" />
