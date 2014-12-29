@@ -111,22 +111,22 @@
 @TrickEffect_Create(PROTO_BIG, PROTO, 20, 25, 90)
 @TrickEffect_Create(BOMB_REDBIG, BOMB, 255,0,0, 10, 60)
 
-@NormalTrick_Create(攻撃大, 100, 3, NULL) \PROTO_BIG
-@NormalTrick_Create(攻撃小, 10, 2, NULL) \PROTO_SMALL
+@NormalTrick_Create(攻撃大, 100, 3, PROTO_BIG)
+@NormalTrick_Create(攻撃小, 10, 2, PROTO_SMALL)
 
-@Player_Create(プレイヤーA, 100, 5, 5, 2, pic_player01)
-@Player_Create(プレイヤーB, 100, 5, 5, 2, pic_enemy02)
-@Player_Create(プレイヤーC, 100, 5, 5, 2, pic_enemy03)
-@Player_Create(プレイヤーD, 100, 5, 5, 2, pic_enemy01)
+@Player_Create(プレイヤーA, 100, 5, 5, 1, pic_player01)
+@Player_Create(プレイヤーB, 100, 5, 5, 1, pic_player01)
+@Player_Create(プレイヤーC, 100, 5, 5, 1, pic_player01)
+@Player_Create(プレイヤーD, 100, 5, 5, 1, pic_player01)
 
 @PlayerTrick_Set(プレイヤーA, 攻撃大, 攻撃小)
 @PlayerTrick_Set(プレイヤーB, 攻撃大, 攻撃小)
 @PlayerTrick_Set(プレイヤーC, 攻撃大, 攻撃小)
 @PlayerTrick_Set(プレイヤーD, 攻撃大, 攻撃小)
 
-@Enemy_Create(エネミーA, 100, 5, 5, 2, pic_enemy01)
-@Enemy_Create(エネミーB, 100, 5, 5, 2, pic_enemy02)
-@Enemy_Create(エネミーC, 100, 5, 5, 2, pic_enemy03)
+@Enemy_Create(エネミーA, 100, 5, 5, 1, pic_enemy01)
+@Enemy_Create(エネミーB, 100, 5, 5, 1, pic_enemy02)
+@Enemy_Create(エネミーC, 100, 5, 5, 1, pic_enemy03)
 @EnemyTrick_Set(エネミーA, 攻撃大, 攻撃小)
 @EnemyTrick_Set(エネミーB, 攻撃大, 攻撃小)
 @EnemyTrick_Set(エネミーC, 攻撃大, 攻撃小, 攻撃大)
@@ -156,6 +156,8 @@
 \\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)	\ボツ案　エンカウント設定
 
 【b_system.rpg Load OK!】
+
+
 
 
 

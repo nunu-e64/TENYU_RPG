@@ -173,15 +173,14 @@
 	戦闘終了２（@Stopテスト）
 
 	@NextPage
-@Quit
-
+@PANEL_END
 
 @BLOCK_BEGIN(dammy_treasurebox)	\イベント戦闘例
 	@Flag_Create(result)
 	うわ！箱の中からモンスターが飛び出してきた！
 	@Stop
 	@BattleResult_Set(@Flag_Set(result, 1), @Flag_Set(result, 2))
-	@Battle(bg_04, エネミーA, エネミーA, エネミーA)		\戦闘開始
+	@Battle(bg_01, エネミーC, エネミーC, エネミーC)		\戦闘開始
 	@NextPage
 	@FLAG_IF_BEGIN(result)
 	@FLAG_CASE(result,1)
@@ -562,6 +561,7 @@
 		@Event(push_tree, [55])
 	@PUSHBLOCK_END
 \-------------------------------------------------------------------------
+
 
 
 

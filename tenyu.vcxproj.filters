@@ -140,12 +140,6 @@
     <ClCompile Include="code\mrtLib.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="code\nunuLib.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="code\System.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="code\Battle\Actor.cpp">
       <Filter>ソース ファイル\Battle</Filter>
     </ClCompile>
@@ -226,6 +220,12 @@
     </ClCompile>
     <ClCompile Include="code\Battle\EnemyTargetter.cpp">
       <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="code\nunuLib.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="code\System.cpp">
+      <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
