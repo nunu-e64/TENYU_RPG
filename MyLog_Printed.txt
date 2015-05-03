@@ -1,0 +1,276 @@
+[2015/05/02 03:15:08 083]:--------START------------------------------------------------------
+
+[2015/05/02 03:15:16 447]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->Åyb_system.rpg Load OK!Åz
+[2015/05/02 03:15:17 709]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ÅySystemCommand Load Completed!Åz
+[2015/05/02 03:15:30 473]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:18:01 596]:--------START------------------------------------------------------
+
+[2015/05/02 03:18:03 135]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->Åyb_system.rpg Load OK!Åz
+[2015/05/02 03:18:04 380]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ÅySystemCommand Load Completed!Åz
+[2015/05/02 03:18:19 964]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:18:21 626]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:18:36 023]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:18:37 958]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:18:39 908]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:18:40 333]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:18:40 769]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:18:41 043]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:18:41 313]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:18:41 600]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:18:41 799]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:18:41 974]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:18:42 152]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:18:42 288]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:18:42 462]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:18:42 613]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:18:42 765]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:18:42 938]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:18:43 101]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:18:43 285]:PRINT: Debug->ok2
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(218)
+
+[2015/05/02 03:18:43 471]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%è„Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:21:13 096]:--------START------------------------------------------------------
+
+[2015/05/02 03:21:33 681]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->Åyb_system.rpg Load OK!Åz
+[2015/05/02 03:21:34 667]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ÅySystemCommand Load Completed!Åz
+[2015/05/02 03:21:52 517]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:21:53 089]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:21:53 429]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:21:53 902]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:21:54 276]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:21:54 660]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:21:55 058]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:21:55 389]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:21:55 751]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:21:56 109]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:21:56 418]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:21:56 718]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:21:56 990]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:21:57 192]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:21:57 397]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:21:57 853]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:21:58 037]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:21:58 216]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:21:58 682]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:21:59 116]:PRINT: Debug->ok2
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(218)
+
+[2015/05/02 03:21:59 527]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%è„Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:22:55 974]:--------START------------------------------------------------------
+
+[2015/05/02 03:22:57 795]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->Åyb_system.rpg Load OK!Åz
+[2015/05/02 03:22:58 800]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ÅySystemCommand Load Completed!Åz
+[2015/05/02 03:23:10 846]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:23:11 606]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:23:11 818]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:23:12 003]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:23:12 153]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:23:12 311]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:23:12 467]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:23:12 566]:PRINT: Debug->ok3
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(221)
+
+[2015/05/02 03:23:12 725]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:23:12 864]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:23:13 071]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:23:13 239]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:23:13 388]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:23:13 619]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:23:13 829]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:23:13 951]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:23:14 290]:PRINT: Debug->ok5
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(231)
+
+[2015/05/02 03:23:14 665]:PRINT: Debug->  hogeÇÃñhå‰óÕÇ™-1%â∫Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:23:15 235]:PRINT: Debug->ok
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(210)
+
+[2015/05/02 03:23:16 046]:PRINT: Debug->ok2
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(218)
+
+[2015/05/02 03:23:17 892]:PRINT: Debug->  hogeÇÃçUåÇóÕÇ™-1%è„Ç™Ç¡ÇΩÅI
+->CActor::AddStatusChanger
+->code\Battle\Actor.cpp(240)
+
+[2015/05/02 03:42:56 655]:--------START------------------------------------------------------
+
+[2015/05/02 03:43:00 534]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->Åyb_system.rpg Load OK!Åz
+[2015/05/02 03:43:01 485]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ÅySystemCommand Load Completed!Åz

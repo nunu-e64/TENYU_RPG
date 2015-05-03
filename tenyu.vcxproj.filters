@@ -63,42 +63,6 @@
     <ClInclude Include="code\Battle\TrickManager.h">
       <Filter>ヘッダー ファイル\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="code\Field\EveManager.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\EveObj.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\Field.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\Load.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\Map.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\CmdManager.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\Main.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\ScreenChanger.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\TalkName.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\TextBox.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\TextWrap.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\WorldManager.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
     <ClInclude Include="code\Define.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
@@ -126,11 +90,92 @@
     <ClInclude Include="code\Battle\EnemyTargetter.h">
       <Filter>ヘッダー ファイル\Battle</Filter>
     </ClInclude>
-    <ClInclude Include="code\Main\CmdList.h">
+    <ClInclude Include="code\Battle\LogWindow.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\EveManager.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\EveObj.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Load.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Map.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CmdList.h">
       <Filter>ヘッダー ファイル\Main</Filter>
     </ClInclude>
-    <ClInclude Include="code\Main\ImgBank.h">
+    <ClInclude Include="code\CmdManager.h">
       <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ImgBank.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ScreenChanger.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\TalkName.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\TextBox.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\TextWrap.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\WorldManager.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\CmdList.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\CmdManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\ImgBank.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\Main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\ScreenChanger.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\TalkName.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\TextBox.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\TextWrap.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\WorldManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\EveManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\EveObj.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\Field.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\Load.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\Map.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -232,6 +277,9 @@
     </ClCompile>
     <ClCompile Include="code\Main\ImgBank.cpp">
       <Filter>ソース ファイル\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Battle\LogWindow.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

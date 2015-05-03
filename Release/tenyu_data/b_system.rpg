@@ -4,8 +4,9 @@
 
 \------【バトルシステムコマンド】（随時更新）--
 \----------------------------------------
-\--@Load_Pic(相対パス, PicKey)： 戦闘用各種画像読み込み,
+\--@Load_Pic(相対パス, PicKey, [分割数])： 戦闘用各種画像読み込み,
 \		・画像データを任意の文字列を[PicKey]として読み込む。PicKeyは@Enemy_Createや@Player_Createで使用する
+\		・分割数は省略可能。横方向に同じ大きさの画像を並べておき分割数を指定することで一括読み込みが可能。		
 \
 \  @Player_Set(name, MaxHp, Atk, Def, Spd, PicKey)
 \		・戦闘に出る味方キャラを生成
@@ -18,7 +19,7 @@
 \  @TrickEffect_Create(EffectName, TYPE_NAME, arg0, arg1, arg2, ...)
 \		・技の発動エフェクトを作成
 \		・TYPE_NAME…基本タイプ。以下から選びタイプに応じて引数を指定する（14/12/10現在）
-\			・PROTO…螺旋状に8つの光球が自分のもとに集まり一つの光球となって相手に向かって飛んでいく
+\			・PROTO…8つの光球が螺旋状に自分のもとに集まり一つの光球となって相手に向かって飛んでいく
 \				・arg0=Size1・・・収束する光球ひとつひとつの半径
 \				・arg1=Size2・・・相手に向かって飛んでいく光球の半径
 \				・arg2=Radius・・・光球が収束するときの初期配置における中心からの距離
@@ -86,17 +87,23 @@
 \@Load_Pic(tenyu_data/pic/sys/battle/cursor.png, MENU_CURSOR) \未使用
 @Load_Pic(tenyu_data/pic/sys/battle/timebar1.png, TIME_BAR1)
 @Load_Pic(tenyu_data/pic/sys/battle/timebar2.png, TIME_BAR2)
+@Load_Pic(tenyu_data/pic/sys/battle/TimeWait.png, TIME_WAIT)
+@Load_Pic(tenyu_data/pic/sys/battle/TimeTrick.png, TIME_TRICK)
+@Load_Pic(tenyu_data/pic/sys/battle/TimeDeffence.png, TIME_DEFFENCE)
+@Load_Pic(tenyu_data/pic/sys/battle/TimePray.png, TIME_PRAY)
+
 @Load_Pic(tenyu_data/pic/sys/battle/hpbar.png, HP_BAR)
+@Load_Pic(tenyu_data/pic/sys/battle/LogWindowButton.png, LOG_WINDOW_BUTTON, 2)
 
-@Load_Pic(tenyu_data/pic/sys/battle/attention_marker.png, ATTENTION_MARKER)
+@Load_Pic(tenyu_data/pic/sys/battle/AttentionMarker.png, ATTENTION_MARKER, 3)
+@Load_Pic(tenyu_data/pic/sys/battle/AttentionBoard.png, ATTENTION_BOARD)
+@Load_Pic(tenyu_data/pic/sys/battle/AttentionEffect.png, ATTENTION_EFFECT)
 
-\@Load_Pic(tenyu_data/pic/sys/battle/attention_cursor_r.png, ATTENTION_CURSOR_0)
-\@Load_Pic(tenyu_data/pic/sys/battle/attention_cursor_g.png, ATTENTION_CURSOR_1)
-\@Load_Pic(tenyu_data/pic/sys/battle/attention_cursor_b.png, ATTENTION_CURSOR_2)
+@Load_Pic(tenyu_data/pic/sys/battle/MagicCounter.png, MAGIC_COUNTER, 2)
+@Load_Pic(tenyu_data/pic/sys/battle/SideEffectMarker.png, STATUS_CHANGER, 5, 2)
 
 @Load_Pic(tenyu_data/pic/sys/battle/bomb.bmp, EFFECT_BOMB)
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
 
 @Load_Pic(tenyu_data/pic/battle/background04.bmp, bg_01)
 @Load_Pic(tenyu_data/pic/battle/background02.bmp, bg_02)
@@ -104,43 +111,59 @@
 @Load_Pic(tenyu_data/pic/battle/enemy01.bmp, pic_enemy01)
 @Load_Pic(tenyu_data/pic/battle/enemy02.bmp, pic_enemy02)
 @Load_Pic(tenyu_data/pic/battle/enemy03.bmp, pic_enemy03)
-@Load_Pic(tenyu_data/pic/battle/player.bmp, pic_player01)
-
+@Load_Pic(tenyu_data/pic/battle/player0.png, pic_player01)
+@Load_Pic(tenyu_data/pic/battle/player1.png, pic_player02)
+@Load_Pic(tenyu_data/pic/battle/player2.png, pic_player03)
 
 @TrickEffect_Create(PROTO_SMALL, PROTO, 10, 15, 60)
 @TrickEffect_Create(PROTO_BIG, PROTO, 20, 25, 90)
-@TrickEffect_Create(BOMB_REDBIG, BOMB, 255,0,0, 10, 60)
+@TrickEffect_Create(PROTO_MINI, PROTO, 8, 10, 40)
+@TrickEffect_Create(BOMB_REDBIG, BOMB, 255,0,0, 10, 60)		\\未制作（15/04/20現在）
+@TrickEffect_Create(あ, PROTO, 8, 10, 40)
 
-@NormalTrick_Create(攻撃大, 100, 3, PROTO_BIG)
-@NormalTrick_Create(攻撃小, 10, 2, PROTO_SMALL)
+@NormalTrick_Create(全体攻撃, 20, 3, 100%, PROTO_BIG, ALL)
+@NormalTrick_Create(攻撃大, 40, 3, 110%, PROTO_BIG, SINGLE)
+@NormalTrick_Create(攻撃小, 30, 2, 90%, PROTO_SMALL, SINGLE)
+@NormalTrick_Create(アタックアップ, 10, 2, 90%, PROTO_SMALL, SINGLE, ATK, ME,+40%, 100%, 500%)
+@NormalTrick_Create(ガードブレイク, 15, 2, 90%, NULL, SINGLE, DEF, SINGLE, -40%, 100%, 500%)
+@NormalTrick_Create(全部, 1, 2, 100%, NULL, ALL, ATK, ALL_OPPOSITE, -50%, 100%, 160%, DEF, ALL_OPPOSITE, -50%, 100%, 160%, ATK, ALL_FRIEND, 50%, 100%, 160%, DEF, ALL_FRIEND, 50%, 100%, 160%)
 
-@Player_Create(プレイヤーA, 100, 5, 5, 1, pic_player01)
-@Player_Create(プレイヤーB, 100, 5, 5, 1, pic_player01)
-@Player_Create(プレイヤーC, 100, 5, 5, 1, pic_player01)
-@Player_Create(プレイヤーD, 100, 5, 5, 1, pic_player01)
+@PlainTrick_Create(攻撃, 100%, PROTO_MINI)
 
-@PlayerTrick_Set(プレイヤーA, 攻撃大, 攻撃小)
-@PlayerTrick_Set(プレイヤーB, 攻撃大, 攻撃小)
-@PlayerTrick_Set(プレイヤーC, 攻撃大, 攻撃小)
+@Player_Create(プレイヤーA, 100, 5, 5, 1%, pic_player01)
+@Player_Create(プレイヤーB, 100, 5, 5, 1%, pic_player02)
+@Player_Create(プレイヤーC, 100, 5, 5, 1%, pic_player03)
+@Player_Create(プレイヤーD, 100, 5, 5, 1%, pic_player01)
+
+@PlayerTrick_Set(プレイヤーA, 攻撃大, 攻撃小, 全体攻撃, 全部) 
+	\, アタックアップ, ガードブレイク, 全部)
+@PlayerTrick_Set(プレイヤーB, 攻撃大, 攻撃小, 全体攻撃, 全部) 
+	\, ガードブレイク, 全部)
+@PlayerTrick_Set(プレイヤーC, 攻撃大, 攻撃小, 全体攻撃, 全部)
+	\, ガードブレイク, アタックアップ, 全部)
 @PlayerTrick_Set(プレイヤーD, 攻撃大, 攻撃小)
 
-@Enemy_Create(エネミーA, 100, 5, 5, 1, pic_enemy01)
-@Enemy_Create(エネミーB, 100, 5, 5, 1, pic_enemy02)
-@Enemy_Create(エネミーC, 100, 5, 5, 1, pic_enemy03)
-@EnemyTrick_Set(エネミーA, 攻撃大, 攻撃小)
-@EnemyTrick_Set(エネミーB, 攻撃大, 攻撃小)
-@EnemyTrick_Set(エネミーC, 攻撃大, 攻撃小, 攻撃大)
+@Enemy_Create(エネミーA, 100, 5, 5, 1%, pic_enemy01)
+@Enemy_Create(エネミーB, 100, 5, 5, 1%, pic_enemy02)
+@Enemy_Create(エネミーC, 100, 5, 5, 1%, pic_enemy03)
+@EnemyTrick_Set(エネミーA, 攻撃小, 攻撃大, 全体攻撃)
+@EnemyTrick_Set(エネミーB, 攻撃小, 攻撃大)
+@EnemyTrick_Set(エネミーC, 攻撃小, 攻撃大)
 
-\@RandomPlan_Set(0, エネミーA, 0, 0%, 1, 100%)
-@RandomPlan_Set(1, エネミーA, 0, 100%, 1, 0%)
-@RandomPlan_Set(0, エネミーB, 0, 0%, 1, 100%)
-@RandomPlan_Set(1, エネミーB, 0, 100%, 1, 0%)
-@RandomPlan_Set(0, エネミーC, 0, 0%, 1, 100%)
-@RandomPlan_Set(1, エネミーC, 0, 100%, 1, 0%)
+\@RandomPlan_Set(0, エネミーA, 0, 100%, 1, 0%)
+@RandomPlan_Set(1, エネミーA, 0, 0%, 1, 100%)
+
+@RandomPlan_Set(0, エネミーB, 0, 100%, 1, 0%)
+@RandomPlan_Set(1, エネミーB, 0, 50%, 1, 50%)
+@RandomPlan_Set(2, エネミーB, 0, 0%, 1, 100%)
+
+@RandomPlan_Set(0, エネミーC, 0, 100%, 1, 0%)
+@RandomPlan_Set(1, エネミーC, 0, 50%, 1, 50%)
+@RandomPlan_Set(2, エネミーC, 0, 0%, 1, 100%)
 
 \@AI_Set(エネミーA, MYHP, 0, 80%, 1, 0%)
-@AI_Set(エネミーB, MYHP, 0, 80%, 1, 0%)
-@AI_Set(エネミーC, MYHP, 0, 80%, 1, 0%)
+@AI_Set(エネミーB, MYHP, 0, 80%, 1, 30%, 2, 0%)
+@AI_Set(エネミーC, MYHP, 0, 80%, 1, 30%, 2, 0%)
 
 @Encount_Set(1, 125, 2.1%)
 @Encount_Set(1, 14, 20%)
@@ -156,16 +179,4 @@
 \\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)	\ボツ案　エンカウント設定
 
 【b_system.rpg Load OK!】
-
-
-
-
-
-
-
-
-
-
-
-
 
