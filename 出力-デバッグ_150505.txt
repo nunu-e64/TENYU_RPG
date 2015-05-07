@@ -1,0 +1,325 @@
+﻿'tenyu.exe' (Win32): 'C:\Users\NUNU\Dropbox\MyDocuments\数研\TENYU\System\tenyu\Debug\tenyu.exe' が読み込まれました。シンボルが読み込まれました。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\ntdll.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\kernel32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\KernelBase.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\Norton 360 Premier Edition\NortonData\21.6.0.32\Definitions\BASHDefs\20150501.001\UMEngx86.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\user32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\gdi32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\lpk.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\usp10.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\msvcrt.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\advapi32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\sechost.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\rpcrt4.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\sspicli.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\cryptbase.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\shell32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\shlwapi.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\imm32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\msctf.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\ws2_32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\nsi.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\winmm.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\ole32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18201_none_ec80f00e8593ece5\comctl32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\dwmapi.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+1:システムの情報を出力します
+6:	ＤＸライブラリ Ver3.08e
+9:	論理プロセッサの数 : 4
+12:	ＯＳ  Windows7 ( Build 7601 Service Pack 1 )
+145:	ＣＰＵ動作速度：大体2.47GHz
+149:	ＭＭＸ命令を使用します
+156:	ＳＳＥ命令が使用可能です
+159:	ＳＳＥ２命令が使用可能です
+170:	ＣＰＵベンダ：GenuineIntel
+207:	ＣＰＵ名：       Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+233:ＣＯＭの初期化... 成功しました
+239:メモリ総量:4077.21MB  空きメモリ領域:1477.52MB 
+1477.52MB
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\uxtheme.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+265:タイマーの精度を検査します
+267:精度結果 更新回数 マルチメディアタイマー：0  パフォーマンスカウンター：60
+269: パフォーマンスカウンターを使用します タイマー精度 : 2435.888000 KHz 
+272: ソフトの二重起動検査... 二重起動はされていませんでした
+279:ウインドウクラスを登録します... 登録に成功しました
+285:ウインドウモード起動用のウインドウを作成します
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\apphelp.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\IMJP14.IME' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\IMJP14.IME' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\IMJP14.IME' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\winsxs\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcr90.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\winsxs\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcp90.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\IMJP14K.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\oleaut32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\version.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+472:ウインドウの作成に成功しました
+474:ウインドウを表示します
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\NetRatingsNetSight\NetSight\nsmmc.dll' が読み込まれました。モジュールがシンボルなしでビルドされました。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\urlmon.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\api-ms-win-downlevel-ole32-l1-1-0.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\api-ms-win-downlevel-shlwapi-l1-1-0.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\api-ms-win-downlevel-advapi32-l1-1-0.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\api-ms-win-downlevel-user32-l1-1-0.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\api-ms-win-downlevel-version-l1-1-0.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\api-ms-win-downlevel-normaliz-l1-1-0.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\normaliz.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\iertutil.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\wininet.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\userenv.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\profapi.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\ntmarta.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\Wldap32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\ole32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\ole32.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\PROGRA~2\COMMON~1\MICROS~1\IME14\IMEJP\IMJPAPI.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\Common Files\microsoft shared\IME14\SHARED\IMJKAPI.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\Common Files\microsoft shared\IME14\IMEJP\IMJPPRED.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+838:ＩＭＥを無効にしました
+841:ウインドウスタイルをウインドウモード用に変更します... 完了
+891:DirectInput関係初期化処理
+893:	DirectInput7 の取得中... 'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\clbcatq.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\dinput.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\hid.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\setupapi.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\cfgmgr32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\devobj.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\wintrust.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\crypt32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\msasn1.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+成功
+2025:		引き続き初期化処理... 初期化成功
+2357:	ジョイパッドの初期化... 
+2999:	ジョイパッドの初期化は正常に終了しました
+3005:	マウスデバイスの初期化... 初期化成功
+3066:	キーボードデバイスの初期化... 初期化成功
+3075:DirectInput 関連の初期化は正常に終了しました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\msacm32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+3085:DirectSound の初期化を行います
+3088:DirectSound インターフェースの取得を行います....  'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\dsound.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\powrprof.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+成功
+3149:引き続きインターフェースの初期化処理...  'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\MMDevAPI.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\propsys.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+スレッド 0x4aa8 はコード 0 (0x0) で終了しました。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\AudioSes.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+成功
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\avrt.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+3393:	DirectSound デバイスを列挙します
+3458:		モジュール名:                 ドライバ記述:プライマリ サウンド ドライバー 
+3461:		モジュール名:{0.0.0.00000000}.{edf4dc8b-2efa-4270-b354-9010bae828f3}  ドライバ記述:スピーカー / ヘッドフォン (Realtek High Definition Audio) 
+3466:	最大サンプリングレート:200.00KHz 最小サンプリングレート:0.10KHz 
+3470:	総サウンドメモリ領域:0.00KB 空きサウンドメモリ領域:0.00KB 
+
+3474:	利用可能サンプリング精度
+3479:	 プライマリ １６bit = OK  ８bit = OK 
+3483:	 セカンダリ １６bit = OK  ８bit = OK 
+
+3485:	利用可能チャンネル
+3488:	 プライマリ MONO = OK  STEREO = OK 
+3492:	 セカンダリ MONO = OK  STEREO = OK 
+
+3497:DirectSound の初期化は正常に終了しました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\d3d9.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\d3d8thk.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+3809:DirectDraw オブジェクトの取得を行います....  'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\ddraw.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\dciman32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+成功
+3951:引き続き初期化処理... 'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\aticfx32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiu9pag.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiumdag.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiumdva.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiumdva.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiumdag.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiumdag.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiumdva.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+初期化に成功しました
+4177:IDirect3D9Ex オブジェクトを取得します.... 成功
+4295:IDirect3DDevice9Ex オブジェクトを取得します.... ハードウエア頂点演算を使用します
+4839:成功
+4841:Driver:aticfx32.dll  Description:AMD Radeon HD 6470M
+4844:画面のフォーマットは D3DFMT_X8R8G8B8 です
+4846:Ｚバッファのフォーマットは D3DFMT_D16 です
+4848:16bit カラーフォーマットは D3DFMT_R5G6B5 です
+4850:32bit カラーフォーマットは D3DFMT_X8R8G8B8 です
+4852:アルファ付き 16bit カラーフォーマットは D3DFMT_A4R4G4B4 です
+4854:アルファ付き 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+4856:アルファテスト用 16bit カラーフォーマットは D3DFMT_A1R5G5B5 です
+4858:アルファテスト用 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+4860:ＤＸＴ１テクスチャフォーマットはD3DFMT_DXT1 です
+4861:ＤＸＴ２テクスチャフォーマットは D_D3DFMT_DXT2 です
+4863:ＤＸＴ３テクスチャフォーマットはD3DFMT_DXT3 です
+4865:ＤＸＴ４テクスチャフォーマットはD3DFMT_DXT4 です
+4867:ＤＸＴ５テクスチャフォーマットはD3DFMT_DXT5 です
+4869:描画用 16bit カラーフォーマットは D3DFMT_R5G5B5 です
+4871:描画用 32bit カラーフォーマットは D3DFMT_X8R8G8B8 です
+4873:描画用アルファ付き 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+4875:描画用ABGR整数16ビット型カラーフォーマットは D3DFMT_A16B16G16R16 です
+4877:描画用ABGR浮動小数点16ビット型カラーフォーマットは D3DFMT_A16B16G16R16F です
+4879:描画用ABGR浮動小数点32ビット型カラーフォーマットは D3DFMT_A32B32G32R32F です
+4880:描画用１チャンネル整数8ビット型カラーフォーマットは D3DFMT_A8R8G8B8 です
+4882:描画用１チャンネル整数16ビット型カラーフォーマットは D3DFMT_G16R16 です
+4884:描画用１チャンネル浮動小数点16ビット型カラーフォーマットは D3DFMT_R16F です
+4886:描画用１チャンネル浮動小数点32ビット型カラーフォーマットは D3DFMT_R32F です
+4888:描画用２チャンネル整数8ビット型カラーフォーマットは D3DFMT_A8B8G8R8 です
+4890:描画用２チャンネル整数16ビット型カラーフォーマットは D3DFMT_G16R16 です
+4892:描画用２チャンネル浮動小数点16ビット型カラーフォーマットは D3DFMT_G16R16F です
+4894:描画用２チャンネル浮動小数点32ビット型カラーフォーマットは D3DFMT_G32R32F です
+4895:一度に描画できるプリミティブの最大数:5592405
+4897:対応している最大頂点インデックス:16777215
+4899:同時にレンダリングできるバッファの数:4
+4902:最大テクスチャサイズ　幅:16384 高さ:16384
+4904:テクスチャステージテンポラリレジスタ：使用可
+4906:減算合成のハードウェア対応：ネイティブ
+4907:ハードウェア頂点シェーダーバージョンコード：300
+4910:エミュレーション頂点シェーダーバージョンコード：エミュレーション無し
+4911:ピクセルシェーダーバージョンコード：300
+5042:バックバッファロック転送の時間:28883nsec  一時的な描画可能バッファを使用した転送の時間:2890nsec
+5044:バックバッファロックを使用しません
+5046:Ｚバッファを作成します.... 成功
+5154:プログラマブルシェーダーを使用します
+
+5420:フォントの初期化を行います
+5428:フォントの初期化は正常に終了しました
+5454:文字コードバッファの初期化を行います... 完了しました
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\Common Files\microsoft shared\IME14\IMEJP\IMJPTIP.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\oleacc.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\PROGRA~2\COMMON~1\MICROS~1\IME14\SHARED\IMETIP.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\msctf.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\msctf.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\PROGRA~2\COMMON~1\MICROS~1\IME14\SHARED\IMECFM.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\cryptsp.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\rsaenh.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\RpcRtRemote.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\PROGRA~2\COMMON~1\MICROS~1\IME14\SHARED\IMEAPIS.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\Common Files\microsoft shared\IME14\SHARED\IMECMPS.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\Common Files\microsoft shared\IME14\SHARED\IMECFMPS.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\Common Files\microsoft shared\IME14\SHARED\IMESEARCHDLL.DLL' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\shell32.dll' が読み込まれました。PDB ファイルを開けないか、ファイルが見つかりません。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\shell32.dll' がアンロードされました
+スレッド 0x469c はコード 0 (0x0) で終了しました。
+スレッド 0x4cb0 はコード 0 (0x0) で終了しました。
+スレッド 0x3b70 はコード 0 (0x0) で終了しました。
+スレッド 0x1a2c はコード 0 (0x0) で終了しました。
+258048:mem alloc  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5518   addr:0bf20898  data:<> ]
+258055:mem free  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5518   addr:0bf20898  data:<> ]
+258062:mem alloc  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5519   addr:0bf20898  data:<> ]
+258069:mem free  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5519   addr:0bf20898  data:<> ]
+258078:mem alloc  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5522   addr:0bf20898  data:<> ]
+258085:mem free  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5522   addr:0bf20898  data:<> ]
+258090:mem alloc  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5524   addr:0bf20898  data:<> ]
+258098:mem free  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5524   addr:0bf20898  data:<> ]
+324053:mem alloc  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5532   addr:0bf20898  data:<> ]
+324066:mem free  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1066   ID:5532   addr:0bf20898  data:<> ]
+330048:フォントの初期化を行います
+330051:フォントの初期化は正常に終了しました
+330139:Direct3DDevice9 の解放 2
+スレッド 0x2ce4 はコード 0 (0x0) で終了しました。
+スレッド 0x29dc はコード 0 (0x0) で終了しました。
+スレッド 0x3fa4 はコード 0 (0x0) で終了しました。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiumdva.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\atiumdag.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\aticfx32.dll' がアンロードされました
+330277:Direct3D9 DLL の解放 1
+330285:'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\d3d9.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\d3d8thk.dll' がアンロードされました
+DirectInput 関連の終了処理... 完了
+スレッド 0x2690 はコード 0 (0x0) で終了しました。
+スレッド 0x3c64 はコード 0 (0x0) で終了しました。
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\avrt.dll' がアンロードされました
+スレッド 0x40ac はコード 0 (0x0) で終了しました。
+スレッド 0x2100 はコード 0 (0x0) で終了しました。
+スレッド 0x327c はコード 0 (0x0) で終了しました。
+スレッド 0x3da0 はコード 0 (0x0) で終了しました。
+330340:DirectSound の終了処理は正常に終了しました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\msacm32.dll' がアンロードされました
+330356:ウインドウを閉じようとしています
+'tenyu.exe' (Win32): 'C:\PROGRA~2\COMMON~1\MICROS~1\IME14\SHARED\IMECFM.DLL' がアンロードされました
+スレッド 0x3fac はコード 1 (0x1) で終了しました。
+330465:ウインドウが破棄されようとしています
+330496:ソフトを終了する準備が整いました
+'tenyu.exe' (Win32): 'C:\Program Files (x86)\Common Files\microsoft shared\IME14\IMEJP\IMJPTIP.DLL' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\oleacc.dll' がアンロードされました
+スレッド 0x3f28 はコード 0 (0x0) で終了しました。
+スレッド 0x4804 はコード 0 (0x0) で終了しました。
+スレッド 0x4370 はコード 0 (0x0) で終了しました。
+スレッド 0x261c はコード 0 (0x0) で終了しました。
+スレッド 0x4864 はコード 0 (0x0) で終了しました。
+スレッド 0x4974 はコード 0 (0x0) で終了しました。
+スレッド 0x3688 はコード 0 (0x0) で終了しました。
+スレッド 0x413c はコード 0 (0x0) で終了しました。
+スレッド 0x425c はコード 0 (0x0) で終了しました。
+スレッド 0x4948 はコード 0 (0x0) で終了しました。
+スレッド 0x3ea8 はコード 0 (0x0) で終了しました。
+スレッド 0x47e0 はコード 0 (0x0) で終了しました。
+スレッド 0x320c はコード 0 (0x0) で終了しました。
+スレッド 0x4f98 はコード 0 (0x0) で終了しました。
+スレッド 0x3314 はコード 0 (0x0) で終了しました。
+スレッド 0x33d8 はコード 0 (0x0) で終了しました。
+スレッド 0x45a8 はコード 0 (0x0) で終了しました。
+スレッド 0x2ae8 はコード 0 (0x0) で終了しました。
+スレッド 0x3fd0 はコード 0 (0x0) で終了しました。
+スレッド 0x3b3c はコード 0 (0x0) で終了しました。
+スレッド 0x2d90 はコード 0 (0x0) で終了しました。
+スレッド 0x4870 はコード 0 (0x0) で終了しました。
+スレッド 0x33c0 はコード 0 (0x0) で終了しました。
+スレッド 0x30f8 はコード 0 (0x0) で終了しました。
+スレッド 0x186c はコード 0 (0x0) で終了しました。
+スレッド 0x11c8 はコード 0 (0x0) で終了しました。
+スレッド 0x4fa4 はコード 0 (0x0) で終了しました。
+スレッド 0x4838 はコード 0 (0x0) で終了しました。
+スレッド 0x14a8 はコード 0 (0x0) で終了しました。
+スレッド 0x4b50 はコード 0 (0x0) で終了しました。
+スレッド 0x2658 はコード 0 (0x0) で終了しました。
+スレッド 0x30c0 はコード 0 (0x0) で終了しました。
+332076:
+332080:Alloc memory dump
+332084:	Total size:0(0.000kb)  Alloc num:0
+332087:
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\ws2_32.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\SysWOW64\nsi.dll' がアンロードされました
+'tenyu.exe' (Win32): 'C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18201_none_ec80f00e8593ece5\comctl32.dll' がアンロードされました
+Detected memory leaks!
+Dumping objects ->
+{1972} normal block at 0x0BF14EE0, 24 bytes long.
+ Data: <    P           > 00 00 00 00 50 00 00 00 01 00 00 00 1E 00 00 00 
+{1963} normal block at 0x0BF14DB0, 8 bytes long.
+ Data: < P      > 98 50 F1 0B 00 00 00 00 
+{1905} normal block at 0x0BEF4A28, 24 bytes long.
+ Data: <    P           > 00 00 00 00 50 00 00 00 01 00 00 00 1E 00 00 00 
+{1896} normal block at 0x0BEF4858, 8 bytes long.
+ Data: < O      > 88 4F F1 0B 00 00 00 00 
+{1256} normal block at 0x0BF129E0, 8 bytes long.
+ Data: < &      > F4 26 F1 0B 00 00 00 00 
+c:\users\nunu\dropbox\mydocuments\数研\tenyu\system\tenyu\code\battle\trickmanager.cpp(79) : {1248} normal block at 0x0BF126F0, 44 bytes long.
+ Data: < p   )          > 1C 70 94 01 E0 29 F1 0B 82 A0 00 CD CD CD CD CD 
+{1221} normal block at 0x0BEF3E80, 8 bytes long.
+ Data: <|)      > 7C 29 F1 0B 00 00 00 00 
+c:\users\nunu\dropbox\mydocuments\数研\tenyu\system\tenyu\code\battle\trickmanager.cpp(76) : {1211} normal block at 0x0BF12978, 44 bytes long.
+ Data: < p   >  BOMB_RED> 10 70 94 01 80 3E EF 0B 42 4F 4D 42 5F 52 45 44 
+{1170} normal block at 0x0BF127C8, 8 bytes long.
+ Data: < ;      > B4 3B EF 0B 00 00 00 00 
+c:\users\nunu\dropbox\mydocuments\数研\tenyu\system\tenyu\code\battle\trickmanager.cpp(79) : {1162} normal block at 0x0BEF3BB0, 44 bytes long.
+ Data: < p   '  PROTO_MI> 1C 70 94 01 C8 27 F1 0B 50 52 4F 54 4F 5F 4D 49 
+{1137} normal block at 0x0BF128A0, 8 bytes long.
+ Data: <  6     > 94 0F 36 16 00 00 00 00 
+c:\users\nunu\dropbox\mydocuments\数研\tenyu\system\tenyu\code\battle\trickmanager.cpp(79) : {1129} normal block at 0x16360F90, 44 bytes long.
+ Data: < p   (  PROTO_BI> 1C 70 94 01 A0 28 F1 0B 50 52 4F 54 4F 5F 42 49 
+{1105} normal block at 0x0BEF3D18, 8 bytes long.
+ Data: <t:      > 74 3A EF 0B 00 00 00 00 
+c:\users\nunu\dropbox\mydocuments\数研\tenyu\system\tenyu\code\battle\trickmanager.cpp(79) : {1097} normal block at 0x0BEF3A70, 44 bytes long.
+ Data: < p   =  PROTO_SM> 1C 70 94 01 18 3D EF 0B 50 52 4F 54 4F 5F 53 4D 
+Object dump complete.
+スレッド 0x4928 はコード 0 (0x0) で終了しました。
+スレッド 0x3754 はコード 0 (0x0) で終了しました。
+スレッド 0x2a18 はコード 0 (0x0) で終了しました。
+スレッド 0x1c5c はコード 0 (0x0) で終了しました。
+スレッド 0x16b0 はコード 0 (0x0) で終了しました。
+スレッド 0x3718 はコード 0 (0x0) で終了しました。
+スレッド 0x1df8 はコード 0 (0x0) で終了しました。
+スレッド 0x442c はコード 0 (0x0) で終了しました。
+スレッド 0x1134 はコード 0 (0x0) で終了しました。
+スレッド 0x3cd4 はコード 0 (0x0) で終了しました。
+スレッド 0x2a88 はコード 0 (0x0) で終了しました。
+スレッド 0x4174 はコード 0 (0x0) で終了しました。
+プログラム '[4256] tenyu.exe' はコード 0 (0x0) で終了しました。
