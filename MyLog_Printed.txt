@@ -1,0 +1,43 @@
+[2015/05/11 21:05:06 313]:--------START------------------------------------------------------
+
+[2015/05/11 21:05:26 742]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/05/11 21:05:28 513]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/05/11 21:05:37 440]:PRINT: Error->Could not change argument type->@COUNT_CASE(1)
+->code\Main\TextBox.cpp(611)
+
+[2015/05/11 21:05:42 824]:PRINT: Error->Could not change argument type->@COUNT_CASE(else)
+->code\Main\TextBox.cpp(611)
+
+[2015/05/11 21:05:44 570]:PRINT: Error->Could not change argument type->@COUNT_CASE(1)
+->code\Main\TextBox.cpp(611)
+
+[2015/05/11 21:05:45 195]:PRINT: Error->Could not change argument type->@COUNT_CASE(else)
+->code\Main\TextBox.cpp(611)
+
+[2015/05/11 21:05:45 787]:PRINT: Error->Could not change argument type->@COUNT_CASE(1)
+->code\Main\TextBox.cpp(611)
+
+[2015/05/11 21:05:46 049]:PRINT: Error->Could not change argument type->@COUNT_CASE(else)
+->code\Main\TextBox.cpp(611)
+
+[2015/05/11 21:05:55 031]:----FINISH-----------------------------------------------------
+[2015/05/11 21:07:04 099]:--------START------------------------------------------------------
+
+[2015/05/11 21:07:10 502]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/05/11 21:07:11 873]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/05/18 16:45:13 167]:--------START------------------------------------------------------
+
+[2015/05/18 16:45:16 944]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/05/18 16:45:18 051]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/05/18 16:45:19 363]:PRINT: Debug->MACROstart
+->CItemManager::Init
+->code\Field\ItemManager.cpp(8)
+
+[2015/05/18 16:45:19 793]:PRINT: Debug->AAA, BBB, CCC, DDD, EEE
+->CItemManager::Init
+->code\Field\ItemManager.cpp(9)
+
+[2015/05/18 16:45:20 410]:PRINT: Debug->AAA, BBB, CCC, DDD, EEE
+->createEnumMap
+->c:\users\nunu\dropbox\mydocuments\”Œ¤\tenyu\system\tenyu\code\field\ItemManager.h(27)
+

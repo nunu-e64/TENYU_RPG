@@ -47,13 +47,15 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -65,14 +67,16 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -107,6 +111,8 @@
     <ClInclude Include="code\Field\EveManager.h" />
     <ClInclude Include="code\Field\EveObj.h" />
     <ClInclude Include="code\Field\Field.h" />
+    <ClInclude Include="code\Field\Item.h" />
+    <ClInclude Include="code\Field\ItemManager.h" />
     <ClInclude Include="code\Field\Load.h" />
     <ClInclude Include="code\Field\Map.h" />
     <ClInclude Include="code\Load.h" />
@@ -125,6 +131,7 @@
     <ClInclude Include="code\ImgBank.h" />
     <ClInclude Include="code\Main.h" />
     <ClInclude Include="code\ScreenChanger.h" />
+    <ClInclude Include="stdafx.h" />
     <ClInclude Include="code\TalkName.h" />
     <ClInclude Include="code\TextBox.h" />
     <ClInclude Include="code\TextWrap.h" />
@@ -153,6 +160,8 @@
     <ClCompile Include="code\Field\EveManager.cpp" />
     <ClCompile Include="code\Field\EveObj.cpp" />
     <ClCompile Include="code\Field\Field.cpp" />
+    <ClCompile Include="code\Field\Item.cpp" />
+    <ClCompile Include="code\Field\ItemManager.cpp" />
     <ClCompile Include="code\Field\Load.cpp" />
     <ClCompile Include="code\Field\Map.cpp" />
     <ClCompile Include="code\Main\CmdList.cpp" />
@@ -168,6 +177,10 @@
     <ClCompile Include="code\Mrt.cpp" />
     <ClCompile Include="code\mrtLib.cpp" />
     <ClCompile Include="code\nunuLib.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="code\System.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

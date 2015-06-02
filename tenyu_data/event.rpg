@@ -1,0 +1,240 @@
+\----------------------------------------------------------------------------------
+\------------@EVENT_BEGIN~_END：自作イベント登録（ヤバい！革新的！(AA)第九）-----
+\----------------------------------------------------------------------------------
+\--自作イベントを登録しておくことができます（超便利）----
+\--		・作ったイベントはシナリオ内で@Eventで呼び出す
+\--		・オブジェクトの名前を書くべきところに"joker"と書くことで、イベント呼出時に対象としているオブジェクトの名前が自動代入される
+\--		・任意の箇所を[arg1] [arg2] [arg3]…　としておける。@Eventで呼び出す際に引数を指定することで自動代入してくれる。
+\--			→例：@Event(hello, 1, [おはよう, 3000, 1000])
+\--		使用例：
+\--			・同じイベントを様々なスイッチで呼び出すことができる（例：集会所のNPCの誰かひとりに話しかければイベント開始）
+\--			・滑る床やセーブなど繰り返し現れる処理を何度もシナリオにコピペする煩わしさから解放。
+\--			・暗転にかかる時間[@Anten(miliseconds)]など、後でまとめて変更する恐れのある数字を含むコマンドを@Eventを挟むことで一括管理。
+
+\--		New!!→ ・オリジナルイベント内からオリジナルイベントを呼び出すことができるようになりました！これはすごい！（熱い自画自賛）
+\--------------------------------------------------------
+
+\--------------------------------------------------------
+@EVENT_BEGIN(map_move)
+	@Anten(800)
+	@Position_Set(me, [arg1], [arg2], [arg3])
+	@Dir_Set(me, [arg4])
+	@Meiten(800)
+@EVENT_END
+
+
+\--------------------------------------------------------
+@EVENT_BEGIN(push_tree)
+	@Slide(PUSHBLOCK-0-[arg1], ORIGINAL, 1, low)  \方向定数ORIGINALの登場により一行で解決
+
+\	@DIR_IF_BEGIN
+\	@DIR_CASE(right)
+\		@Position_Set(joker, +1, 0, true)
+\	@DIR_CASE(left)
+\		@Position_Set(joker, -1, 0, true) 
+\	@DIR_CASE(up)
+\		@Position_Set(joker, 0, -1, true) 
+\	@DIR_CASE(down)
+\		@Position_Set(joker, 0, +1, true)
+\	@DIR_IF_END
+@EVENT_END
+
+\--------------------------------------------------------
+
+
+@EVENT_BEGIN(ice)
+	@DIR_IF_BEGIN
+		@DIR_CASE(right)
+		@Slide(me, right, 1, [arg1]) 
+		@DIR_CASE(left)
+		@Slide(me, left, 1, [arg1]) 
+		@DIR_CASE(up)
+		@Slide(me, up, 1, [arg1]) 
+		@DIR_CASE(down)
+		@Slide(me, down, 1, [arg1]) 
+	@DIR_IF_END
+@EVENT_END
+
+\--------------------------------------------------------
+@EVENT_BEGIN(dir_move)
+	@DIR_IF_BEGIN
+	@DIR_CASE(right)
+		@Position_Set(joker, +[arg1], 0, true)
+	@DIR_CASE(left)
+		@Position_Set(joker, -[arg1], 0, true) 
+	@DIR_CASE(up)
+		@Position_Set(joker, 0, -[arg1], true) 
+	@DIR_CASE(down)
+		@Position_Set(joker, 0, +[arg1], true)
+	@DIR_IF_END
+@EVENT_END
+
+
+\--------------------------------------------------------
+@EVENT_BEGIN(spin)
+	@Dir_Set(joker,ORIGINAL-2)
+	@Wait(100)
+	@Dir_Set(joker,ORIGINAL-1)
+	@Wait(100)
+	@Dir_Set(joker,ORIGINAL)
+	@Wait(100)
+	@Dir_Set(joker,ORIGINAL+1)
+	@Wait(100)
+@EVENT_END
+
+\--------------------------------------------------------
+@EVENT_BEGIN(anten_long)
+	@Anten(3000)
+@EVENT_END
+\--------------------------------------------------------
+
+@EVENT_BEGIN(win_battle)
+	箱から現れたモンスターを倒した！！
+	@NextPage
+	@Anten(500)
+	@Visible_Set(dammy_treasurebox, false)
+	@Meiten(500)
+@EVENT_END
+
+\--------------------------------------------------------
+@EVENT_BEGIN(lose_battle)
+	@Effect_Set(me, BLINK, 0, 100, 100)
+	@Walk(me, ORIGINAL, -1)
+	@Dammy
+	やられた･･････
+	@NextPage
+	@Effect_Set(me, NONE)
+@EVENT_END
+
+@EVENT_BEGIN(clear_samplemap)
+	サンプルマップをクリアしました！！
+	@Stop
+	おめでとうございます！
+	@Stop
+@EVENT_END
+
+\--------------------------------------------------------
+
+@EVENT_BEGIN(story_dropkick3)
+	@TName_Add(left, 冬仁)
+	@Visible_Set(textbox, false)
+	@Anten(1000)
+	@Meiten(1000)
+	@Visible_Set(textbox, true)
+ただいまー。
+@NextPage
+	@TName_Add(right, 千秋)
+ただいまじゃないわボケー！
+@Stop
+	@TName_Now(left)
+ぐほっ！？
+@NextPage
+	@Slide(me, down, 5, high)
+	@Window_Shake(10, 3)
+がはぁっ！ゴホ...
+@NextPage
+	@TName_Now(right)
+	@Visible_Set(Mom, true)
+	@FadeWalk(Mom, down, 1, high)
+	@Walk(Mom, down, 3, high)
+	@Wait(100)
+	@Jump(Mom)
+聞いたよ！帝軍に殴りこんだんだって？
+なんでそんな危険なことするの！
+@NextPage
+	@Walk(me, up, 1, low)
+	@TName_Now(left)
+ゴホッ……
+わ、悪かったよ母さん！
+けどいきなりドロップキックかますことはないだろ！？
+ゲホッ、肺が破裂するかと……
+@NextPage
+	@TName_Now(right, 柊)
+	@Visible_Set(Sis, true)
+	@FadeWalk(Sis, down, 1, high)
+	@Wait(100)
+	@Jump(Sis)
+	@Walk(Mom, Left, 1, middle)
+	@Dir_Set(Mom,Down)
+兄さーん！
+@Stop
+	@Jump(me)
+	@TName_Now(left)
+わー！
+待て柊！、話せばわかる……
+@NextPage
+	@TName_Now(right)
+わかるかボケー！
+@Stop
+	@Walk(Sis, down, 3, high)
+	@Slide(me, down, 1, high)
+	@Window_Shake(20, 3)
+	@TName_Now(left)
+ぐっはぁ！
+し、死……
+@NextPage
+	@Walk(Sis, down, 1)
+	@Walk(Mom, down, 2)
+	@Dir_Set(Mom, Right)
+	@TName_Now(right)
+	@Jump(Sis)
+私たちがどれだけ心配したかわかる？
+相手は銃を持ってたんだよ！？
+@NextPage
+	@TName_Now(left)
+待て待て！
+今絶対骨とか折れたよ！？
+ゴホッ！あんたらのドロップキック威力おかしいから！
+@NextPage
+	@TName_Now(right, 千秋)
+	@Jump(Mom)
+だって心配だったんだよー！
+@Stop
+	@TName_Now(right, 柊)
+	@Jump(Sis)
+心配だったんだもん！わーん！
+@NextPage
+	@TName_Now(left)
+ああ、すまなかったよ。
+柊も泣くなよ。
+@NextPage
+	@TName_Now(right, 千秋)
+冬仁、本当に大丈夫？なんともない？
+@NextPage
+	@TName_Now(left)
+	@Dir_Set(me,Left)
+うん、戦闘でそんな大ケガはしてない。
+とりあえずこのまま本部に行って、ヘルマンさんに報告してくるよ。
+@NextPage
+	@TName_Now(right, 千秋)
+わかった。
+@NextPage
+	@Anten(1000)
+	@Meiten(1000)
+@EVENT_END
+
+\--------------------------------------------------------
+
+
+
+\--------------------------------------------------------
+@EVENT_BEGIN(wrap_sample)
+	"[WRAP@ラップ]モード"のテストです
+	このテキスト表示モードでは通常の"BOXモード"とほぼ同じことができます。
+	@Stop
+	途中で一旦テキスト表示をとめることもできるし、
+	@NextPage
+	@AutoPlay_Set(true)
+	もちろん改ページも任意の場所でできます
+	オートプレイもできます（テキスト表示モードが切り替わると自動解除）
+	@NextPage
+	@BackGround_Change(pic_background02, 1000)
+	途中で[背景@はいけい]を変えるのもOKです
+	"＠Eventコマンド"を使った時と同様に、上から調べたのか下から調べたのかでイベント中のセリフを変えることもできます
+	@Stop
+	変化の度合いによって、同名イベントで引数だけ変えるのか、イベント内で分岐させるのか、イベント自体を別にするのかうまく使い分けたいところですね
+	@NextPage
+	「いざ、[arg1]！」
+	@NextPage
+@EVENT_END
+
