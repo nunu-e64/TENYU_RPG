@@ -186,6 +186,9 @@
     <ClInclude Include="stdafx.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="code\Field\ShopManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\Menu.cpp">
@@ -297,6 +300,9 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Field\ShopManager.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>

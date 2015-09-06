@@ -157,8 +157,12 @@
 @Enemy_Create(エネミーB, 10, 3, 2, 2, 2, pic_enemy02)
 @Enemy_Create(エネミーC, 10, 3, 2, 2, 2, pic_enemy03)
 @EnemyTrick_Set(エネミーA, 攻撃小, 攻撃大, 全体攻撃)
-@EnemyTrick_Set(エネミーB, 攻撃小, 攻撃大)
-@EnemyTrick_Set(エネミーC, 攻撃小, 攻撃大)
+@EnemyTrick_Set(エネミーB, 攻撃小, 攻撃大)
+@EnemyTrick_Set(エネミーC, 攻撃小, 攻撃大)
+@EnemyDropItem_Set(エネミーA, ブルーグミ, 20%)
+@EnemyDropItem_Set(エネミーB, きんのため, 100%)
+@EnemyDropItem_Set(エネミーC, レッドグミ, 100%, ブルーグミ, 100%)
+
 
 \@RandomPlan_Set(0, エネミーA, 0, 100%, 1, 0%)
 @RandomPlan_Set(1, エネミーA, 0, 0%, 1, 100%)
@@ -180,7 +184,7 @@
 @Party_Set(1, 125, 10, エネミーA)
 @Party_Set(1, 125, 10, エネミーA, エネミーB)
 @Party_Set(1, 125, 10, エネミーA, エネミーB, エネミーC)
-@Party_Set(1, 14, 100, エネミーC, エネミーB, エネミーA)
+@Party_Set(1, 14, 100, エネミーA, エネミーB, エネミーC)
 
 @BackGround_Set(1, 14, bg_01)
 @BackGround_Set(1, bg_02)
@@ -189,6 +193,7 @@
 \\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)	\ボツ案　エンカウント設定
 
 【b_system.rpg Load OK!】
+
 
 
 

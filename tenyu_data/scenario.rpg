@@ -24,6 +24,8 @@
 \  @FLAG_IF_BEGIN(name)～@FLAG_CASE(name,n)*x回～@FLAG_IF_END(name)
 \  			・Flag_Setする前に利用した場合、エラーを吐き、値が-2として一致するCASEがあるか探す。
 \			※フラグは負数にはなりえない/できないので注意（ほんとに。）
+\  @ITEM_IF_BEGIN(ItemName)～@ITEM_CASE(name,n)*n～@ITEM_IF_END(name)
+\			・アイテムの所持個数による分岐。Itemはsystem.rpgで事前にCreateしていないと警告がでるので注意。
 \  @DIR_IF_BEGIN～@DIR_CASE(方向)*x回～@DIR_IF_END
 \  			・オブジェクトを調べたときのプレイヤーキャラの向きに応じて分岐
 \  			・方向引数は@Dir_Setと同じ。（ただしORIGINALはない）
@@ -161,7 +163,10 @@
 \  @GameOver
 \  @GameClear
 \  @BackToTitle
-\			・見たまんま
+\			・見たまんま
+\  @GetItem(アイテム名)
+\  @LoseItem(アイテム名)
+\	・アイテムを獲得/喪失
 \----------------------------------------
 \
 
@@ -253,8 +258,27 @@
 @NPC_END
 
 @NPC_BEGIN(Man)
+	@ITEM_IF_BEGIN(きんのたま)
+	@ITEM_CASE(きんのたま, 0)
+		おや、きんのたまを持ってないね
+	@ITEM_CASE(きんのたま, 1)
+		おや、きんのたまを一つ持っているね
+	@ITEM_CASE(きんのたま, 2)
+		おや、きんのたまを二つ持っているね
+	@ITEM_CASE(きんのたま, 3)
+		おや、きんのたまを三つ持っているね
+	@ITEM_CASE(きんのたま, ELSE)
+		おや、きんのたまをたくさん持っているね
+		ブルーグミを2つあげよう
+		@GetItem(ブルーグミ, 2)
+	@ITEM_IF_END(きんのたま)
+	レッドグミを2つあげよう
+	@GetItem(レッドグミ, 2)
+	@GetItem(消費アイテム)
+	@NextPage
 	@Flag_Create(goldenball)
 	やあ！いい天気だね
+	@GetItem(きんのたま, 2)
 	@NextPage
 	
 	@FLAG_IF_BEGIN(goldenball)
@@ -283,11 +307,13 @@
 	ところで君、僕によく似ているねえ
 	これも何かの縁だ、おじさんのきんのたまをあげよう
 	@NextPage
+	@GetItem(きんのたま)
 	きんのたま を手に入れた！
 	きんのたま をバッグにしまった
 	@Flag_Set(goldenball, 2)
 		@NextPage
 	@FLAG_CASE(goldenball, else)
+		@LoseItem(きんのたま)
 		右下の家のドアを調べると、本編のイベントの動きを少しだけ見ることができるそうだよ
 		@NextPage
 	@FLAG_IF_END(goldenball)
@@ -561,6 +587,7 @@
 		@Event(push_tree, [55])
 	@PUSHBLOCK_END
 \-------------------------------------------------------------------------
+
 
 
 

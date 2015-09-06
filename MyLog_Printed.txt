@@ -41,3 +41,184 @@
 ->createEnumMap
 ->c:\users\nunu\dropbox\mydocuments\数研\tenyu\system\tenyu\code\field\ItemManager.h(27)
 
+[2015/06/09 16:06:37 613]:--------START------------------------------------------------------
+
+[2015/06/09 16:06:58 531]:PRINT: Debug->newItem:赤の魔力結晶:196752888
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:06:59 168]:PRINT: Debug->newItem:青の魔力結晶:196752392
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:06:59 561]:PRINT: Debug->newItem:装備アイテム:393322120
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:06:59 905]:PRINT: Debug->newItem:消費アイテム:393324680
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:07:00 263]:PRINT: Debug->newItem:レッドグミ:393324768
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:07:00 594]:PRINT: Debug->newItem:ブルーグミ:393356968
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:07:00 900]:PRINT: Debug->newItem:きんのたま:196782888
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:07:01 214]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->【SystemCommand Load Completed!】
+[2015/06/09 16:07:03 200]:PRINT: Error->Not Found Item. :きんのため
+->CItemManager::GetItem
+->code\Field\ItemManager.cpp(231)
+
+[2015/06/09 16:07:04 498]:PRINT: Warning->Not found Item Name[きんのため] :@EnemyDropItem_Set
+->CCmdManager::BattleSystemCmdSolve
+->code\Main\CmdManager.cpp(558)
+
+[2015/06/09 16:10:24 655]:--------START------------------------------------------------------
+
+[2015/06/09 16:10:42 151]:PRINT: Debug->newItem:赤の魔力結晶:7030416
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:10:43 089]:PRINT: Debug->newItem:青の魔力結晶:7510784
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:10:43 316]:PRINT: Debug->newItem:装備アイテム:275051488
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:10:43 713]:PRINT: Debug->newItem:消費アイテム:274771808
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:10:44 090]:PRINT: Debug->newItem:レッドグミ:275039656
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:10:44 812]:PRINT: Debug->newItem:ブルーグミ:275039744
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:10:45 270]:PRINT: Debug->newItem:きんのたま:274746224
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:10:45 576]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->【SystemCommand Load Completed!】
+[2015/06/09 16:10:46 999]:PRINT: Error->Not Found Item. :きんのため
+->CItemManager::GetItem
+->code\Field\ItemManager.cpp(231)
+
+[2015/06/09 16:10:47 826]:PRINT: Warning->Not found Item Name[きんのため] :@EnemyDropItem_Set
+->CCmdManager::BattleSystemCmdSolve
+->code\Main\CmdManager.cpp(558)
+
+[2015/06/09 16:19:45 655]:--------START------------------------------------------------------
+
+[2015/06/09 16:19:48 460]:PRINT: Debug->newItem:赤の魔力結晶:229846704
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:19:49 128]:PRINT: Debug->newItem:青の魔力結晶:229845440
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:19:49 401]:PRINT: Debug->newItem:装備アイテム:386953208
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:19:49 662]:PRINT: Debug->newItem:消費アイテム:387147968
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:19:49 910]:PRINT: Debug->newItem:レッドグミ:229900232
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:19:50 247]:PRINT: Debug->newItem:ブルーグミ:229900848
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:19:50 551]:PRINT: Debug->newItem:きんのたま:229841952
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:19:50 882]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->【SystemCommand Load Completed!】
+[2015/06/09 16:19:52 015]:PRINT: Error->Not Found Item. :きんのため
+->CItemManager::GetItem
+->code\Field\ItemManager.cpp(231)
+
+[2015/06/09 16:19:52 592]:PRINT: Warning->Not found Item Name[きんのため] :@EnemyDropItem_Set
+->CCmdManager::BattleSystemCmdSolve
+->code\Main\CmdManager.cpp(558)
+
+[2015/06/09 16:25:20 979]:--------START------------------------------------------------------
+
+[2015/06/09 16:25:58 024]:PRINT: Debug->newItem:赤の魔力結晶:208739168
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:26:01 910]:PRINT: Debug->newItem:青の魔力結晶:208733848
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:26:08 822]:PRINT: Debug->newItem:装備アイテム:372287624
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:26:16 786]:PRINT: Debug->newItem:消費アイテム:208718576
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:26:20 827]:PRINT: Debug->newItem:レッドグミ:372299456
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:26:24 163]:PRINT: Debug->newItem:ブルーグミ:208645256
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:26:27 091]:PRINT: Debug->newItem:きんのたま:208717304
+->CItemManager::AddItem
+->code\Field\ItemManager.cpp(41)
+
+[2015/06/09 16:26:28 143]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->【SystemCommand Load Completed!】
+[2015/06/09 16:26:29 254]:PRINT: Error->Not Found Item. :きんのため
+->CItemManager::GetItem
+->code\Field\ItemManager.cpp(231)
+
+[2015/06/09 16:26:31 724]:PRINT: Warning->Not found Item Name[きんのため] :@EnemyDropItem_Set
+->CCmdManager::BattleSystemCmdSolve
+->code\Main\CmdManager.cpp(558)
+
+[2015/06/09 16:26:57 028]:PRINT: Debug->--ALL--
+きんのたま
+ブルーグミ
+レッドグミ
+消費アイテム
+青の魔力結晶
+赤の魔力結晶
+装備アイテム
+--Consumption--
+ブルーグミ
+レッドグミ
+消費アイテム
+--Accessory--
+装備アイテム
+--KeyItem--
+きんのたま
+--MaterialItem--
+青の魔力結晶
+赤の魔力結晶
+
+->CItemManager::DebugShowAllItem
+->code\Field\ItemManager.cpp(312)
+
+[2015/06/09 16:27:02 532]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->【b_system.rpg Load OK!】
+[2015/06/09 16:27:07 506]:----FINISH-----------------------------------------------------

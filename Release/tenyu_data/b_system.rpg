@@ -23,10 +23,11 @@
 \				・arg0=Size1・・・収束する光球ひとつひとつの半径
 \				・arg1=Size2・・・相手に向かって飛んでいく光球の半径
 \				・arg2=Radius・・・光球が収束するときの初期配置における中心からの距離
-\  @NormalTrick_Create(name, power, cost, effectname)
+\  @NormalTrick_Create(name, power, cost, target, effectname)
 \		・通常技の生成。特殊効果無し。
 \		・effectnameには"PROTO_BIG"のように技の発動エフェクト名を指定
 \		・effectnameを"NULL"にした場合、その技は発動エフェクトなし。（14/12/15現在の仕様→デフォルトのダメージ演出を作るべきか）
+\		・target=[SINGLE_ENEMY, ALL_ENEMY, ALL_FRIEND, SINGLE_FRIEND]
 \  @PlayerTrick_Set(PlayerName, TrickName*n)
 \		・@Trick_Create系で作った技を味方キャラに割り当てる。
 \		・n<=20（14/12/07現在）
@@ -121,19 +122,19 @@
 @TrickEffect_Create(BOMB_REDBIG, BOMB, 255,0,0, 10, 60)		\\未制作（15/04/20現在）
 @TrickEffect_Create(あ, PROTO, 8, 10, 40)
 
-@NormalTrick_Create(全体攻撃, 2Lv, 3MP, 100%, PROTO_BIG, ALL)
-@NormalTrick_Create(攻撃大, 10Lv, 3MP, 110%, PROTO_BIG, SINGLE)
-@NormalTrick_Create(攻撃小, 5Lv, 2MP, 90%, PROTO_SMALL, SINGLE)
-@NormalTrick_Create(アタックアップ, 5Lv, 2MP, 90%, PROTO_SMALL, SINGLE, ATK, ME,+40%, 100%, 500%)
-@NormalTrick_Create(ガードブレイク, 5Lv, 2MP, 90%, NULL, SINGLE, DEF, SINGLE, -40%, 100%, 500%)
-@NormalTrick_Create(全部, 0Lv, 2MP, 100%, NULL, NULL, ATK, ALL, -50%, 100%, 160%, DEF, ALL, -50%, 100%, 160%, ATK, ALL_FRIEND, 50%, 100%, 160%, DEF, ALL_FRIEND, 50%, 100%, 160%)
-@NormalTrick_Create(加速, 0Lv, 2MP, 50time, NULL, NULL, SPD, ME,+40%, 100%, 250time)
-@NormalTrick_Create(スロウ, 0Lv, 2MP, 50time, NULL, SINGLE, SPD, SINGLE, -40%, 100%, 250time)
-@NormalTrick_Create(ヒール, 0Lv, 2MP, 50time, PROTO_SMALL, SINGLE_FRIEND, HEAL, SINGLE, +20%, 100%, -1time)
-@NormalTrick_Create(オールヒール, 0Lv, 4MP, 50time, NULL, NULL, HEAL, ALL_FRIEND, +10%, 100%, -1time)
-@NormalTrick_Create(全体魔力回復, 0Lv, 5MP, 50time, NULL, NULL, MPHEAL, ALL_FRIEND, +1P, 100%, -1time)
-@NormalTrick_Create(踊る, 0Lv, 5MP, 50time, NULL, NULL, ATTENTION, ALL, +10P, 100%, -1time)
-@NormalTrick_Create(石ころ帽子, 0Lv, 5MP, 50time, NULL, NULL, ATTENTION, ALL, -10P, 100%, -1time)
+@NormalTrick_Create(全体攻撃, 2Lv, 3MP, 100%, ALL_ENEMY, PROTO_BIG)
+@NormalTrick_Create(攻撃大, 10Lv, 3MP, 110%, SINGLE_ENEMY, PROTO_BIG)
+@NormalTrick_Create(攻撃小, 5Lv, 2MP, 90%, SINGLE_ENEMY, PROTO_SMALL)
+@NormalTrick_Create(アタックアップ, 5Lv, 2MP, 90%, SINGLE_ENEMY, PROTO_SMALL, ME, ATK,+40%, 100%, 500%)
+@NormalTrick_Create(ガードブレイク, 5Lv, 2MP, 90%, SINGLE_ENEMY, NULL, SINGLE_ENEMY, DEF, -40%, 100%, 500%)
+@NormalTrick_Create(全部, 0Lv, 2MP, 100%, NULL, NULL, ALL_ENEMY, ATK, -50%, 100%, 160%, ALL_ENEMY, DEF, -50% , 100%, 160%, ALL_FRIEND, ATK, 50%, 100%, 160%, ALL_FRIEND, DEF, 50%, 100%, 160%)
+@NormalTrick_Create(加速, 0Lv, 2MP, 50time, NULL, NULL, ME, SPD, +40%, 100%, 250time)
+@NormalTrick_Create(スロウ, 0Lv, 2MP, 50time, SINGLE_ENEMY, NULL, SINGLE_ENEMY, SPD, -40%, 100%, 250time)
+@NormalTrick_Create(ヒール, 0Lv, 2MP, 50time, SINGLE_FRIEND, PROTO_SMALL, SINGLE_FRIEND, HEAL, +20%, 100%, -1time)
+@NormalTrick_Create(オールヒール, 0Lv, 4MP, 50time, NULL, NULL, ALL_FRIEND, HEAL, +10%, 100%, -1time)
+@NormalTrick_Create(全体魔力回復, 0Lv, 5MP, 50time, NULL, NULL, ALL_FRIEND, MPHEAL, +1P, 100%, -1time)
+@NormalTrick_Create(踊る, 0Lv, 5MP, 50time, NULL, NULL, ALL_ENEMY, ATTENTION, +10P, 100%, -1time)
+@NormalTrick_Create(石ころ帽子, 0Lv, 5MP, 50time, NULL, NULL, ALL_ENEMY, ATTENTION, -10P, 100%, -1time)
 
 
 @BaseTrick_Create(攻撃, 100%, PROTO_MINI)
@@ -153,12 +154,19 @@
 @PlayerTrick_Set(プレイヤーD, 攻撃大, 攻撃小)
 
 \Enemy_Create(Name, Level, MaxHp[1~5], Atk[1~3], Def[1~3], Spd[1~3], PicKey)
-@Enemy_Create(エネミーA, 10, 3, 2, 2, 2, pic_enemy01)
-@Enemy_Create(エネミーB, 10, 3, 2, 2, 2, pic_enemy02)
-@Enemy_Create(エネミーC, 10, 3, 2, 2, 2, pic_enemy03)
+@Enemy_Create(エネミーA, 10lv, 3, 2, 2, 2, pic_enemy01)
+@Enemy_Create(エネミーB, 10lv, 3, 2, 2, 2, pic_enemy02)
+@Enemy_Create(エネミーC, 10lv, 3, 2, 2, 2, pic_enemy03)
 @EnemyTrick_Set(エネミーA, 攻撃小, 攻撃大, 全体攻撃)
 @EnemyTrick_Set(エネミーB, 攻撃小, 攻撃大)
+
+
 @EnemyTrick_Set(エネミーC, 攻撃小, 攻撃大)
+
+@EnemyDropItem_Set(エネミーA, ブルーグミ, 20%)
+@EnemyDropItem_Set(エネミーB, きんのたま, 100%)
+@EnemyDropItem_Set(エネミーC, レッドグミ, 100%, ブルーグミ, 100%)
+
 
 \@RandomPlan_Set(0, エネミーA, 0, 100%, 1, 0%)
 @RandomPlan_Set(1, エネミーA, 0, 0%, 1, 100%)
@@ -180,7 +188,7 @@
 @Party_Set(1, 125, 10, エネミーA)
 @Party_Set(1, 125, 10, エネミーA, エネミーB)
 @Party_Set(1, 125, 10, エネミーA, エネミーB, エネミーC)
-@Party_Set(1, 14, 100, エネミーC, エネミーB, エネミーA)
+@Party_Set(1, 14, 100, エネミーA, エネミーB, エネミーC)
 
 @BackGround_Set(1, 14, bg_01)
 @BackGround_Set(1, bg_02)
@@ -189,6 +197,10 @@
 \\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)	\ボツ案　エンカウント設定
 
 【b_system.rpg Load OK!】
+
+
+
+
 
 
 

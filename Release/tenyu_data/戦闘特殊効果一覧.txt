@@ -1,0 +1,28 @@
+■戦闘特殊効果
+・戦闘中に発動する種々の効果
+	・例：特殊技(エンハンス等)、消費アイテム、アクセサリー
+・別名：サイドエフェクト
+
+
+■Target(対象)
+
+ME, SINGLE_ENEMY, SINGLE_FRIEND, ALL_ENEMY, ALL_FRIEND
+
+※ENEMY,FRIENDは、発動主体から見た味方,敵であることに注意
+
+
+■Type(効果)
+
+ATK, DEF, SPD, HEAL, MPHEAL, ATTENTION)
+効果値＝Power, 持続時間＝Timer, 発動確率＝Incident
+
+・ATK/DEF/SPD…攻撃力/防御力/ゲージ増加速度の増減。効果値＝増減％
+・HEAL…HP回復。効果値＝回復％
+・MPHEAL…魔力回復。効果値＝魔力カウント[個]
+・ATTENTION…アテンション増減。効果値＝増減値[暫定1~10]。Tagetがモンスターの時のみ発動する。
+・SET_TIMEGAUGE…タイムゲージを強制的に変化させる。効果値は変化後のゲージ位置（0%…ゲージ0、100%…ゲージ満タンで即行動）
+・HEAL_AFTER_ATTACK…攻撃成功時にHP回復する。Powerは回復％。
+・HEAL_AFTER_SELECTCOMMAND…コマンド選択時に回復する。食べ残し。
+
+
+
