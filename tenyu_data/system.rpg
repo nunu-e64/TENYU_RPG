@@ -21,13 +21,14 @@
 \--@Set_StartPosition(マップ番号, X座標, Y座標, 向き, PicKey)：プレイヤーの初期位置と画像を指定。複数回使った場合上書きされます。
 
 \
-\  @Create_MaterialItem(素材アイテム名, 所持上限, 売却金額, 売却可否)
-\  @Create_AccessoryItem(装備アイテム名, 所持上限, 売却金額, 売却可否, [素材アイテム名, 必要個数]*n)
-\  @Create_ConsumptionItem(消費アイテム名, 所持上限, 売却金額, 売却可否, 戦闘中の利用可否, 利用後の待機時間(0~100), 効果対象, [効果名, 効果値]*n)
-\  @Create_KeyItem(キーアイテム名, 所持上限, 売却金額, 売却可否)
+\  @Create_MaterialItem(素材アイテム名, 所持上限, 金額, 売却可否)
+\  @Create_AccessoryItem(装備アイテム名, 所持上限, 金額, 売却可否, [素材アイテム名, 必要個数]*n)
+\  @Create_ConsumptionItem(消費アイテム名, 所持上限, 金額, 売却可否, 戦闘中の利用可否, 利用後の待機時間(0~100), 効果対象, [効果名, 効果値]*n)
+\  @Create_KeyItem(キーアイテム名, 所持上限, 金額, 売却可否)
 \
 \
 \--------------------------------------------------------------------------------
+
 
 \--Load-----------------------------------------------------------
 @Load_Map(tenyu_data/map/oldtown01, 0)
@@ -58,21 +59,33 @@
 @Load_Pic(tenyu_data/pic/bg/sample2.bmp, 	pic_background02, BG)
 \-----------------------------------------------------------------
 
-\--CreateItem------------------------------------------------------------
+\--CreateItem-----------------------------------------------------
 
 @Create_MaterialItem(赤の魔力結晶, 100ko, 5000en, true)	\これだけはシステムで用意するのが妥当か
 @Create_MaterialItem(青の魔力結晶, 100ko, 5000en, true)	\これだけはシステムで用意するのが妥当か
-@Create_AccessoryItem(装備アイテム, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko)
 
-@Create_ConsumptionItem(消費アイテム, 10ko, 100en, true, true, 100time, ALL, HEAL, 30%)
-@Create_ConsumptionItem(レッドグミ, 10ko, 100en, true, true, 100time, ALL, HEAL, 5%)
-@Create_ConsumptionItem(ブルーグミ, 10ko, 100en, true, true, 100time, ALL, MPHEAL, 3point)
+@Create_AccessoryItem(攻撃防御一時上昇, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko, [ME, ATK, 25%, 200time, ME, DEF, 10%, 100time])
+@Create_AccessoryItem(先手必勝, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko, [ME, SET_TIMEGAUGE, 100%, -1])
+@Create_AccessoryItem(貝殻の鈴, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko, [ME, HEAL_AFTER_ATTACK, 3%, -1])
+@Create_AccessoryItem(たべのこし, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko, [ME, HEAL_AFTER_SELECTCOMMAND, 5%, -1])
 
-@Create_KeyItem(きんのたま, 5, -1, false)
+@Create_ConsumptionItem(消費アイテム, 10ko, 200en, true, true, 130time, ALL_FRIEND, HEAL, 30%)
+@Create_ConsumptionItem(レッドグミ, 10ko, 100en, true, true, 70time, SINGLE_FRIEND, HEAL, 5%)
+@Create_ConsumptionItem(ブルーグミ, 10ko, 150en, true, true, 100time, SINGLE_FRIEND, MPHEAL, 3point)
+@Create_ConsumptionItem(セルフヒールグミ, 10ko, 150en, true, true, 100time, ME, MPHEAL, 2point, HEAL, 10%)
 
-\@SetEffect_AccessoryItem(AccessoryName, EFFECT)
+@Create_KeyItem(きんのたま, 5, 500, false)
 
 \-----------------------------------------------------------------
+
+
+\--Create_Shop----------------------------------------------------
+
+\@Create_Shop(番号, [商品名]*n, ...)
+@Create_Shop(0, レッドグミ, ブルーグミ, きんのたま, 消費アイテム)
+@Create_Shop(1, きんのたま)
+\-----------------------------------------------------------------
+
 
 \--Set------------------------------------------------------------
 \\スタート位置設定\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -168,6 +181,10 @@
 \-----------------------------------------------------------------
 【SystemCommand Load Completed!】
 \↑ロード完了メッセージ（完成版では削除）
+
+
+
+
 
 
 

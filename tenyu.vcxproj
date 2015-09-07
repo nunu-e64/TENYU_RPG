@@ -9,28 +9,52 @@
       <Configuration>Release</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6C1EFDE1-8B75-45AC-931E-9181DFE73EF0}</ProjectGuid>
+    <ProjectGuid>{BF8EC619-8214-49EE-90AA-F8D6F8F3FCD6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>tenyu</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -38,11 +62,23 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -51,17 +87,32 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
       <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
-      <StackReserveSize>4194304</StackReserveSize>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>8388608</StackReserveSize>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -72,10 +123,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
       <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
@@ -83,65 +133,30 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
-      <StackReserveSize>4194304</StackReserveSize>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <StackReserveSize>8388608</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="code\Battle\Actor.h" />
-    <ClInclude Include="code\Battle\Battle.h" />
-    <ClInclude Include="code\Battle\BattleCalculator.h" />
-    <ClInclude Include="code\Battle\BImgBank.h" />
-    <ClInclude Include="code\Battle\Enemy.h" />
-    <ClInclude Include="code\Battle\EnemyAI.h" />
-    <ClInclude Include="code\Battle\EnemyPlanner.h" />
-    <ClInclude Include="code\Battle\EnemySpeciesManager.h" />
-    <ClInclude Include="code\Battle\EnemyTargetter.h" />
-    <ClInclude Include="code\Battle\LogWindow.h" />
-    <ClInclude Include="code\Battle\Player.h" />
-    <ClInclude Include="code\Battle\PlayerSpeciesManager.h" />
-    <ClInclude Include="code\Battle\Species.h" />
-    <ClInclude Include="code\Battle\TrickDamageEffect.h" />
-    <ClInclude Include="code\Battle\TrickManager.h" />
-    <ClInclude Include="code\Define.h" />
-    <ClInclude Include="code\EveManager.h" />
-    <ClInclude Include="code\EveObj.h" />
-    <ClInclude Include="code\Field.h" />
-    <ClInclude Include="code\Field\EveManager.h" />
-    <ClInclude Include="code\Field\EveObj.h" />
-    <ClInclude Include="code\Field\Field.h" />
-    <ClInclude Include="code\Field\Item.h" />
-    <ClInclude Include="code\Field\ItemManager.h" />
-    <ClInclude Include="code\Field\Load.h" />
-    <ClInclude Include="code\Field\Map.h" />
-    <ClInclude Include="code\Field\ShopManager.h" />
-    <ClInclude Include="code\Load.h" />
-    <ClInclude Include="code\Main\CmdList.h" />
-    <ClInclude Include="code\Main\CmdManager.h" />
-    <ClInclude Include="code\Main\ImgBank.h" />
-    <ClInclude Include="code\Main\Main.h" />
-    <ClInclude Include="code\Main\ScreenChanger.h" />
-    <ClInclude Include="code\Main\TalkName.h" />
-    <ClInclude Include="code\Main\TextBox.h" />
-    <ClInclude Include="code\Main\TextWrap.h" />
-    <ClInclude Include="code\Main\WorldManager.h" />
-    <ClInclude Include="code\Map.h" />
-    <ClInclude Include="code\CmdList.h" />
-    <ClInclude Include="code\CmdManager.h" />
-    <ClInclude Include="code\ImgBank.h" />
-    <ClInclude Include="code\Main.h" />
-    <ClInclude Include="code\ScreenChanger.h" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="code\TalkName.h" />
-    <ClInclude Include="code\TextBox.h" />
-    <ClInclude Include="code\TextWrap.h" />
-    <ClInclude Include="code\WorldManager.h" />
-    <ClInclude Include="code\Menu.h" />
-    <ClInclude Include="code\Mrt.h" />
-    <ClInclude Include="code\mrtLib.h" />
-    <ClInclude Include="code\nunuLib.h" />
-  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="code\Battle\Actor.cpp" />
     <ClCompile Include="code\Battle\Battle.cpp" />
@@ -179,11 +194,51 @@
     <ClCompile Include="code\Mrt.cpp" />
     <ClCompile Include="code\mrtLib.cpp" />
     <ClCompile Include="code\nunuLib.cpp" />
+    <ClCompile Include="code\System.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="code\System.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Battle\Actor.h" />
+    <ClInclude Include="code\Battle\Battle.h" />
+    <ClInclude Include="code\Battle\BattleCalculator.h" />
+    <ClInclude Include="code\Battle\BImgBank.h" />
+    <ClInclude Include="code\Battle\Enemy.h" />
+    <ClInclude Include="code\Battle\EnemyAI.h" />
+    <ClInclude Include="code\Battle\EnemyPlanner.h" />
+    <ClInclude Include="code\Battle\EnemySpeciesManager.h" />
+    <ClInclude Include="code\Battle\EnemyTargetter.h" />
+    <ClInclude Include="code\Battle\LogWindow.h" />
+    <ClInclude Include="code\Battle\Player.h" />
+    <ClInclude Include="code\Battle\PlayerSpeciesManager.h" />
+    <ClInclude Include="code\Battle\Species.h" />
+    <ClInclude Include="code\Battle\TrickDamageEffect.h" />
+    <ClInclude Include="code\Battle\TrickManager.h" />
+    <ClInclude Include="code\Define.h" />
+    <ClInclude Include="code\Field\EveManager.h" />
+    <ClInclude Include="code\Field\EveObj.h" />
+    <ClInclude Include="code\Field\Field.h" />
+    <ClInclude Include="code\Field\Item.h" />
+    <ClInclude Include="code\Field\ItemManager.h" />
+    <ClInclude Include="code\Field\Load.h" />
+    <ClInclude Include="code\Field\Map.h" />
+    <ClInclude Include="code\Field\ShopManager.h" />
+    <ClInclude Include="code\Main\CmdList.h" />
+    <ClInclude Include="code\Main\CmdManager.h" />
+    <ClInclude Include="code\Main\ImgBank.h" />
+    <ClInclude Include="code\Main\Main.h" />
+    <ClInclude Include="code\Main\ScreenChanger.h" />
+    <ClInclude Include="code\Main\TalkName.h" />
+    <ClInclude Include="code\Main\TextBox.h" />
+    <ClInclude Include="code\Main\TextWrap.h" />
+    <ClInclude Include="code\Main\WorldManager.h" />
+    <ClInclude Include="code\Menu.h" />
+    <ClInclude Include="code\Mrt.h" />
+    <ClInclude Include="code\mrtLib.h" />
+    <ClInclude Include="code\nunuLib.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

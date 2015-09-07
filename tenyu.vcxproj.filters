@@ -7,190 +7,35 @@
     </Filter>
     <Filter Include="ヘッダー ファイル">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="リソース ファイル">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ヘッダー ファイル\Battle">
-      <UniqueIdentifier>{7eed62c4-dfa6-4bad-86c9-2e7dbb7487fd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ヘッダー ファイル\Main">
-      <UniqueIdentifier>{e684f0f0-39ba-4de1-a74b-ccaf0eaa6150}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ヘッダー ファイル\Field">
-      <UniqueIdentifier>{a341460d-67f6-49f2-86f5-bf814ad647e6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ソース ファイル\Battle">
-      <UniqueIdentifier>{7a5b014e-e1e4-40d0-9dd0-411d96ea5ee8}</UniqueIdentifier>
+      <UniqueIdentifier>{2556f93f-6675-442c-9f0b-d3caa144a908}</UniqueIdentifier>
     </Filter>
     <Filter Include="ソース ファイル\Field">
-      <UniqueIdentifier>{4d5df674-8115-4860-aab0-049f8a99afad}</UniqueIdentifier>
+      <UniqueIdentifier>{de37880f-51de-4644-bea5-66d3fc5fb14c}</UniqueIdentifier>
     </Filter>
     <Filter Include="ソース ファイル\Main">
-      <UniqueIdentifier>{b8900d6d-582e-402a-bff5-3fc67ee6d4fa}</UniqueIdentifier>
+      <UniqueIdentifier>{b6b7e0bd-968c-4b9e-9da0-087dbdc0d7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Battle">
+      <UniqueIdentifier>{07174248-e693-4d18-b5c2-4a38fb1842b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Field">
+      <UniqueIdentifier>{8231ffe0-0daa-4480-b402-f0ac470a1aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Main">
+      <UniqueIdentifier>{8e87a8c8-f049-4b40-9bc2-0b044e6744da}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="code\Battle\Actor.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\Battle.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\BattleCalculator.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\BImgBank.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\Enemy.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\EnemyPlanner.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\Player.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\Species.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\TrickDamageEffect.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\TrickManager.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Define.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Menu.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Mrt.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\mrtLib.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\nunuLib.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\EnemyAI.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\EnemySpeciesManager.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\PlayerSpeciesManager.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\EnemyTargetter.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Battle\LogWindow.h">
-      <Filter>ヘッダー ファイル\Battle</Filter>
-    </ClInclude>
-    <ClInclude Include="code\EveManager.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\EveObj.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Load.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Map.h">
-      <Filter>ヘッダー ファイル\Field</Filter>
-    </ClInclude>
-    <ClInclude Include="code\CmdList.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\CmdManager.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\ImgBank.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\ScreenChanger.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\TalkName.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\TextBox.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\TextWrap.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\WorldManager.h">
-      <Filter>ヘッダー ファイル\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\CmdList.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\CmdManager.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\ImgBank.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\Main.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\ScreenChanger.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\TalkName.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\TextBox.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\TextWrap.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Main\WorldManager.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\EveManager.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\EveObj.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\Field.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\Load.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\Map.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\ItemManager.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\Item.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="stdafx.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="code\Field\ShopManager.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
     <ClCompile Include="code\Menu.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
@@ -206,25 +51,31 @@
     <ClCompile Include="code\System.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="code\Battle\Actor.cpp">
-      <Filter>ソース ファイル\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Battle\Battle.cpp">
-      <Filter>ソース ファイル\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Battle\BattleCalculator.cpp">
-      <Filter>ソース ファイル\Battle</Filter>
-    </ClCompile>
     <ClCompile Include="code\Battle\BImgBank.cpp">
       <Filter>ソース ファイル\Battle</Filter>
     </ClCompile>
     <ClCompile Include="code\Battle\Enemy.cpp">
       <Filter>ソース ファイル\Battle</Filter>
     </ClCompile>
+    <ClCompile Include="code\Battle\EnemyAI.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
     <ClCompile Include="code\Battle\EnemyPlanner.cpp">
       <Filter>ソース ファイル\Battle</Filter>
     </ClCompile>
+    <ClCompile Include="code\Battle\EnemySpeciesManager.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Battle\EnemyTargetter.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Battle\LogWindow.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
     <ClCompile Include="code\Battle\Player.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Battle\PlayerSpeciesManager.cpp">
       <Filter>ソース ファイル\Battle</Filter>
     </ClCompile>
     <ClCompile Include="code\Battle\Species.cpp">
@@ -236,6 +87,15 @@
     <ClCompile Include="code\Battle\TrickManager.cpp">
       <Filter>ソース ファイル\Battle</Filter>
     </ClCompile>
+    <ClCompile Include="code\Battle\Actor.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Battle\Battle.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Battle\BattleCalculator.cpp">
+      <Filter>ソース ファイル\Battle</Filter>
+    </ClCompile>
     <ClCompile Include="code\Field\EveManager.cpp">
       <Filter>ソース ファイル\Field</Filter>
     </ClCompile>
@@ -245,16 +105,28 @@
     <ClCompile Include="code\Field\Field.cpp">
       <Filter>ソース ファイル\Field</Filter>
     </ClCompile>
+    <ClCompile Include="code\Field\Item.cpp">
+      <Filter>ソース ファイル\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Field\ItemManager.cpp">
+      <Filter>ソース ファイル\Field</Filter>
+    </ClCompile>
     <ClCompile Include="code\Field\Load.cpp">
       <Filter>ソース ファイル\Field</Filter>
     </ClCompile>
     <ClCompile Include="code\Field\Map.cpp">
       <Filter>ソース ファイル\Field</Filter>
     </ClCompile>
+    <ClCompile Include="code\Field\ShopManager.cpp">
+      <Filter>ソース ファイル\Field</Filter>
+    </ClCompile>
     <ClCompile Include="code\Main\CmdList.cpp">
       <Filter>ソース ファイル\Main</Filter>
     </ClCompile>
     <ClCompile Include="code\Main\CmdManager.cpp">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Main\ImgBank.cpp">
       <Filter>ソース ファイル\Main</Filter>
     </ClCompile>
     <ClCompile Include="code\Main\Main.cpp">
@@ -275,35 +147,121 @@
     <ClCompile Include="code\Main\WorldManager.cpp">
       <Filter>ソース ファイル\Main</Filter>
     </ClCompile>
-    <ClCompile Include="code\Battle\EnemyAI.cpp">
-      <Filter>ソース ファイル\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Battle\EnemySpeciesManager.cpp">
-      <Filter>ソース ファイル\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Battle\PlayerSpeciesManager.cpp">
-      <Filter>ソース ファイル\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Battle\EnemyTargetter.cpp">
-      <Filter>ソース ファイル\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Main\ImgBank.cpp">
-      <Filter>ソース ファイル\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Battle\LogWindow.cpp">
-      <Filter>ソース ファイル\Battle</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Field\ItemManager.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Field\Item.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="code\Field\ShopManager.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Menu.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Mrt.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\mrtLib.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\nunuLib.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\Battle.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\BattleCalculator.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\BImgBank.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\Enemy.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\EnemyAI.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\EnemyPlanner.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\EnemySpeciesManager.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\EnemyTargetter.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\LogWindow.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\Player.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\PlayerSpeciesManager.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\Species.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\TrickDamageEffect.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\TrickManager.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Battle\Actor.h">
+      <Filter>ヘッダー ファイル\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\Map.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\ShopManager.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\EveManager.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\EveObj.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\Field.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\Item.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\ItemManager.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\Load.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\TalkName.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\TextBox.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\TextWrap.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\WorldManager.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\CmdList.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\CmdManager.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\ImgBank.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\Main.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\ScreenChanger.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
