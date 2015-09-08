@@ -86,7 +86,7 @@
 \\システム用画像読み込み\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 @Load_Pic(tenyu_data/pic/sys/battle/target.png, TARGET_CURSOR)
 \@Load_Pic(tenyu_data/pic/sys/battle/cursor.png, MENU_CURSOR) \未使用
-@Load_Pic(tenyu_data/pic/sys/battle/timebar1.png, TIME_BAR1)
+@Load_Pic(tenyu_data/pic/sys/battle/timebar1.bmp, TIME_BAR1)
 @Load_Pic(tenyu_data/pic/sys/battle/timebar2.png, TIME_BAR2)
 @Load_Pic(tenyu_data/pic/sys/battle/TimeWait.png, TIME_WAIT)
 @Load_Pic(tenyu_data/pic/sys/battle/TimeTrick.png, TIME_TRICK)
@@ -100,8 +100,8 @@
 @Load_Pic(tenyu_data/pic/sys/battle/AttentionBoard.png, ATTENTION_BOARD)
 @Load_Pic(tenyu_data/pic/sys/battle/AttentionEffect.png, ATTENTION_EFFECT)
 
-@Load_Pic(tenyu_data/pic/sys/battle/MagicCounter.png, MAGIC_COUNTER, 2)
-@Load_Pic(tenyu_data/pic/sys/battle/SideEffectMarker.png, STATUS_CHANGER, 5, 2)
+@Load_Pic(tenyu_data/pic/sys/battle/MagicCounter.bmp, MAGIC_COUNTER, 2)
+@Load_Pic(tenyu_data/pic/sys/battle/SideEffectMarker.bmp, STATUS_CHANGER, 5, 2)
 
 @Load_Pic(tenyu_data/pic/sys/battle/bomb.bmp, EFFECT_BOMB)
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -112,9 +112,9 @@
 @Load_Pic(tenyu_data/pic/battle/enemy01.bmp, pic_enemy01)
 @Load_Pic(tenyu_data/pic/battle/enemy02.bmp, pic_enemy02)
 @Load_Pic(tenyu_data/pic/battle/enemy03.bmp, pic_enemy03)
-@Load_Pic(tenyu_data/pic/battle/player0.png, pic_player01)
-@Load_Pic(tenyu_data/pic/battle/player1.png, pic_player02)
-@Load_Pic(tenyu_data/pic/battle/player2.png, pic_player03)
+@Load_Pic(tenyu_data/pic/battle/player0.bmp, pic_player01)
+@Load_Pic(tenyu_data/pic/battle/player1.bmp, pic_player02)
+@Load_Pic(tenyu_data/pic/battle/player2.bmp, pic_player03)
 
 @TrickEffect_Create(PROTO_SMALL, PROTO, 10, 15, 60)
 @TrickEffect_Create(PROTO_BIG, PROTO, 20, 25, 90)
@@ -197,6 +197,7 @@
 \\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)	\ボツ案　エンカウント設定
 
 【b_system.rpg Load OK!】
+
 
 
 
