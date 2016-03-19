@@ -13,6 +13,8 @@
 \--
 \--@Load_Pic(相対パス, PicKey, カテゴリ)：イベント用&背景一枚絵用画像読み込み, 画像データPicKeyで呼び出す為、カテゴリ[Kind]はNPCか否かしか今のところ問題ではない(14/05/12)
 \--
+\  @Load_Music(相対パス, MusicKey)
+\
 \--@Set_EventObj(マップ番号, イベントマップ上のバイナリデータの値, Kind, PicKey, [Name=MapNum-DataNum], [Visible])：マップ上のイベントオブジェクトを登録（画像つき）
 \		・Kind…NPC,BLOCK,FLOOR,PANEL,PUSHBLOCK,COVER
 \		・PicKey…@Load_Picで登録しておいたキーを指定。☆"NULL"を指定した場合、空白画像（見えない壁用など）
@@ -26,6 +28,8 @@
 \  @Create_ConsumptionItem(消費アイテム名, 所持上限, 金額, 売却可否, 戦闘中の利用可否, 利用後の待機時間(0~100), 効果対象, [効果名, 効果値]*n)
 \  @Create_KeyItem(キーアイテム名, 所持上限, 金額, 売却可否)
 \
+\  @Set_MapMusic(MapNum, MusicKey)...フィールドマップ曲。マップが切り替わるときに自動で音楽が切り替わる
+\  @Set_BattleMusic(MapNum, Musickey)...戦闘曲。指定していない場合フィールドマップの音楽が引き継がれる
 \
 \--------------------------------------------------------------------------------
 
@@ -57,17 +61,31 @@
 
 @Load_Pic(tenyu_data/pic/bg/sample.bmp, 	pic_background01, BG)
 @Load_Pic(tenyu_data/pic/bg/sample2.bmp, 	pic_background02, BG)
+
+@Load_Music(tenyu_data/music/DaydreamCafe.mp3, music_00)
+@Load_Music(tenyu_data/music/town01.mp3, bgm_01)
+@Load_Music(tenyu_data/music/field01.mp3, bgm_02)
+@Load_Music(tenyu_data/music/battle01.mp3, battlebgm_01)
+@Load_Sound(tenyu_data/music/sound.mp3, sound_01)
+\-----------------------------------------------------------------
+
+\--SetMapMusic----------------------------------------------------
+@Set_MapMusic(0, bgm_01)
+@Set_MapMusic(1, bgm_02)
+@Set_BattleMusic(0, battlebgm_01)
 \-----------------------------------------------------------------
 
 \--CreateItem-----------------------------------------------------
 
-@Create_MaterialItem(赤の魔力結晶, 100ko, 5000en, true)	\これだけはシステムで用意するのが妥当か
-@Create_MaterialItem(青の魔力結晶, 100ko, 5000en, true)	\これだけはシステムで用意するのが妥当か
+@Create_MaterialItem(魔力結晶:赤, 100ko, 100en, true)	\これだけはシステムで用意するのが妥当か
+@Create_MaterialItem(魔力結晶:青, 100ko, 100en, true)	\これだけはシステムで用意するのが妥当か
+@Create_MaterialItem(魔力結晶:黄, 100ko, 100en, true)	\これだけはシステムで用意するのが妥当か
+@Create_MaterialItem(魔力結晶:緑, 100ko, 100en, true)	\これだけはシステムで用意するのが妥当か
 
-@Create_AccessoryItem(攻撃防御一時上昇, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko, [ME, ATK, 25%, 200time, ME, DEF, 10%, 100time])
-@Create_AccessoryItem(先手必勝, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko, [ME, SET_TIMEGAUGE, 100%, -1])
-@Create_AccessoryItem(貝殻の鈴, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko, [ME, HEAL_AFTER_ATTACK, 3%, -1])
-@Create_AccessoryItem(たべのこし, 20ko, 200en, true, 赤の魔力結晶, 3ko 青の魔力結晶, 4ko, [ME, HEAL_AFTER_SELECTCOMMAND, 5%, -1])
+@Create_AccessoryItem(攻撃防御一時上昇, 20ko, 200en, true, 魔力結晶:赤, 3ko, 魔力結晶:青, 4ko, [ME, ATK, 25%, 200time, ME, DEF, 10%, 100time])
+@Create_AccessoryItem(先手必勝, 20ko, 200en, true, 魔力結晶:赤, 2ko, 魔力結晶:青, 2ko, 魔力結晶:黄, 3ko, [ME, SET_TIMEGAUGE, 100%, -1])
+@Create_AccessoryItem(貝殻の鈴, 20ko, 200en, true, 魔力結晶:赤, 3ko, 魔力結晶:青, 4ko, [ME, HEAL_AFTER_ATTACK, 3%, -1])
+@Create_AccessoryItem(たべのこし, 20ko, 200en, true, 魔力結晶:赤, 3ko, 魔力結晶:青, 4ko, [ME, HEAL_AFTER_SELECTCOMMAND, 5%, -1])
 
 @Create_ConsumptionItem(消費アイテム, 10ko, 200en, true, true, 130time, ALL_FRIEND, HEAL, 30%)
 @Create_ConsumptionItem(レッドグミ, 10ko, 100en, true, true, 70time, SINGLE_FRIEND, HEAL, 5%)
@@ -82,8 +100,9 @@
 \--Create_Shop----------------------------------------------------
 
 \@Create_Shop(番号, [商品名]*n, ...)
-@Create_Shop(0, レッドグミ, ブルーグミ, きんのたま, 消費アイテム)
-@Create_Shop(1, きんのたま)
+@Create_Shop(0, レッドグミ, ブルーグミ, きんのたま, 消費アイテム, 魔力結晶:赤, 魔力結晶:青, たべのこし)
+@Create_Shop(1, きんのたま, 魔力結晶:赤)
+@Create_Alchemist(0, 貝殻の鈴, 先手必勝)
 \-----------------------------------------------------------------
 
 
@@ -91,7 +110,7 @@
 \\スタート位置設定\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 \サンプルマップ
-@Set_StartPosition(0, 9, 6, Down, pic_player1)	\←後に書いた方で上書きされる
+@Set_StartPosition(0, 9, 6, Down, pic_player1)	\←後に書いた方で上書きされる←バグ発見の為にされないほうがいい
 
 \序章
 \@Set_StartPosition(1, 11, 69, Right, huyu)
@@ -120,6 +139,7 @@
 
 	@Set_EventObj(1, 1, NPC, hi, hi_01)
 	@Set_EventObj(1, 255, PANEL,pic_slide , switch)
+
 
 \フィールド部分
 	@Set_EventObj(0, 7, PANEL, NULL)
@@ -181,6 +201,9 @@
 \-----------------------------------------------------------------
 【SystemCommand Load Completed!】
 \↑ロード完了メッセージ（完成版では削除）
+
+
+
 
 
 

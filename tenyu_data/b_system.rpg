@@ -185,11 +185,14 @@
 
 @Encount_Set(1, 125, 2.1%)
 @Encount_Set(1, 14, 20%)
+@Encount_Set(0, 25, 5%)
 @Party_Set(1, 125, 10, エネミーA)
 @Party_Set(1, 125, 10, エネミーA, エネミーB)
 @Party_Set(1, 125, 10, エネミーA, エネミーB, エネミーC)
 @Party_Set(1, 14, 100, エネミーA, エネミーB, エネミーC)
+@Party_Set(0, 25, 100, エネミーA)
 
+@BackGround_Set(0, bg_02)
 @BackGround_Set(1, 14, bg_01)
 @BackGround_Set(1, bg_02)
 
@@ -197,6 +200,7 @@
 \\@Encount_Set(map1, 6.6, keyA, 10, keyB, 20)	\ボツ案　エンカウント設定
 
 【b_system.rpg Load OK!】
+
 
 
 

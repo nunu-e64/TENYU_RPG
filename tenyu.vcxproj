@@ -173,6 +173,7 @@
     <ClCompile Include="code\Battle\Species.cpp" />
     <ClCompile Include="code\Battle\TrickDamageEffect.cpp" />
     <ClCompile Include="code\Battle\TrickManager.cpp" />
+    <ClCompile Include="code\Field\AlchemistManager.cpp" />
     <ClCompile Include="code\Field\EveManager.cpp" />
     <ClCompile Include="code\Field\EveObj.cpp" />
     <ClCompile Include="code\Field\Field.cpp" />
@@ -185,6 +186,7 @@
     <ClCompile Include="code\Main\CmdManager.cpp" />
     <ClCompile Include="code\Main\ImgBank.cpp" />
     <ClCompile Include="code\Main\Main.cpp" />
+    <ClCompile Include="code\Main\MusicManager.cpp" />
     <ClCompile Include="code\Main\ScreenChanger.cpp" />
     <ClCompile Include="code\Main\TalkName.cpp" />
     <ClCompile Include="code\Main\TextBox.cpp" />
@@ -217,6 +219,7 @@
     <ClInclude Include="code\Battle\TrickDamageEffect.h" />
     <ClInclude Include="code\Battle\TrickManager.h" />
     <ClInclude Include="code\Define.h" />
+    <ClInclude Include="code\Field\AlchemistManager.h" />
     <ClInclude Include="code\Field\EveManager.h" />
     <ClInclude Include="code\Field\EveObj.h" />
     <ClInclude Include="code\Field\Field.h" />
@@ -229,6 +232,7 @@
     <ClInclude Include="code\Main\CmdManager.h" />
     <ClInclude Include="code\Main\ImgBank.h" />
     <ClInclude Include="code\Main\Main.h" />
+    <ClInclude Include="code\Main\MusicManager.h" />
     <ClInclude Include="code\Main\ScreenChanger.h" />
     <ClInclude Include="code\Main\TalkName.h" />
     <ClInclude Include="code\Main\TextBox.h" />

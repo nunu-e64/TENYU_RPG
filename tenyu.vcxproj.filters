@@ -147,6 +147,12 @@
     <ClCompile Include="code\Main\WorldManager.cpp">
       <Filter>ソース ファイル\Main</Filter>
     </ClCompile>
+    <ClCompile Include="code\Field\AlchemistManager.cpp">
+      <Filter>ソース ファイル\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Main\MusicManager.cpp">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="code\Define.h">
@@ -261,6 +267,12 @@
       <Filter>ヘッダー ファイル\Main</Filter>
     </ClInclude>
     <ClInclude Include="code\Main\ScreenChanger.h">
+      <Filter>ヘッダー ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Field\AlchemistManager.h">
+      <Filter>ヘッダー ファイル\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Main\MusicManager.h">
       <Filter>ヘッダー ファイル\Main</Filter>
     </ClInclude>
   </ItemGroup>

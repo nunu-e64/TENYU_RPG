@@ -1,41 +1,3190 @@
-[2015/09/07 02:16:30 531]:--------START------------------------------------------------------
+[2015/09/09 15:31:15 294]:PRINT: Debug->‚½‚×‚Ì‚±‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
 
-[2015/09/07 02:21:20 101]:--------START------------------------------------------------------
+[2015/09/09 15:31:22 136]:PRINT: Debug->@Accessory_Set(
+->CField::MainLoop
+->code\Field\Field.cpp(167)
 
-[2015/09/07 02:37:37 577]:--------START------------------------------------------------------
+[2015/09/09 15:34:08 027]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 
+->CField::MainLoop
+->code\Field\Field.cpp(169)
 
-[2015/09/07 02:42:25 017]:--------START------------------------------------------------------
+[2015/09/09 15:34:09 530]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, 
+->CField::MainLoop
+->code\Field\Field.cpp(171)
 
-[2015/09/07 02:44:43 723]:--------START------------------------------------------------------
+[2015/09/09 15:34:15 137]:PRINT: Debug->ŠLŠk‚Ì—é   2
+->CMenu::GetIndex
+->code\Menu.cpp(135)
 
-[2015/09/07 02:47:52 237]:--------START------------------------------------------------------
+[2015/09/09 15:34:30 255]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, ŠLŠk‚Ì—é
+->CField::MainLoop
+->code\Field\Field.cpp(173)
 
-[2015/09/07 02:50:06 119]:--------START------------------------------------------------------
+[2015/09/09 15:34:43 699]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(175)
 
-[2015/09/07 02:51:01 633]:--------START------------------------------------------------------
+[2015/09/09 15:34:48 357]:PRINT: Debug->‚½‚×‚Ì‚±‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
 
-[2015/09/07 02:53:26 399]:--------START------------------------------------------------------
+[2015/09/09 15:34:50 736]:PRINT: Debug->@Accessory_Set(
+->CField::MainLoop
+->code\Field\Field.cpp(167)
 
-[2015/09/07 02:55:02 770]:--------START------------------------------------------------------
+[2015/09/09 15:34:51 414]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 
+->CField::MainLoop
+->code\Field\Field.cpp(169)
 
-[2015/09/07 18:52:31 316]:--------START------------------------------------------------------
+[2015/09/09 15:34:51 778]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, 
+->CField::MainLoop
+->code\Field\Field.cpp(171)
 
-[2015/09/07 19:07:25 984]:--------START------------------------------------------------------
+[2015/09/09 15:34:52 045]:PRINT: Debug->UŒ‚–hŒäˆêŽžã¸   3
+->CMenu::GetIndex
+->code\Menu.cpp(135)
 
-[2015/09/07 19:10:39 821]:--------START------------------------------------------------------
+[2015/09/09 15:34:52 402]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, UŒ‚–hŒäˆêŽžã¸
+->CField::MainLoop
+->code\Field\Field.cpp(173)
 
-[2015/09/07 20:59:22 400]:--------START------------------------------------------------------
+[2015/09/09 15:34:53 171]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, UŒ‚–hŒäˆêŽžã¸)
+->CField::MainLoop
+->code\Field\Field.cpp(175)
 
-[2015/09/07 21:08:43 962]:--------START------------------------------------------------------
+[2015/09/09 15:34:58 400]:----FINISH-----------------------------------------------------
+[2015/09/09 16:00:36 521]:--------START------------------------------------------------------
 
-[2015/09/07 21:52:52 380]:--------START------------------------------------------------------
+[2015/09/09 16:01:46 683]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 16:01:54 133]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 16:02:32 657]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 16:02:34 749]:PRINT: Error->Not Found:TARGET_CURSOR
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
 
-[2015/09/07 21:55:17 754]:--------START------------------------------------------------------
+[2015/09/09 16:02:34 818]:PRINT: Error->Not Found:ATTENTION_EFFECT
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
 
-[2015/09/07 22:14:47 415]:--------START------------------------------------------------------
+[2015/09/09 16:02:34 874]:PRINT: Error->Not Found:ATTENTION_BOARD
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
 
-[2015/09/07 22:21:51 913]:--------START------------------------------------------------------
+[2015/09/09 16:02:34 930]:PRINT: Error->Not Found:ATTENTION_MARKER
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(96)
 
-[2015/09/07 22:24:55 067]:--------START------------------------------------------------------
+[2015/09/09 16:02:35 013]:PRINT: Error->Not Found:LOG_WINDOW_BUTTON
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(83)
 
-[2015/09/07 22:29:07 009]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 16:02:36 243]:----FINISH-----------------------------------------------------
+[2015/09/09 16:20:02 890]:--------START------------------------------------------------------
+
+[2015/09/09 16:20:30 576]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 16:20:32 174]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 16:21:17 682]:PRINT: Error->Not Found:TI	ME_BAR1
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/09 16:21:22 093]:PRINT: Error->Not Found:TI	ME_BAR1
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/09 16:21:25 154]:PRINT: Error->Not Found:TI	ME_BAR1
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/09 16:21:35 836]:PRINT: Error->Not Found:TI	ME_BAR1
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/09 16:21:36 370]:PRINT: Error->Not Found:TI	ME_BAR1
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/09 16:21:36 751]:PRINT: Error->Not Found:TI	ME_BAR1
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/09 16:21:41 867]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(369)
+
+[2015/09/09 16:21:45 461]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(369)
+
+[2015/09/09 16:21:46 115]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(369)
+
+[2015/09/09 16:21:46 579]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(369)
+
+[2015/09/09 16:21:46 959]:PRINT: Debug->@Item_Use(æŽè•KŸ, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(369)
+
+[2015/09/09 16:21:47 312]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(369)
+
+[2015/09/09 16:22:19 268]:PRINT: Debug->Î‚±‚ë–XŽq
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:22:24 160]:----FINISH-----------------------------------------------------
+[2015/09/09 16:38:42 265]:--------START------------------------------------------------------
+
+[2015/09/09 16:56:27 415]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 16:56:28 047]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 16:56:31 432]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:56:39 089]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:56:40 318]:PRINT: Debug->‘•”õ‚µ‚È‚¢
+->CField::MainLoop
+->code\Field\Field.cpp(162)
+
+[2015/09/09 16:56:46 033]:PRINT: Debug->ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:56:49 197]:PRINT: Debug->ƒvƒŒƒCƒ„[C,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:56:49 691]:PRINT: Debug->ƒvƒŒƒCƒ„[C,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:56:50 076]:PRINT: Debug->ƒvƒŒƒCƒ„[B,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:56:50 520]:PRINT: Debug->ƒvƒŒƒCƒ„[B,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:56:51 300]:PRINT: Debug->ƒvƒŒƒCƒ„[B,2,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:56:55 825]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:56:58 208]:PRINT: Debug->ŠLŠk‚Ì—é   2
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:56:59 247]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(167)
+
+[2015/09/09 16:57:01 707]:PRINT: Debug->ƒvƒŒƒCƒ„[A,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:04 777]:PRINT: Debug->ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:05 428]:PRINT: Debug->ƒvƒŒƒCƒ„[C,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:05 889]:PRINT: Debug->ƒvƒŒƒCƒ„[C,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:06 206]:PRINT: Debug->ƒvƒŒƒCƒ„[B,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:06 492]:PRINT: Debug->ƒvƒŒƒCƒ„[B,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:06 800]:PRINT: Debug->ƒvƒŒƒCƒ„[B,2,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:11 554]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:57:13 512]:PRINT: Debug->UŒ‚–hŒäˆêŽžã¸   6
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:57:14 037]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 2, UŒ‚–hŒäˆêŽžã¸)
+->CField::MainLoop
+->code\Field\Field.cpp(167)
+
+[2015/09/09 16:57:14 468]:PRINT: Debug->ƒvƒŒƒCƒ„[A,2,UŒ‚–hŒäˆêŽžã¸
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:19 063]:PRINT: Debug->UŒ‚–hŒäˆêŽžã¸
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:57:25 507]:PRINT: Debug->‘•”õ‚µ‚È‚¢
+->CField::MainLoop
+->code\Field\Field.cpp(162)
+
+[2015/09/09 16:57:30 513]:PRINT: Debug->UŒ‚–hŒäˆêŽžã¸
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:57:49 962]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 16:57:50 617]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 16:57:54 456]:PRINT: Debug->ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:54 870]:PRINT: Debug->ƒvƒŒƒCƒ„[C,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:55 143]:PRINT: Debug->ƒvƒŒƒCƒ„[C,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:55 365]:PRINT: Debug->ƒvƒŒƒCƒ„[B,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:55 586]:PRINT: Debug->ƒvƒŒƒCƒ„[B,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:57:55 803]:PRINT: Debug->ƒvƒŒƒCƒ„[B,2,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:58:01 602]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:58:03 886]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:58:04 396]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(167)
+
+[2015/09/09 16:58:04 896]:PRINT: Debug->ƒvƒŒƒCƒ„[A,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 16:58:08 804]:PRINT: Debug->‚½‚×‚Ì‚±‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 16:58:21 587]:----FINISH-----------------------------------------------------
+[2015/09/09 17:41:07 890]:--------START------------------------------------------------------
+
+[2015/09/09 17:41:13 719]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 17:41:16 797]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 17:41:22 121]:PRINT: Debug->ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:41:24 108]:PRINT: Debug->ƒvƒŒƒCƒ„[C,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:41:24 496]:PRINT: Debug->ƒvƒŒƒCƒ„[C,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:41:24 834]:PRINT: Debug->ƒvƒŒƒCƒ„[B,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:41:25 828]:PRINT: Debug->ƒvƒŒƒCƒ„[B,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:41:26 336]:PRINT: Debug->ƒvƒŒƒCƒ„[B,2,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:43:33 163]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:43:35 403]:PRINT: Debug->ŠLŠk‚Ì—é   2
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:43:36 176]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(169)
+
+[2015/09/09 17:43:40 317]:PRINT: Debug->ƒvƒŒƒCƒ„[A,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:44:33 182]:----FINISH-----------------------------------------------------
+[2015/09/09 17:52:34 187]:--------START------------------------------------------------------
+
+[2015/09/09 17:52:36 050]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 17:52:36 860]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 17:52:39 543]:PRINT: Debug->ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:52:39 978]:PRINT: Debug->ƒvƒŒƒCƒ„[C,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:52:40 310]:PRINT: Debug->ƒvƒŒƒCƒ„[C,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:52:40 569]:PRINT: Debug->ƒvƒŒƒCƒ„[B,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:52:40 757]:PRINT: Debug->ƒvƒŒƒCƒ„[B,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:52:41 019]:PRINT: Debug->ƒvƒŒƒCƒ„[B,2,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:52:45 354]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:52:47 554]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:52:48 230]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(168)
+
+[2015/09/09 17:52:49 033]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:52:49 559]:PRINT: Debug->ƒvƒŒƒCƒ„[A,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:52:53 472]:PRINT: Debug->‚½‚×‚Ì‚±‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:52:54 789]:PRINT: Debug->‘•”õ‚µ‚È‚¢
+->CField::MainLoop
+->code\Field\Field.cpp(161)
+
+[2015/09/09 17:52:57 689]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:52:59 058]:PRINT: Debug->UŒ‚–hŒäˆêŽžã¸   3
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:52:59 419]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 2, UŒ‚–hŒäˆêŽžã¸)
+->CField::MainLoop
+->code\Field\Field.cpp(168)
+
+[2015/09/09 17:52:59 983]:PRINT: Debug->UŒ‚–hŒäˆêŽžã¸   3
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:53:00 450]:PRINT: Debug->ƒvƒŒƒCƒ„[A,2,UŒ‚–hŒäˆêŽžã¸
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:53:04 592]:PRINT: Debug->æŽè•KŸ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:53:05 559]:PRINT: Debug->‘•”õ‚µ‚È‚¢
+->CField::MainLoop
+->code\Field\Field.cpp(161)
+
+[2015/09/09 17:53:06 658]:PRINT: Debug->æŽè•KŸ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:53:07 657]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:53:07 985]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 0, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(168)
+
+[2015/09/09 17:53:08 441]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 17:53:08 869]:PRINT: Debug->ƒvƒŒƒCƒ„[B,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 17:53:14 847]:----FINISH-----------------------------------------------------
+[2015/09/09 18:10:04 484]:--------START------------------------------------------------------
+
+[2015/09/09 18:10:05 970]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 18:10:06 755]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 18:10:11 216]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:12 097]:PRINT: Error->You can't set item which you don't have in bag.:‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:14 777]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:15 265]:PRINT: Error->You can't set item which you don't have in bag.:æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:15 869]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:16 140]:PRINT: Error->You can't set item which you don't have in bag.:‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:16 468]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:16 674]:PRINT: Error->You can't set item which you don't have in bag.:æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:16 989]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:17 161]:PRINT: Error->You can't set item which you don't have in bag.:‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:17 543]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:17 704]:PRINT: Error->You can't set item which you don't have in bag.:ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:24 467]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:27 022]:PRINT: Debug->‘•”õ‚µ‚È‚¢
+->CField::MainLoop
+->code\Field\Field.cpp(161)
+
+[2015/09/09 18:10:28 920]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:30 045]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:30 432]:PRINT: Error->You can't set item which you don't have in bag.:æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:32 184]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:32 650]:PRINT: Error->You can't set item which you don't have in bag.:‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:34 455]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,0,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:34 937]:PRINT: Error->You can't set item which you don't have in bag.:æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:35 608]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:36 034]:PRINT: Error->You can't set item which you don't have in bag.:‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(145)
+
+[2015/09/09 18:10:36 489]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:40 641]:PRINT: Debug->‚½‚×‚Ì‚±‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:43 453]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:43 904]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(168)
+
+[2015/09/09 18:10:44 453]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:45 227]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:46 622]:PRINT: Debug->‚½‚×‚Ì‚±‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:49 521]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:50 838]:PRINT: Debug->UŒ‚–hŒäˆêŽžã¸   6
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:51 143]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, UŒ‚–hŒäˆêŽžã¸)
+->CField::MainLoop
+->code\Field\Field.cpp(168)
+
+[2015/09/09 18:10:51 426]:PRINT: Debug->UŒ‚–hŒäˆêŽžã¸   6
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:51 766]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,1,UŒ‚–hŒäˆêŽžã¸
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:10:53 022]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:10:55 997]:----FINISH-----------------------------------------------------
+[2015/09/09 18:16:14 128]:--------START------------------------------------------------------
+
+[2015/09/09 18:16:16 536]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 18:16:17 460]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 18:16:20 589]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:16:21 668]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:16:22 042]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:16:27 913]:PRINT: Debug->‘•”õ‚È‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:16:30 653]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:16:31 173]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[C, 2, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(168)
+
+[2015/09/09 18:16:32 778]:PRINT: Debug->‚½‚×‚Ì‚±‚µ   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:16:33 399]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,2,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:16:35 964]:PRINT: Debug->‚½‚×‚Ì‚±‚µ
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:16:38 431]:PRINT: Debug->ŠLŠk‚Ì—é   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:16:39 802]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[C, 2, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(168)
+
+[2015/09/09 18:16:41 916]:PRINT: Debug->ŠLŠk‚Ì—é   1
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:16:42 956]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,2,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:16:45 150]:PRINT: Debug->ŠLŠk‚Ì—é
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:16:47 287]:PRINT: Debug->‘•”õ‚µ‚È‚¢
+->CField::MainLoop
+->code\Field\Field.cpp(161)
+
+[2015/09/09 18:16:48 849]:PRINT: Debug->ŠLŠk‚Ì—é
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:16:52 216]:PRINT: Debug->ŠLŠk‚Ì—é
+->CMenu::GetIndex
+->code\Menu.cpp(135)
+
+[2015/09/09 18:17:06 456]:----FINISH-----------------------------------------------------
+[2015/09/09 18:21:55 139]:--------START------------------------------------------------------
+
+[2015/09/09 18:22:13 733]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 18:22:14 405]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 18:22:16 772]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:22:17 354]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:22:17 564]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:22:23 461]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, )
+->CField::MainLoop
+->code\Field\Field.cpp(175)
+
+[2015/09/09 18:22:25 961]:PRINT: Error->More arguments are needed->@Accessory_Set
+[2015/09/09 18:22:31 995]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(175)
+
+[2015/09/09 18:22:34 243]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:22:37 077]:----FINISH-----------------------------------------------------
+[2015/09/09 18:25:02 209]:--------START------------------------------------------------------
+
+[2015/09/09 18:25:13 655]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/09 18:25:14 311]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/09 18:25:19 037]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:25:19 253]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:25:19 577]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:25:23 707]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(175)
+
+[2015/09/09 18:25:24 389]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,1,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:25:30 443]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(175)
+
+[2015/09/09 18:25:33 667]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,1,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:25:36 526]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(175)
+
+[2015/09/09 18:25:38 023]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/09 18:25:47 074]:----FINISH-----------------------------------------------------
+[2015/09/10 20:55:18 901]:--------START------------------------------------------------------
+
+[2015/09/10 20:55:21 351]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Create_Alchemist
+[2015/09/10 20:55:22 095]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 20:55:22 708]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 20:55:27 118]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 20:55:27 752]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 20:55:27 984]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 21:00:46 746]:--------START------------------------------------------------------
+
+[2015/09/10 21:00:52 323]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Create_Alchemist
+[2015/09/10 21:00:55 404]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 21:00:56 552]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 21:01:18 361]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(179)
+
+[2015/09/10 21:01:18 728]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 21:01:20 235]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(179)
+
+[2015/09/10 21:01:20 659]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,1,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 21:01:22 718]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 2, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(179)
+
+[2015/09/10 21:01:22 953]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,2,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 21:01:28 166]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 1, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(179)
+
+[2015/09/10 21:01:28 579]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 21:01:31 369]:----FINISH-----------------------------------------------------
+[2015/09/10 22:14:21 021]:--------START------------------------------------------------------
+
+[2015/09/10 22:14:27 933]:----FINISH-----------------------------------------------------
+[2015/09/10 22:14:55 661]:--------START------------------------------------------------------
+
+[2015/09/10 22:14:58 837]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:15:00 218]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:15:23 334]:----FINISH-----------------------------------------------------
+[2015/09/10 22:16:25 711]:--------START------------------------------------------------------
+
+[2015/09/10 22:16:26 344]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:16:26 811]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:16:54 438]:----FINISH-----------------------------------------------------
+[2015/09/10 22:17:28 396]:--------START------------------------------------------------------
+
+[2015/09/10 22:17:30 605]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:17:31 363]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:17:33 686]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@NextPage
+[2015/09/10 22:17:57 755]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@NextPage
+[2015/09/10 22:18:00 016]:----FINISH-----------------------------------------------------
+[2015/09/10 22:23:55 159]:--------START------------------------------------------------------
+
+[2015/09/10 22:23:57 579]:PRINT: Warning->@Create_AccessoryItem->EffectTargetType doesn't match any TargetType.(continue)
+->‚—ÍŒ‹»[Ô]
+->CCmdManager::SystemCmdSolve
+->code\Main\CmdManager.cpp(340)
+
+[2015/09/10 22:23:58 024]:PRINT: Warning->@Create_AccessoryItem->EffectTargetType doesn't match any TargetType.(continue)
+->[ME
+->CCmdManager::SystemCmdSolve
+->code\Main\CmdManager.cpp(340)
+
+[2015/09/10 22:24:01 526]:PRINT: Warning->@Create_AccessoryItem->EffectTargetType doesn't match any TargetType.(continue)
+->‚—ÍŒ‹»[Ô]
+->CCmdManager::SystemCmdSolve
+->code\Main\CmdManager.cpp(340)
+
+[2015/09/10 22:24:02 284]:PRINT: Warning->@Create_AccessoryItem->EffectTargetType doesn't match any TargetType.(continue)
+->–‚—ÍŒ‹»[‰©]
+->CCmdManager::SystemCmdSolve
+->code\Main\CmdManager.cpp(340)
+
+[2015/09/10 22:28:02 265]:--------START------------------------------------------------------
+
+[2015/09/10 22:28:03 862]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:28:04 546]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:28:10 224]:PRINT: Debug->
+--PlayerItemPocket--
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:28:11 479]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:28:11 724]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:28:12 453]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:28:14 565]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:0
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:29:00 382]:----FINISH-----------------------------------------------------
+[2015/09/10 22:29:07 468]:--------START------------------------------------------------------
+
+[2015/09/10 22:29:08 325]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:29:08 975]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:32:04 270]:----FINISH-----------------------------------------------------
+[2015/09/10 22:32:48 655]:--------START------------------------------------------------------
+
+[2015/09/10 22:32:50 290]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:32:50 826]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:33:06 680]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:33:07 260]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:33:07 582]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:33:11 851]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:0
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:33:13 518]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:0
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:33:20 490]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:0
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+3000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:34:08 881]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 2, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:34:09 361]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:36:26 118]:--------START------------------------------------------------------
+
+[2015/09/10 22:36:33 111]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:36:38 091]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:36:42 590]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:36:43 099]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:36:43 372]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:42:25 388]:--------START------------------------------------------------------
+
+[2015/09/10 22:42:28 764]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:42:31 445]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:42:34 573]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:42:34 978]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:42:35 259]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:44:04 295]:--------START------------------------------------------------------
+
+[2015/09/10 22:44:06 275]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:44:08 672]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:44:10 857]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:44:11 290]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:44:11 683]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:44:16 613]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 2, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:44:17 277]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:44:24 730]:----FINISH-----------------------------------------------------
+[2015/09/10 22:45:39 564]:--------START------------------------------------------------------
+
+[2015/09/10 22:45:42 390]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:45:43 036]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:45:45 091]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:45:45 501]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:45:45 701]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:45:49 830]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[D, 1, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:45:50 455]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[D,1,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:45:52 805]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[D, 2, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:45:53 093]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[D,2,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:45:56 470]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[D, 1, UŒ‚–hŒäˆêŽžã¸)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:45:56 809]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[D,1,UŒ‚–hŒäˆêŽžã¸
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:45:58 719]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[D, 1, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:45:59 129]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[D,1,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:00 807]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[D, 2, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:01 036]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[D,2,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:04 104]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 2, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:04 366]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:06 188]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 1, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:08 769]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:14 388]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:15 008]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:18 457]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 1, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:18 808]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,1,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:20 990]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 2, æŽè•KŸ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:21 445]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:24 574]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 0, UŒ‚–hŒäˆêŽžã¸)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:25 142]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,0,UŒ‚–hŒäˆêŽžã¸
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:26 842]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 2, UŒ‚–hŒäˆêŽžã¸)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:27 060]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,UŒ‚–hŒäˆêŽžã¸
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:28 558]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 1, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:29 187]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,1,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:30 758]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[B, 1, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:31 110]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:33 706]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[C, 2, NULL)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/10 22:46:34 432]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,2,
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/10 22:46:40 586]:----FINISH-----------------------------------------------------
+[2015/09/10 22:48:01 694]:--------START------------------------------------------------------
+
+[2015/09/10 22:48:34 400]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:48:35 031]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:48:54 328]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:0
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:0
+UŒ‚–hŒäˆêŽžã¸:0
+æŽè•KŸ:0
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:49:38 340]:----FINISH-----------------------------------------------------
+[2015/09/10 22:51:19 302]:--------START------------------------------------------------------
+
+[2015/09/10 22:51:38 929]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:51:39 522]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:51:46 691]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:2
+‚½‚×‚Ì‚±‚µ:3
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:3
+UŒ‚–hŒäˆêŽžã¸:4
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:1
+–‚—ÍŒ‹»:‰©:40
+–‚—ÍŒ‹»:Â:40
+–‚—ÍŒ‹»:Ô:40
+–‚—ÍŒ‹»:—Î:40
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:51:49 129]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:3
+‚½‚×‚Ì‚±‚µ:5
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:5
+UŒ‚–hŒäˆêŽžã¸:6
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:2
+–‚—ÍŒ‹»:‰©:60
+–‚—ÍŒ‹»:Â:60
+–‚—ÍŒ‹»:Ô:60
+–‚—ÍŒ‹»:—Î:60
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:51:52 375]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:4
+‚½‚×‚Ì‚±‚µ:7
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:7
+UŒ‚–hŒäˆêŽžã¸:8
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:3
+–‚—ÍŒ‹»:‰©:80
+–‚—ÍŒ‹»:Â:80
+–‚—ÍŒ‹»:Ô:80
+–‚—ÍŒ‹»:—Î:80
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:51:54 781]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:5
+‚½‚×‚Ì‚±‚µ:9
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:9
+UŒ‚–hŒäˆêŽžã¸:10
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:4
+–‚—ÍŒ‹»:‰©:100
+–‚—ÍŒ‹»:Â:100
+–‚—ÍŒ‹»:Ô:100
+–‚—ÍŒ‹»:—Î:100
+
+
+--PlayerMoney--
+990
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:51:58 465]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:5
+‚½‚×‚Ì‚±‚µ:11
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:11
+UŒ‚–hŒäˆêŽžã¸:12
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:5
+–‚—ÍŒ‹»:‰©:100
+–‚—ÍŒ‹»:Â:100
+–‚—ÍŒ‹»:Ô:100
+–‚—ÍŒ‹»:—Î:100
+
+
+--PlayerMoney--
+980
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:52:01 598]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:5
+‚½‚×‚Ì‚±‚µ:13
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:13
+UŒ‚–hŒäˆêŽžã¸:14
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:6
+–‚—ÍŒ‹»:‰©:100
+–‚—ÍŒ‹»:Â:100
+–‚—ÍŒ‹»:Ô:100
+–‚—ÍŒ‹»:—Î:100
+
+
+--PlayerMoney--
+970
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:52:23 535]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:5
+‚½‚×‚Ì‚±‚µ:19
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:19
+UŒ‚–hŒäˆêŽžã¸:20
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:15
+–‚—ÍŒ‹»:‰©:100
+–‚—ÍŒ‹»:Â:100
+–‚—ÍŒ‹»:Ô:100
+–‚—ÍŒ‹»:—Î:100
+
+
+--PlayerMoney--
+4880
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:52:51 676]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:5
+‚½‚×‚Ì‚±‚µ:19
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:19
+UŒ‚–hŒäˆêŽžã¸:20
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:16
+–‚—ÍŒ‹»:‰©:100
+–‚—ÍŒ‹»:Â:100
+–‚—ÍŒ‹»:Ô:100
+–‚—ÍŒ‹»:—Î:100
+
+
+--PlayerMoney--
+4870
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:52:57 336]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:5
+‚½‚×‚Ì‚±‚µ:19
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:19
+UŒ‚–hŒäˆêŽžã¸:20
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:17
+–‚—ÍŒ‹»:‰©:100
+–‚—ÍŒ‹»:Â:100
+–‚—ÍŒ‹»:Ô:100
+–‚—ÍŒ‹»:—Î:100
+
+
+--PlayerMoney--
+4860
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:53:00 207]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:5
+‚½‚×‚Ì‚±‚µ:19
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒuƒ‹[ƒOƒ~:2
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:19
+UŒ‚–hŒäˆêŽžã¸:20
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:18
+–‚—ÍŒ‹»:‰©:100
+–‚—ÍŒ‹»:Â:100
+–‚—ÍŒ‹»:Ô:100
+–‚—ÍŒ‹»:—Î:100
+
+
+--PlayerMoney--
+4850
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:54:29 787]:----FINISH-----------------------------------------------------
+[2015/09/10 22:55:17 840]:--------START------------------------------------------------------
+
+[2015/09/10 22:55:39 094]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/10 22:55:40 170]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/10 22:55:47 265]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:0
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/10 22:57:37 200]:----FINISH-----------------------------------------------------
+[2015/09/12 13:28:37 844]:--------START------------------------------------------------------
+
+[2015/09/12 13:29:44 429]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/12 13:29:46 273]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/12 13:31:44 941]:----FINISH-----------------------------------------------------
+[2015/09/14 18:39:37 177]:--------START------------------------------------------------------
+
+[2015/09/14 18:40:04 959]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 18:40:05 454]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 18:40:07 450]:PRINT: Error->Not Found:TARGET_CURSOR
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 18:40:07 515]:PRINT: Error->Not Found:ATTENTION_EFFECT
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 18:40:07 567]:PRINT: Error->Not Found:ATTENTION_BOARD
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 18:40:07 619]:PRINT: Error->Not Found:ATTENTION_MARKER
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(96)
+
+[2015/09/14 18:40:07 760]:PRINT: Error->Not Found:LOG_WINDOW_BUTTON
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(83)
+
+[2015/09/14 18:40:08 377]:----FINISH-----------------------------------------------------
+[2015/09/14 18:43:17 929]:--------START------------------------------------------------------
+
+[2015/09/14 18:48:27 585]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(27)
+
+[2015/09/14 18:48:27 969]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(27)
+
+[2015/09/14 18:48:33 474]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(72)
+
+[2015/09/14 18:48:41 449]:PRINT: Error->NotFoundMusicKey:key=music_00
+->CMusicManager::GetMusicHandle
+->code\Main\MusicManager.cpp(79)
+
+[2015/09/14 18:50:02 515]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(27)
+
+[2015/09/14 18:50:06 823]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(27)
+
+[2015/09/14 18:50:08 558]:PRINT: Error->Not Found:ATTENTION_BOARD
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 18:50:08 609]:PRINT: Error->Not Found:ATTENTION_MARKER
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(96)
+
+[2015/09/14 18:50:08 682]:PRINT: Error->Not Found:LOG_WINDOW_BUTTON
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(83)
+
+[2015/09/14 18:50:09 417]:----FINISH-----------------------------------------------------
+[2015/09/14 18:54:42 841]:--------START------------------------------------------------------
+
+[2015/09/14 18:55:36 186]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 18:55:50 742]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 18:55:52 510]:PRINT: Error->Not Found:TARGET_CURSOR
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 18:55:52 565]:PRINT: Error->Not Found:ATTENTION_EFFECT
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 18:55:52 618]:PRINT: Error->Not Found:ATTENTION_BOARD
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 18:55:52 676]:PRINT: Error->Not Found:ATTENTION_MARKER
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(96)
+
+[2015/09/14 18:55:52 752]:PRINT: Error->Not Found:LOG_WINDOW_BUTTON
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(83)
+
+[2015/09/14 18:55:53 196]:----FINISH-----------------------------------------------------
+[2015/09/14 18:56:49 714]:--------START------------------------------------------------------
+
+[2015/09/14 18:57:01 085]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 18:57:02 963]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 18:57:04 927]:PRINT: Error->NotFoundMusicKey:key=music00
+->CMusicManager::GetMusicHandle
+->code\Main\MusicManager.cpp(79)
+
+[2015/09/14 18:57:10 066]:----FINISH-----------------------------------------------------
+[2015/09/14 18:57:17 788]:--------START------------------------------------------------------
+
+[2015/09/14 18:57:30 709]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 18:57:33 977]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 18:57:56 886]:----FINISH-----------------------------------------------------
+[2015/09/14 19:01:55 378]:--------START------------------------------------------------------
+
+[2015/09/14 19:01:59 895]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 19:02:00 856]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 19:03:03 553]:----FINISH-----------------------------------------------------
+[2015/09/14 19:37:43 082]:--------START------------------------------------------------------
+
+[2015/09/14 19:37:47 724]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 19:37:51 079]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 19:37:54 407]:----FINISH-----------------------------------------------------
+[2015/09/14 19:39:44 615]:--------START------------------------------------------------------
+
+[2015/09/14 19:39:58 103]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 19:39:58 976]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 19:40:49 415]:PRINT: Error->Already Music Key (not registerd):music_00:tenyu_data/music/DaydreamCafe.mp3
+->CMusicManager::LoadMusic
+->code\Main\MusicManager.cpp(18)
+
+[2015/09/14 19:40:49 749]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 19:40:50 319]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 19:40:58 245]:PRINT: Error->Already Music Key (not registerd):music_00:tenyu_data/music/DaydreamCafe.mp3
+->CMusicManager::LoadMusic
+->code\Main\MusicManager.cpp(18)
+
+[2015/09/14 19:41:01 576]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 19:41:02 404]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 19:41:31 581]:----FINISH-----------------------------------------------------
+[2015/09/14 20:26:06 267]:--------START------------------------------------------------------
+
+[2015/09/14 20:26:09 997]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:26:12 560]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:26:24 553]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:26:25 902]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:26:41 554]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:26:42 396]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:27:01 049]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:27:02 095]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:27:14 365]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:27:16 502]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:27:29 353]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:27:30 030]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:28:33 865]:----FINISH-----------------------------------------------------
+[2015/09/14 20:30:59 134]:--------START------------------------------------------------------
+
+[2015/09/14 20:31:15 778]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:31:16 616]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:31:25 341]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:31:34 008]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:31:48 851]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 20:31:55 098]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 20:32:11 038]:----FINISH-----------------------------------------------------
+[2015/09/14 21:34:39 845]:--------START------------------------------------------------------
+
+[2015/09/14 21:36:12 802]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 21:36:14 518]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 21:36:49 045]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 21:36:50 437]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 21:39:35 831]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:AI
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 21:39:41 342]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:AI
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 21:39:47 276]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:AI
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 21:39:49 626]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:AI
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 21:39:52 193]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:AI
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 21:39:58 114]:----FINISH-----------------------------------------------------
+[2015/09/14 21:41:13 687]:--------START------------------------------------------------------
+
+[2015/09/14 21:41:29 531]:PRINT: Error->TooLargeMapNumber:-1(MAPMAX=2)
+->CMap::GetMapMusic
+->code\Field\Map.cpp(163)
+
+[2015/09/14 21:41:41 729]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 21:41:44 582]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 21:42:13 351]:PRINT: Error->TooLargeMapNumber:-1(MAPMAX=2)
+->CMap::GetMapMusic
+->code\Field\Map.cpp(163)
+
+[2015/09/14 21:42:14 030]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 21:42:14 791]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 21:42:59 706]:----FINISH-----------------------------------------------------
+[2015/09/14 21:46:47 443]:--------START------------------------------------------------------
+
+[2015/09/14 21:46:52 124]:PRINT: Error->TooLargeMapNumber:-1(MAPMAX=2)
+->CMap::GetMapMusic
+->code\Field\Map.cpp(163)
+
+[2015/09/14 21:48:26 324]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 21:48:26 596]:PRINT: Error->Not Found:TARGET_CURSOR
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 21:48:26 665]:PRINT: Error->Not Found:ATTENTION_EFFECT
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 21:48:26 717]:PRINT: Error->Not Found:ATTENTION_BOARD
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/14 21:48:26 768]:PRINT: Error->Not Found:ATTENTION_MARKER
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(96)
+
+[2015/09/14 21:48:26 852]:PRINT: Error->Not Found:LOG_WINDOW_BUTTON
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(83)
+
+[2015/09/14 21:48:27 237]:----FINISH-----------------------------------------------------
+[2015/09/14 21:49:33 067]:--------START------------------------------------------------------
+
+[2015/09/14 21:49:41 707]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 21:49:44 078]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 21:57:48 410]:--------START------------------------------------------------------
+
+[2015/09/14 21:57:53 585]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 21:58:01 725]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 21:58:04 754]:PRINT: Error->@Position_Set->Check type:+
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1155)
+
+[2015/09/14 21:58:55 469]:--------START------------------------------------------------------
+
+[2015/09/14 21:59:02 739]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 21:59:04 111]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 22:02:05 410]:--------START------------------------------------------------------
+
+[2015/09/14 22:02:11 674]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 22:02:13 875]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 22:12:18 798]:--------START------------------------------------------------------
+
+[2015/09/14 22:12:24 030]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 22:12:25 384]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 22:12:28 863]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 22:12:29 704]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 22:12:30 734]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 22:12:31 700]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 22:12:50 023]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PAò
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:13:01 178]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 22:14:01 226]:----FINISH-----------------------------------------------------
+[2015/09/14 22:14:41 183]:--------START------------------------------------------------------
+
+[2015/09/14 22:14:45 597]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 22:14:46 067]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 22:14:46 453]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 22:14:46 661]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 22:14:46 815]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 22:14:47 301]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 22:14:57 675]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 22:15:00 447]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:1
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 22:15:04 084]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Pause
+[2015/09/14 22:15:06 680]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:2
+‚½‚×‚Ì‚±‚µ:3
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:3
+UŒ‚–hŒäˆêŽžã¸:4
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:3
+–‚—ÍŒ‹»:‰©:40
+–‚—ÍŒ‹»:Â:40
+–‚—ÍŒ‹»:Ô:40
+–‚—ÍŒ‹»:—Î:40
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 22:15:14 526]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA9
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:15:17 060]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA9
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:15:58 128]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA9
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:16:01 301]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA9
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:16:38 424]:----FINISH-----------------------------------------------------
+[2015/09/14 22:17:19 887]:--------START------------------------------------------------------
+
+[2015/09/14 22:17:23 508]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 22:17:25 750]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 22:17:25 949]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 22:17:26 119]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 22:17:26 329]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 22:17:26 797]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 22:17:39 672]:PRINT: Debug->
+--PlayerItemPocket--
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 22:17:40 572]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 22:17:43 212]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:1
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 22:17:47 362]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:1
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 22:17:50 725]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PAØ
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:17:52 213]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PAØ
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:17:56 014]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PAØ
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:17:58 875]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PAØ
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:18:01 701]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PAØ
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 22:18:04 238]:----FINISH-----------------------------------------------------
+[2015/09/14 22:39:35 805]:--------START------------------------------------------------------
+
+[2015/09/14 22:39:41 600]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 22:39:42 501]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 22:41:32 347]:--------START------------------------------------------------------
+
+[2015/09/14 22:41:42 540]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 22:41:47 188]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 22:42:29 945]:--------START------------------------------------------------------
+
+[2015/09/14 22:42:55 506]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 22:42:58 633]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 22:45:36 177]:--------START------------------------------------------------------
+
+[2015/09/14 22:45:44 031]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 22:45:48 610]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 22:48:23 629]:--------START------------------------------------------------------
+
+[2015/09/14 22:48:31 277]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 22:48:33 782]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 22:48:57 070]:--------START------------------------------------------------------
+
+[2015/09/14 22:49:03 951]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 22:49:06 693]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 23:03:23 437]:--------START------------------------------------------------------
+
+[2015/09/14 23:04:03 338]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 23:04:05 518]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 23:05:46 727]:--------START------------------------------------------------------
+
+[2015/09/14 23:06:20 587]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 23:06:41 549]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 23:07:02 646]:--------START------------------------------------------------------
+
+[2015/09/14 23:07:29 940]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 23:07:36 241]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 23:08:26 839]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:29 479]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:30 844]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:32 160]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:33 578]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:34 711]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:46 091]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:48 176]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:49 925]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:08:51 793]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A(
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:09:00 207]:----FINISH-----------------------------------------------------
+[2015/09/14 23:09:28 929]:--------START------------------------------------------------------
+
+[2015/09/14 23:09:33 101]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 23:09:33 381]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 23:09:35 266]:PRINT: Debug->
+--PlayerItemPocket--
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 23:09:41 567]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:2
+‚½‚×‚Ì‚±‚µ:3
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:3
+UŒ‚–hŒäˆêŽžã¸:4
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:3
+–‚—ÍŒ‹»:‰©:40
+–‚—ÍŒ‹»:Â:40
+–‚—ÍŒ‹»:Ô:40
+–‚—ÍŒ‹»:—Î:40
+
+
+--PlayerMoney--
+1000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 23:10:02 388]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A·
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:10:04 588]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A·
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:10:12 460]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:A·
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1442)
+
+[2015/09/14 23:10:17 841]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:2
+‚½‚×‚Ì‚±‚µ:3
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:13
+UŒ‚–hŒäˆêŽžã¸:4
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:3
+–‚—ÍŒ‹»:‰©:40
+–‚—ÍŒ‹»:Â:0
+–‚—ÍŒ‹»:Ô:10
+–‚—ÍŒ‹»:—Î:40
+
+
+--PlayerMoney--
+3000
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 23:11:53 487]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/14 23:11:54 196]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/14 23:12:32 722]:----FINISH-----------------------------------------------------
+[2015/09/14 23:15:31 268]:--------START------------------------------------------------------
+
+[2015/09/14 23:15:34 762]:----FINISH-----------------------------------------------------
+[2015/09/14 23:22:05 741]:--------START------------------------------------------------------
+
+[2015/09/14 23:22:17 847]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:22:18 380]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:22:18 464]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:22:19 339]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:22:19 678]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:22:25 857]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:22:58 488]:--------START------------------------------------------------------
+
+[2015/09/14 23:23:09 035]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:23:10 718]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:23:11 045]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:23:11 358]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:23:13 403]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:23:14 449]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:23:17 991]:PRINT: Debug->
+--PlayerItemPocket--
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 23:23:21 423]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:23:21 943]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:23:22 760]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:23:23 257]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:23:23 584]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:23:23 967]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:23:25 725]:PRINT: Debug->
+--PlayerItemPocket--
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 23:24:30 497]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:24:31 358]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:24:31 694]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:24:32 023]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 23:24:38 270]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA9, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/14 23:24:41 586]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA9
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:26:44 697]:--------START------------------------------------------------------
+
+[2015/09/14 23:26:45 885]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:26:46 376]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:26:47 142]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:26:47 293]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:26:47 468]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:26:47 830]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:26:57 558]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:26:58 500]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:26:59 098]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:27:00 413]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 23:27:04 466]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:1
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 23:27:07 192]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:27:08 333]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:27:08 631]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:27:08 827]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Pause
+[2015/09/14 23:27:10 762]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:2
+‚½‚×‚Ì‚±‚µ:3
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:3
+UŒ‚–hŒäˆêŽžã¸:4
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:3
+–‚—ÍŒ‹»:‰©:40
+–‚—ÍŒ‹»:Â:40
+–‚—ÍŒ‹»:Ô:40
+–‚—ÍŒ‹»:—Î:40
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 23:27:32 207]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA½, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/14 23:27:33 783]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA½
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:27:37 239]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA½, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/14 23:27:38 144]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA½
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:27:41 872]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA½, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/14 23:27:42 938]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA½
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:27:45 040]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA½, UŒ‚–hŒäˆêŽžã¸)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/14 23:27:46 604]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA½
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:27:55 020]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA½, æŽè•KŸ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/14 23:27:57 375]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA½
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:28:03 012]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA½, æŽè•KŸ)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/14 23:28:05 332]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA½
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:28:26 364]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA½, ŠLŠk‚Ì—é)
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/14 23:28:27 795]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA½
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:31:21 503]:----FINISH-----------------------------------------------------
+[2015/09/14 23:31:58 036]:--------START------------------------------------------------------
+
+[2015/09/14 23:32:00 254]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:32:01 951]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:32:04 841]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:32:05 709]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:32:08 968]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:32:10 023]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:32:13 457]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:32:14 240]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:32:16 187]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:32:16 787]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 23:32:54 205]:--------START------------------------------------------------------
+
+[2015/09/14 23:32:57 030]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:32:57 087]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:32:58 247]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:32:59 360]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:33:01 350]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:33:02 020]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:33:05 167]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:33:05 797]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:33:06 853]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:33:07 200]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 23:33:16 145]:PRINT: Debug->1:PA"
+->CField::MainLoop
+->code\Field\Field.cpp(171)
+
+[2015/09/14 23:33:28 916]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA", ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(179)
+
+[2015/09/14 23:33:49 712]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA"
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:33:53 947]:PRINT: Debug->2:PA"
+->CField::MainLoop
+->code\Field\Field.cpp(171)
+
+[2015/09/14 23:34:36 623]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, PA", æŽè•KŸ)
+->CField::MainLoop
+->code\Field\Field.cpp(179)
+
+[2015/09/14 23:34:38 110]:PRINT: Error->Check Argument Type[index]. :@Accessory_Set:PA"
+->CCmdManager::FieldCmdSolve
+->code\Main\CmdManager.cpp(1397)
+
+[2015/09/14 23:34:38 461]:----FINISH-----------------------------------------------------
+[2015/09/14 23:36:18 224]:--------START------------------------------------------------------
+
+[2015/09/14 23:36:20 155]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:36:21 227]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:36:21 826]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:36:22 165]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:36:22 404]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:36:22 878]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:36:26 711]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:36:27 561]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:36:28 404]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:36:28 925]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 23:37:03 828]:--------START------------------------------------------------------
+
+[2015/09/14 23:37:09 047]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:37:09 409]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:37:09 779]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:37:09 896]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:37:10 192]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:37:10 520]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:37:12 425]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:37:12 629]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:37:13 005]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:37:13 268]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 23:37:14 501]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:37:14 925]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:37:15 118]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:37:15 424]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Pause
+[2015/09/14 23:37:21 370]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:2
+‚½‚×‚Ì‚±‚µ:3
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:3
+UŒ‚–hŒäˆêŽžã¸:4
+Á”ïƒAƒCƒeƒ€:4
+æŽè•KŸ:3
+–‚—ÍŒ‹»:‰©:40
+–‚—ÍŒ‹»:Â:40
+–‚—ÍŒ‹»:Ô:40
+–‚—ÍŒ‹»:—Î:40
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/14 23:38:01 858]:--------START------------------------------------------------------
+
+[2015/09/14 23:38:03 742]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:38:04 705]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Load_Music
+[2015/09/14 23:38:05 199]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:38:06 150]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->@Set_MapMusic
+[2015/09/14 23:38:06 620]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+[2015/09/14 23:38:08 607]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+[2015/09/14 23:38:11 862]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[A,0,‚½‚×‚Ì‚±‚µ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:38:12 892]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[B,2,æŽè•KŸ
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:38:13 289]:PRINT: Debug->SetAccessory:ƒvƒŒƒCƒ„[C,1,ŠLŠk‚Ì—é
+->CPlayerSpeciesManager::SetAccessory
+->code\Battle\PlayerSpeciesManager.cpp(133)
+
+[2015/09/14 23:38:13 697]:PRINT: Warning->CFieldCmdManager->Unregisterd command->@Music_Play
+[2015/09/14 23:42:07 826]:PRINT: Debug->1:0A&:1
+->CField::MainLoop
+->code\Field\Field.cpp(173)
+
+[2015/09/14 23:42:19 481]:PRINT: Debug->@Accessory_Set(ƒvƒŒƒCƒ„[A, 0A&, ‚½‚×‚Ì‚±‚µ)
+->CField::MainLoop
+->code\Field\Field.cpp(181)
+
+[2015/09/15 00:30:23 695]:--------START------------------------------------------------------
+
+[2015/09/15 00:30:31 477]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 00:30:33 984]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 00:31:04 705]:--------START------------------------------------------------------
+
+[2015/09/15 00:31:09 145]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 00:31:10 837]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 00:47:14 462]:--------START------------------------------------------------------
+
+[2015/09/15 00:47:18 387]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 00:47:19 128]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 00:47:30 491]:PRINT: Debug->1:1:1:1
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/15 00:47:33 008]:PRINT: Debug->0:0:0:0
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/15 00:47:38 234]:PRINT: Debug->2:2:2:2
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/15 00:47:53 095]:PRINT: Debug->0:0:0:0
+->CField::MainLoop
+->code\Field\Field.cpp(178)
+
+[2015/09/15 00:47:55 110]:----FINISH-----------------------------------------------------
+[2015/09/15 00:51:54 117]:--------START------------------------------------------------------
+
+[2015/09/15 00:51:57 810]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 00:51:58 063]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 00:52:08 302]:----FINISH-----------------------------------------------------
+[2015/09/15 00:53:13 283]:--------START------------------------------------------------------
+
+[2015/09/15 00:53:18 502]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 00:53:19 804]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 00:53:42 514]:----FINISH-----------------------------------------------------
+[2015/09/15 01:10:45 649]:--------START------------------------------------------------------
+
+[2015/09/15 01:10:49 472]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 01:10:58 978]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 01:11:03 338]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+‚½‚×‚Ì‚±‚µ:1
+ƒZƒ‹ƒtƒq[ƒ‹ƒOƒ~:10
+ƒŒƒbƒhƒOƒ~:4
+ŠLŠk‚Ì—é:1
+UŒ‚–hŒäˆêŽžã¸:2
+æŽè•KŸ:1
+–‚—ÍŒ‹»:‰©:20
+–‚—ÍŒ‹»:Â:20
+–‚—ÍŒ‹»:Ô:20
+–‚—ÍŒ‹»:—Î:20
+
+
+--PlayerMoney--
+0
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/15 01:11:28 378]:PRINT: Debug->@Item_Use(UŒ‚–hŒäˆêŽžã¸, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 01:11:30 953]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 01:11:31 729]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 01:11:32 247]:----FINISH-----------------------------------------------------
+[2015/09/15 01:16:08 137]:--------START------------------------------------------------------
+
+[2015/09/15 01:16:12 966]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 01:16:14 280]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 01:16:28 266]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 01:16:29 120]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 01:16:29 447]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 01:16:39 782]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 01:16:42 235]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 01:18:21 926]:----FINISH-----------------------------------------------------
+[2015/09/15 01:31:02 351]:--------START------------------------------------------------------
+
+[2015/09/15 01:31:11 054]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 01:31:12 443]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 01:32:06 156]:----FINISH-----------------------------------------------------
+[2015/09/15 02:09:49 152]:--------START------------------------------------------------------
+
+[2015/09/15 02:10:14 829]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:11:34 296]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:11:49 128]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:11:50 316]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:11:53 612]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:12:07 576]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:12:09 382]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:12:09 884]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:12:21 339]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:12:25 170]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:12:45 898]:PRINT: Error->NotFoundMusicKey:key=
+->CMusicManager::GetMusicHandle
+->code\Main\MusicManager.cpp(102)
+
+[2015/09/15 02:12:46 313]:----FINISH-----------------------------------------------------
+[2015/09/15 02:13:44 163]:--------START------------------------------------------------------
+
+[2015/09/15 02:13:51 233]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:13:51 479]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:14:38 292]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:14:38 959]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:15:26 321]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:15:35 213]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:15:55 434]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:15:56 418]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:15:56 862]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:16:43 356]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:16:43 573]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:16:43 590]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:16:56 461]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:16:58 588]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:17:11 614]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:17:11 776]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:17:12 397]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:17:40 995]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:17:41 848]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:17:44 415]:PRINT: Debug->
+--PlayerItemPocket--
+
+
+--PlayerMoney--
+3975
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/15 02:18:10 727]:----FINISH-----------------------------------------------------
+[2015/09/15 02:21:05 741]:--------START------------------------------------------------------
+
+[2015/09/15 02:21:12 627]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:21:13 805]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:21:27 891]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:21:28 160]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:21:56 609]:PRINT: Debug->
+--PlayerItemPocket--
+‚«‚ñ‚Ì‚½‚Ü:1
+ƒuƒ‹[ƒOƒ~:4
+ƒŒƒbƒhƒOƒ~:4
+
+
+--PlayerMoney--
+6
+
+->CItemManager::DebugShowAllPlayerItem
+->code\Field\ItemManager.cpp(407)
+
+[2015/09/15 02:22:07 561]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:22:08 538]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:23:35 051]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:24:00 966]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:24:40 534]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:24:41 633]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:25:07 991]:----FINISH-----------------------------------------------------
+[2015/09/15 02:31:47 112]:--------START------------------------------------------------------
+
+[2015/09/15 02:31:52 090]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:31:53 777]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:32:15 916]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:32:16 373]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:32:16 776]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:32:32 581]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:32:33 566]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:32:42 903]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:32:43 943]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:32:44 111]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:32:45 786]:----FINISH-----------------------------------------------------
+[2015/09/15 02:33:04 479]:--------START------------------------------------------------------
+
+[2015/09/15 02:33:12 565]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:33:13 206]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:33:26 685]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:33:32 814]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:33:34 180]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:33:43 694]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:33:44 444]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:33:44 743]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:34:00 324]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:34:00 470]:PRINT: Error->Not Found:TARGET_CURSOR
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/15 02:34:00 522]:PRINT: Error->Not Found:ATTENTION_EFFECT
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/15 02:34:00 631]:PRINT: Error->Not Found:ATTENTION_BOARD
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(63)
+
+[2015/09/15 02:34:00 681]:PRINT: Error->Not Found:ATTENTION_MARKER
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(96)
+
+[2015/09/15 02:34:00 743]:PRINT: Error->Not Found:LOG_WINDOW_BUTTON
+->CImgBank::GetImg
+->code\Main\ImgBank.cpp(83)
+
+[2015/09/15 02:34:01 871]:----FINISH-----------------------------------------------------
+[2015/09/15 02:51:13 695]:--------START------------------------------------------------------
+
+[2015/09/15 02:51:20 823]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:51:27 673]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:51:32 611]:----FINISH-----------------------------------------------------
+[2015/09/15 02:51:40 012]:--------START------------------------------------------------------
+
+[2015/09/15 02:52:17 222]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:52:22 638]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:52:50 867]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:52:52 622]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:53:21 708]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:53:22 412]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:53:41 378]:----FINISH-----------------------------------------------------
+[2015/09/15 02:54:05 495]:--------START------------------------------------------------------
+
+[2015/09/15 02:54:26 810]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:54:29 386]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:54:56 397]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:54:56 643]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:54:57 125]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:55:07 165]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:55:08 211]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:55:35 714]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:55:35 834]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:57:41 932]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/09/15 02:57:43 463]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/09/15 02:58:12 214]:PRINT: Debug->@Item_Use(‚½‚×‚Ì‚±‚µ, 0, 0)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:58:15 126]:PRINT: Debug->@Item_Use(æŽè•KŸ, 1, 1)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 02:58:15 883]:PRINT: Debug->@Item_Use(ŠLŠk‚Ì—é, 2, 2)
+->CBattle::MainLoop
+->code\Battle\Battle.cpp(370)
+
+[2015/09/15 16:25:31 180]:----FINISH-----------------------------------------------------
+[2015/10/19 11:46:26 306]:--------START------------------------------------------------------
+
+[2015/10/19 11:46:33 214]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/10/19 11:46:35 501]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/10/19 23:17:30 551]:----FINISH-----------------------------------------------------
+[2015/12/01 10:05:21 336]:--------START------------------------------------------------------
+
+[2015/12/01 10:05:24 120]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/12/01 10:05:26 683]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/12/01 10:27:25 107]:--------START------------------------------------------------------
+
+[2015/12/01 10:27:28 205]:PRINT: Warning->CFirstSetCmdManager->Unregisterd command->ySystemCommand Load Completed!z
+->CFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(28)
+
+[2015/12/01 10:27:28 790]:PRINT: Warning->CBattleFirstSetCmdManager->Unregisterd command->yb_system.rpg Load OK!z
+->CBattleFirstSetCmdManager::Main
+->code\Main\CmdManager.cpp(73)
+
+[2015/12/01 10:28:14 275]:----FINISH-----------------------------------------------------

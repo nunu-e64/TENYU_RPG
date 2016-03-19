@@ -171,6 +171,11 @@
 \  @GetMoney(金額)
 \  @LoseMoney(金額)
 \	・お金を獲得/喪失
+\
+\  @Accessory_Set(アイテム名, プレイヤー名, 装備スロット0~)
+\
+\  @Music_Play()
+\  @Music_Stop()
 \----------------------------------------
 \
 
@@ -262,32 +267,40 @@
 @NPC_END
 
 @NPC_BEGIN(Man)
-	@Accessory_Set(プレイヤーA, 0, たべのこし)
-	@Accessory_Set(プレイヤーC, 0, 先手必勝)
-	@Accessory_Set(プレイヤーC, 1, たべのこし)
-	@Accessory_Set(プレイヤーB, 0, 先手必勝)
-	@Accessory_Set(プレイヤーB, 1, たべのこし)
-	@Accessory_Set(プレイヤーB, 2, 貝殻の鈴)
+	@GetItem(先手必勝, 2)
 	@GetItem(貝殻の鈴, 2)
-	@GetItem(たべのこし, 1)
-	@GetItem(攻撃防御一時上昇, 3)
+	@GetItem(たべのこし, 2)
+	@GetItem(攻撃防御一時上昇, 2)
+	@Accessory_Set(プレイヤーA, 0, たべのこし)
+	@Accessory_Set(プレイヤーB, 2, 先手必勝)
+	@Accessory_Set(プレイヤーC, 1, 貝殻の鈴)
 
+	@GetItem(魔力結晶:赤, 20)
+	@GetItem(魔力結晶:青, 20)
+	@GetItem(魔力結晶:黄, 20)
+	@GetItem(魔力結晶:緑, 20)
+
+	@Music_ChangeNextVolume(battlebgm_01, 10per)
 
 	@ITEM_IF_BEGIN(きんのたま)
 	@ITEM_CASE(きんのたま, 0)
+		@Music_Play(music_00)
 		おや、きんのたまを持ってないね
 		レッドグミを4つあげよう
 		@GetItem(レッドグミ, 4)
 		@GetItem(セルフヒールグミ, 10)
 	@ITEM_CASE(きんのたま, 1)
+		@Music_Pause(music_00)
 		おや、きんのたまを一つ持っているね
 		アイテムを4つあげよう
 		@GetItem(消費アイテム, 4)
 	@ITEM_CASE(きんのたま, 2)
+		@Music_Play(music_00)
 		おや、きんのたまを二つ持っているね
 		ブルーグミを2つあげよう
 		@GetItem(ブルーグミ, 2)
 	@ITEM_CASE(きんのたま, 3)
+		@Music_Stop(music_00)
 		おや、きんのたまを三つ持っているね
 		お金を1000ガルあげよう
 		@GetMoney(1000)
@@ -345,10 +358,13 @@
 @NPC_END
 
 @BLOCK_BEGIN(sign01)
+	@Position_Set(me, 1, +0, +0) 
+
 	@GetMoney(1000)
 	1000ガル手に入れた
 	@NextPage
-	@Shop(0)
+	@Shop(1)
+\	@Alchemist(0)
 	@Quit
 
 	@COUNT_IF_BEGIN
@@ -616,6 +632,8 @@
 		@Event(push_tree, [55])
 	@PUSHBLOCK_END
 \-------------------------------------------------------------------------
+
+
 
 
 
